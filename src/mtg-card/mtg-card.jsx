@@ -1,18 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './mtg-card.css';
-import {
-  Card, CardBody, CardTitle, CardText,
-} from 'reactstrap';
 
-function MtgCard() {
+function MtgCard({ state }) {
   return (
-    <Card color="card">
-      <CardBody>
-        <CardTitle>Placeholder Card</CardTitle>
-        <CardText>PlaceHolderText</CardText>
-      </CardBody>
-    </Card>
+    <img src={state} alt="beetle" />
   );
 }
 
+MtgCard.propTypes = {
+  state: PropTypes.string.isRequired,
+};
 export default MtgCard;
