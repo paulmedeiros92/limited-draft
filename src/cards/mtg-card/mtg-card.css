@@ -1,0 +1,6 @@
+img {
+    height: 15rem;
+}
+.col {
+    flex-grow: 0;
+}

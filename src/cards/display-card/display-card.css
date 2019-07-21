@@ -1,0 +1,5 @@
+.display-card {
+    position: fixed;
+    z-index: 3;
+    height: 22rem;
+}
