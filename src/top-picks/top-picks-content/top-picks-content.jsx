@@ -25,12 +25,14 @@ function numberOfRows(cards, colMax, cardUri, toggleCard, displayCard) {
 }
 
 function TopPicksContent({ cardUri, displayCard, toggleCard }) {
-  const tmp = numberOfRows([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 5, cardUri, toggleCard, displayCard);
+  const cards = numberOfRows(
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 5, cardUri, toggleCard, displayCard,
+  );
   const cardOverlay = displayCard.visibility ? <DisplayCard cardUri={cardUri} target={displayCard.target} /> : '';
 
   return (
     <div className="top-picks-content">
-      {tmp}
+      {cards}
       {cardOverlay}
     </div>
   );

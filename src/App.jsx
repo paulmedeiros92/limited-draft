@@ -10,20 +10,8 @@ class App extends React.Component {
     });
   }
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      cardUri: '',
-      displayCard: { visibility: false, target: undefined },
-    };
-
-    this.toggleCard = App.toggleCard.bind(this);
-  }
-
-  render() {
-    const { cardUri, displayCard } = this.state;
-
-    fetch('https://api.scryfall.com/cards/named?exact=creepingtrailblazer')
+  static fetchCards(name) {
+    fetch(`https://api.scryfall.com/cards/named?exact=${name}`)
       .then(res => res.json())
       .then(
         (result) => {
@@ -34,9 +22,31 @@ class App extends React.Component {
           this.setState({ cardUri: 'TODO: add a funny card error' });
         },
       );
+  }
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      cardUri: '',
+      displayCard: { visibility: false, target: undefined },
+    };
+
+    this.toggleCard = App.toggleCard.bind(this);
+    this.fetchCards = App.fetchCards.bind(this);
+
+    this.fetchCards('festeringnewt');
+  }
+
+  render() {
+    const { cardUri, displayCard } = this.state;
 
     return (
-      <TopPicks cardUri={cardUri} displayCard={displayCard} toggleCard={this.toggleCard} />
+      <TopPicks
+        cardUri={cardUri}
+        displayCard={displayCard}
+        toggleCard={this.toggleCard}
+        fetchCards={this.fetchCards}
+      />
     );
   }
 }

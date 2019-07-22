@@ -2,11 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import TopPicksHeader from './top-picks-header/top-picks-header';
 import TopPicksContent from './top-picks-content/top-picks-content';
+import Selector from './selector/selector';
 
-function TopPicks({ cardUri, displayCard, toggleCard }) {
+function TopPicks({
+  cardUri, displayCard, toggleCard, fetchCards,
+}) {
   return (
     <div>
       <TopPicksHeader />
+      <Selector fetchCards={fetchCards} />
       <TopPicksContent cardUri={cardUri} displayCard={displayCard} toggleCard={toggleCard} />
     </div>
   );
@@ -22,5 +26,6 @@ TopPicks.propTypes = {
     }),
   }).isRequired,
   toggleCard: PropTypes.func.isRequired,
+  fetchCards: PropTypes.func.isRequired,
 };
 export default TopPicks;
