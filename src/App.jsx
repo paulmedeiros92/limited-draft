@@ -5,8 +5,13 @@ import TopPicks from './top-picks/top-picks';
 class App extends React.Component {
   // Add 10px to the x value so that the cursor does not activate mouseout immidiately
   static toggleCard(visibility, e) {
+    const { windowHeight } = this.state;
+    let height = e.clientY;
+    if (height + 400 > windowHeight) {
+      height = windowHeight - 400;
+    }
     this.setState({
-      displayCard: { visibility: !visibility, target: { x: e.clientX + 10, y: e.clientY } },
+      displayCard: { visibility: !visibility, target: { x: e.clientX + 10, y: height } },
     });
   }
 
@@ -29,12 +34,27 @@ class App extends React.Component {
     this.state = {
       cardUri: '',
       displayCard: { visibility: false, target: undefined },
+      windowHeight: 0,
     };
 
     this.toggleCard = App.toggleCard.bind(this);
     this.fetchCards = App.fetchCards.bind(this);
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
 
     this.fetchCards('festeringnewt');
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ windowHeight: window.innerHeight });
   }
 
   render() {
