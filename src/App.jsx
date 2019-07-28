@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import TopPicks from './top-picks/top-picks';
+import CardService from './cards/cards-service';
+
+// TODO: Fix image download slowness
 
 class App extends React.Component {
   // Add 10px to the x value so that the cursor does not activate mouseout immidiately
@@ -16,17 +19,9 @@ class App extends React.Component {
   }
 
   static fetchCards(name) {
-    fetch(`https://api.scryfall.com/cards/named?exact=${name}`)
-      .then(res => res.json())
-      .then(
-        (result) => {
-          this.setState({ cardUri: result.image_uris.png });
-        },
-        (error) => {
-          console.error(`Fetch Failed: ${error}`);
-          this.setState({ cardUri: 'TODO: add a funny card error' });
-        },
-      );
+    CardService.fetchCards(name).then((result) => {
+      this.setState({ cardUri: result.image_uris.png });
+    });
   }
 
   constructor(props) {
