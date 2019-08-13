@@ -3,16 +3,15 @@ import PropTypes from 'prop-types';
 import './link.css';
 import { NavLink } from 'reactstrap';
 
-function Link({ fetchCards, tier, cardName }) {
+function Link({ showTier, tier }) {
   return (
-    <NavLink href="#" onClick={() => fetchCards(cardName)}>{tier}</NavLink>
+    <NavLink href="#" onClick={() => showTier(tier)}>{tier}</NavLink>
   );
 }
 
 Link.propTypes = {
-  fetchCards: PropTypes.func.isRequired,
+  showTier: PropTypes.func.isRequired,
   tier: PropTypes.string.isRequired,
-  cardName: PropTypes.string.isRequired,
 };
 
 export default Link;

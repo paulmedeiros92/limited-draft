@@ -5,7 +5,7 @@ import './mtg-card.css';
 function MtgCard({ cardUri, toggleCard, displayCard }) {
   const toggleFunc = (e) => {
     e.preventDefault();
-    toggleCard(displayCard.visibility, e);
+    toggleCard(displayCard.visibility, e, cardUri);
   };
   return (
     <img src={cardUri} onMouseOver={toggleFunc} onMouseOut={toggleFunc} alt="beetle" />
@@ -20,6 +20,7 @@ MtgCard.propTypes = {
       x: PropTypes.number,
       y: PropTypes.number,
     }),
+    cardUri: PropTypes.string.isRequired,
   }).isRequired,
   toggleCard: PropTypes.func.isRequired,
 };

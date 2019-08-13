@@ -5,31 +5,30 @@ import MtgCard from '../../cards/mtg-card/mtg-card';
 import './top-picks-content.css';
 import DisplayCard from '../../cards/display-card/display-card';
 
-function rowOfCards(cards, cardUri, toggleCard, displayCard) {
-  return cards.map(() => (
+function rowOfCards(cards, toggleCard, displayCard) {
+  return cards.map(card => (
     <Col>
-      <MtgCard cardUri={cardUri} toggleCard={toggleCard} displayCard={displayCard} />
+      <MtgCard cardUri={card} toggleCard={toggleCard} displayCard={displayCard} />
     </Col>
   ));
 }
 
-function numberOfRows(cards, colMax, cardUri, toggleCard, displayCard) {
+function numberOfRows(cards, colMax, toggleCard, displayCard) {
   const rows = [];
   while (cards.length > 0) { rows.push(cards.splice(0, colMax)); }
 
   return rows.map(row => (
     <Row>
-      {rowOfCards(row, cardUri, toggleCard, displayCard)}
+      {rowOfCards(row, toggleCard, displayCard)}
     </Row>
   ));
 }
 
-function TopPicksContent({ cardUri, displayCard, toggleCard }) {
+function TopPicksContent({ cardsOfTier, displayCard, toggleCard }) {
   const cards = numberOfRows(
-    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 5, cardUri, toggleCard, displayCard,
+    cardsOfTier, 5, toggleCard, displayCard,
   );
-  const cardOverlay = displayCard.visibility ? <DisplayCard cardUri={cardUri} target={displayCard.target} /> : '';
-
+  const cardOverlay = displayCard.visibility ? <DisplayCard cardUri={displayCard.cardUri} target={displayCard.target} /> : '';
   return (
     <div className="top-picks-content">
       {cards}
@@ -39,13 +38,14 @@ function TopPicksContent({ cardUri, displayCard, toggleCard }) {
 }
 
 TopPicksContent.propTypes = {
-  cardUri: PropTypes.string.isRequired,
+  cardsOfTier: PropTypes.array.isRequired,
   displayCard: PropTypes.shape({
     visibility: PropTypes.bool.isRequired,
     target: PropTypes.shape({
       x: PropTypes.number,
       y: PropTypes.number,
     }),
+    cardUri: PropTypes.string.isRequired,
   }).isRequired,
   toggleCard: PropTypes.func.isRequired,
 };

@@ -5,29 +5,29 @@ import { Nav, NavItem } from 'reactstrap';
 import Link from './link/link';
 import pickData from '../../resources/tier-list';
 
-function makeLinks(fetchCards, tiers) {
+function makeLinks(showTier, tiers) {
   // TODO: Fix error here
   return tiers.map(tier => (
     <NavItem>
-      <Link fetchCards={fetchCards} tier={tier.tier} cardName={tier.cards[0]} />
+      <Link showTier={showTier} tier={tier.tier} />
     </NavItem>
   ));
 }
 
-function Selector({ fetchCards }) {
+function Selector({ showTier }) {
   // TODO: Look into why passing a function this way does not work
   // const fetchTier = (cardName) => {fetchCards(cardName)};
   return (
     <div className="nav-div">
       <Nav>
-        {makeLinks(fetchCards, pickData)}
+        {makeLinks(showTier, pickData)}
       </Nav>
     </div>
   );
 }
 
 Selector.propTypes = {
-  fetchCards: PropTypes.func.isRequired,
+  showTier: PropTypes.func.isRequired,
 };
 
 export default Selector;

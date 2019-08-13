@@ -5,19 +5,19 @@ import TopPicksContent from './top-picks-content/top-picks-content';
 import Selector from './selector/selector';
 
 function TopPicks({
-  cardUri, displayCard, toggleCard, fetchCards,
+  cardsOfTier, displayCard, toggleCard, showTier,
 }) {
   return (
     <div>
       <TopPicksHeader />
-      <Selector fetchCards={fetchCards} />
-      <TopPicksContent cardUri={cardUri} displayCard={displayCard} toggleCard={toggleCard} />
+      <Selector showTier={showTier} />
+      <TopPicksContent cardsOfTier={cardsOfTier} displayCard={displayCard} toggleCard={toggleCard} />
     </div>
   );
 }
 
 TopPicks.propTypes = {
-  cardUri: PropTypes.string.isRequired,
+  cardsOfTier: PropTypes.array.isRequired,
   displayCard: PropTypes.shape({
     visibility: PropTypes.bool.isRequired,
     target: PropTypes.shape({
@@ -26,6 +26,6 @@ TopPicks.propTypes = {
     }),
   }).isRequired,
   toggleCard: PropTypes.func.isRequired,
-  fetchCards: PropTypes.func.isRequired,
+  showTier: PropTypes.func.isRequired,
 };
 export default TopPicks;

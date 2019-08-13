@@ -2,41 +2,50 @@ import React from 'react';
 import './App.css';
 import TopPicks from './top-picks/top-picks';
 import CardService from './cards/cards-service';
-
-// TODO: Fix image download slowness
+import TierData from './resources/tier-list';
 
 class App extends React.Component {
   // Add 10px to the x value so that the cursor does not activate mouseout immidiately
-  static toggleCard(visibility, e) {
+  static toggleCard(visibility, e, uri) {
     const { windowHeight } = this.state;
     let height = e.clientY;
     if (height + 400 > windowHeight) {
       height = windowHeight - 400;
     }
     this.setState({
-      displayCard: { visibility: !visibility, target: { x: e.clientX + 10, y: height } },
+      displayCard: { visibility: !visibility, target: { x: e.clientX + 10, y: height }, cardUri: uri },
     });
   }
 
-  static fetchCards(name) {
-    CardService.fetchCards(name).then((result) => {
-      this.setState({ cardUri: result.image_uris.png });
-    });
+  static showTier(tier) {
+    this.setState({ cardsOfTier: this.state.cardData[tier] });
   }
+
+  // static fetchCards(cards) {
+  //   CardService.fetchCards(cards).then((result) => {
+  //     this.setState({ cardsOfTier: result})
+  //   });
+  // }
 
   constructor(props) {
     super(props);
     this.state = {
       cardUri: '',
-      displayCard: { visibility: false, target: undefined },
+      cardData: {},
+      cardsOfTier: [],
+      displayCard: { visibility: false, target: undefined, cardUri: '' },
       windowHeight: 0,
     };
 
     this.toggleCard = App.toggleCard.bind(this);
-    this.fetchCards = App.fetchCards.bind(this);
+    this.showTier = App.showTier.bind(this);
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
 
-    this.fetchCards('festeringnewt');
+    Promise.all(TierData.map(tier => CardService.fetchCards(tier)))
+      .then(results => {
+        results.map(result => this.state.cardData[result.tier] = result.cards);
+        this.showTier('THE BEST OF THE BEST');
+      });
   }
 
   componentDidMount() {
@@ -53,14 +62,12 @@ class App extends React.Component {
   }
 
   render() {
-    const { cardUri, displayCard } = this.state;
-
     return (
       <TopPicks
-        cardUri={cardUri}
-        displayCard={displayCard}
+        cardsOfTier={this.state.cardsOfTier}
+        displayCard={this.state.displayCard}
         toggleCard={this.toggleCard}
-        fetchCards={this.fetchCards}
+        showTier={this.showTier}
       />
     );
   }
