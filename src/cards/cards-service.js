@@ -1,7 +1,7 @@
 const baseUrl = 'https://api.scryfall.com/'
 
 function handleResult(result, tier) {
-  let cardImages = result.data.map(card => card.image_uris.small);
+  let cardImages = result.data.map(card => card.image_uris.normal);
   return {tier: tier.tier, cards: cardImages};
 }
 
