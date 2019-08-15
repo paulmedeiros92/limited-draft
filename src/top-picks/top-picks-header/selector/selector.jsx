@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './selector.css';
 import { Nav, NavItem } from 'reactstrap';
 import Link from './link/link';
-import pickData from '../../resources/tier-list';
+import pickData from '../../../resources/tier-list';
 
 function makeLinks(showTier, tiers) {
   // TODO: Fix error here
