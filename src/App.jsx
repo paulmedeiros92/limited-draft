@@ -21,12 +21,6 @@ class App extends React.Component {
     this.setState({ cardsOfTier: this.state.cardData[tier] });
   }
 
-  // static fetchCards(cards) {
-  //   CardService.fetchCards(cards).then((result) => {
-  //     this.setState({ cardsOfTier: result})
-  //   });
-  // }
-
   constructor(props) {
     super(props);
     this.state = {
@@ -43,7 +37,11 @@ class App extends React.Component {
 
     Promise.all(TierData.map(tier => CardService.fetchCards(tier)))
       .then(results => {
-        results.map(result => this.state.cardData[result.tier] = result.cards);
+        let data = {};
+        results.forEach(result => {
+          data[result.tier] = result.cards;
+        })
+        this.setState({ cardData: data })
         this.showTier('THE BEST OF THE BEST');
       });
   }

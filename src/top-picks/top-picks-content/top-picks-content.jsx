@@ -13,8 +13,9 @@ function rowOfCards(cards, toggleCard, displayCard) {
   ));
 }
 
-function numberOfRows(cards, colMax, toggleCard, displayCard) {
+function numberOfRows(cardsOfTier, colMax, toggleCard, displayCard) {
   const rows = [];
+  let cards = [...cardsOfTier];
   while (cards.length > 0) { rows.push(cards.splice(0, colMax)); }
 
   return rows.map(row => (
