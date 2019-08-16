@@ -15,7 +15,12 @@ function TopPicks({
 }
 
 TopPicks.propTypes = {
-  cardsOfTier: PropTypes.array.isRequired,
+  cardsOfTier: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired,
+    })
+  ).isRequired,
   displayCard: PropTypes.shape({
     visibility: PropTypes.bool.isRequired,
     target: PropTypes.shape({

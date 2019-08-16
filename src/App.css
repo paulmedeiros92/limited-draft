@@ -2,6 +2,10 @@ body {
   background-color: darkgrey;
 }
 
+#root {
+  margin: 0 14rem;
+}
+
 .App {
   text-align: center;
 }

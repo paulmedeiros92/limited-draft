@@ -8,7 +8,7 @@ import DisplayCard from '../../cards/display-card/display-card';
 function rowOfCards(cards, toggleCard, displayCard) {
   return cards.map(card => (
     <Col>
-      <MtgCard cardUri={card} toggleCard={toggleCard} displayCard={displayCard} />
+      <MtgCard cardUri={card.image} toggleCard={toggleCard} displayCard={displayCard} />
     </Col>
   ));
 }
@@ -39,7 +39,12 @@ function TopPicksContent({ cardsOfTier, displayCard, toggleCard }) {
 }
 
 TopPicksContent.propTypes = {
-  cardsOfTier: PropTypes.array.isRequired,
+  cardsOfTier: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired,
+    })
+  ).isRequired,
   displayCard: PropTypes.shape({
     visibility: PropTypes.bool.isRequired,
     target: PropTypes.shape({
