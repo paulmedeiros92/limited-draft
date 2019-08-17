@@ -4,11 +4,11 @@ import TopPicksHeader from './top-picks-header/top-picks-header';
 import TopPicksContent from './top-picks-content/top-picks-content';
 
 function TopPicks({
-  cardsOfTier, displayCard, toggleCard, showTier,
+  cardsOfTier, displayCard, toggleCard, showTier, search
 }) {
   return (
     <div>
-      <TopPicksHeader showTier={showTier} />
+      <TopPicksHeader showTier={showTier} search={search} />
       <TopPicksContent cardsOfTier={cardsOfTier} displayCard={displayCard} toggleCard={toggleCard} />
     </div>
   );
@@ -30,5 +30,6 @@ TopPicks.propTypes = {
   }).isRequired,
   toggleCard: PropTypes.func.isRequired,
   showTier: PropTypes.func.isRequired,
+  search: PropTypes.func.isRequired,
 };
 export default TopPicks;

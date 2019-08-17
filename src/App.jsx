@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import TopPicks from './top-picks/top-picks';
 import CardService from './cards/cards-service';
+import SearchService from './top-picks/top-picks-header/search/search-service';
 import TierData from './resources/tier-list';
 
 class App extends React.Component {
@@ -21,6 +22,10 @@ class App extends React.Component {
     this.setState({ cardsOfTier: this.state.cardData[tier] });
   }
 
+  static search(string) {
+    this.setState({ cardsOfTier: SearchService.findMatchingCards(string) });
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -33,6 +38,7 @@ class App extends React.Component {
 
     this.toggleCard = App.toggleCard.bind(this);
     this.showTier = App.showTier.bind(this);
+    this.search = App.search.bind(this);
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
 
     Promise.all(TierData.map(tier => CardService.fetchCards(tier)))
@@ -66,6 +72,7 @@ class App extends React.Component {
         displayCard={this.state.displayCard}
         toggleCard={this.toggleCard}
         showTier={this.showTier}
+        search={this.search}
       />
     );
   }
