@@ -1,14 +1,16 @@
-import TierData from '../../../resources/tier-list';
-
-
 const SearchService = {
-  findMatchingCards(searchString) {
+  findMatchingCards(searchString, cardData, filter) {
     let results = [];
-    TierData.forEach(tier => {
-      results = results.concat(tier.cards.filter(card => card.name.toLowerCase().includes(searchString)));
-    });
+    if (filter.toLowerCase() === 'all' || filter.toLowerCase() === 'search by') {
+      Object.keys(cardData).forEach((tierName) => {
+        results = results.concat(cardData[tierName].filter(card => card.name.toLowerCase()
+          .includes(searchString)));
+      });
+    } else {
+      results = cardData[filter].filter(card => card.name.toLowerCase().includes(searchString));
+    }
     return results;
-  }
-}
+  },
+};
 
 export default SearchService;

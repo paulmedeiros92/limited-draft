@@ -1,10 +1,8 @@
-const baseUrl = 'https://api.scryfall.com/'
+const baseUrl = 'https://api.scryfall.com/';
 
 function handleResult(result, tier) {
-  let cardImages = result.data.map(card => { 
-    return {name: card.name, image: card.image_uris.normal};
-  });
-  return {tier: tier.tier, cards: cardImages};
+  const cardImages = result.data.map(card => ({ name: card.name, image: card.image_uris.normal }));
+  return { tier: tier.tier, cards: cardImages };
 }
 
 const CardService = {
@@ -17,7 +15,7 @@ const CardService = {
         headers: {
           'content-type': 'application/json',
         },
-        body: JSON.stringify({identifiers: tier.cards})
+        body: JSON.stringify({ identifiers: tier.cards }),
       })
         .then(res => res.json())
         .then(
@@ -25,8 +23,8 @@ const CardService = {
           (error) => {
             reject(error);
           },
-        )
-    })
+        );
+    });
   },
 };
 

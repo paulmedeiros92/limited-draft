@@ -1,24 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './selector.css';
-import { Nav, NavItem } from 'reactstrap';
+import { ButtonGroup, ButtonToolbar } from 'reactstrap';
 import Link from './link/link';
 import pickData from '../../../resources/tier-list';
 
 function makeLinks(showTier, tiers) {
   return tiers.map(tier => (
-    <NavItem>
-      <Link showTier={showTier} tier={tier.tier} />
-    </NavItem>
+    <Link showTier={showTier} tier={tier.tier} />
   ));
 }
 
 function Selector({ showTier }) {
   return (
     <div className="nav-div">
-      <Nav>
+      <ButtonToolbar>
         {makeLinks(showTier, pickData)}
-      </Nav>
+      </ButtonToolbar>
     </div>
   );
 }

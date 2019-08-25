@@ -23,7 +23,11 @@ class App extends React.Component {
   }
 
   static search(string) {
-    this.setState({ cardsOfTier: SearchService.findMatchingCards(string) });
+    this.setState({ cardsOfTier: SearchService.findMatchingCards(string, this.state.cardData, this.state.displaySearchFilter.filter) });
+  }
+
+  static toggleSearchFilter(filter) {
+    this.setState({ displaySearchFilter: { visibility: !this.state.displaySearchFilter.visibility, filter: filter }});
   }
 
   constructor(props) {
@@ -32,7 +36,9 @@ class App extends React.Component {
       cardUri: '',
       cardData: {},
       cardsOfTier: [],
+      cardTiers: [],
       displayCard: { visibility: false, target: undefined, cardUri: '' },
+      displaySearchFilter: { visibility: false, filter: 'Search By' },
       windowHeight: 0,
     };
 
@@ -40,6 +46,7 @@ class App extends React.Component {
     this.showTier = App.showTier.bind(this);
     this.search = App.search.bind(this);
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+    this.toggleSearchFilter = App.toggleSearchFilter.bind(this);
 
     Promise.all(TierData.map(tier => CardService.fetchCards(tier)))
       .then(results => {
@@ -47,7 +54,7 @@ class App extends React.Component {
         results.forEach(result => {
           data[result.tier] = result.cards;
         })
-        this.setState({ cardData: data })
+        this.setState({ cardData: data, cardTiers: Object.keys(data) })
         this.showTier('THE BEST OF THE BEST');
       });
   }
@@ -73,6 +80,9 @@ class App extends React.Component {
         toggleCard={this.toggleCard}
         showTier={this.showTier}
         search={this.search}
+        displaySearchFilter={this.state.displaySearchFilter}
+        toggleSearchFilter={this.toggleSearchFilter}
+        cardTiers={this.state.cardTiers}
       />
     );
   }
