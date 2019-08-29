@@ -15,7 +15,7 @@ function rowOfCards(cards, toggleCard, displayCard) {
 
 function numberOfRows(cardsOfTier, colMax, toggleCard, displayCard) {
   const rows = [];
-  let cards = [...cardsOfTier];
+  const cards = [...cardsOfTier];
   while (cards.length > 0) { rows.push(cards.splice(0, colMax)); }
 
   return rows.map(row => (
@@ -43,7 +43,7 @@ TopPicksContent.propTypes = {
     PropTypes.shape({
       name: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
-    })
+    }),
   ).isRequired,
   displayCard: PropTypes.shape({
     visibility: PropTypes.bool.isRequired,

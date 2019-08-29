@@ -5,7 +5,7 @@ import { Button } from 'reactstrap';
 
 function Link({ showTier, tier }) {
   return (
-    <Button href="#" onClick={() => showTier(tier)}>{tier}</Button>
+    <Button color="info" onClick={(e) => { showTier(tier, e); }}>{tier}</Button>
   );
 }
 

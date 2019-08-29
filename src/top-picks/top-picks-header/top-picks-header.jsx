@@ -4,13 +4,19 @@ import './top-picks-header.css';
 import Selector from './selector/selector';
 import Search from './search/search';
 
-function TopPicksHeader({ showTier, search, displaySearchFilter, toggleSearchFilter, cardTiers, }) {
+function TopPicksHeader({
+  showTier, search, displaySearchFilter, toggleSearchFilter, cardTiers,
+}) {
   return (
     <div>
-      <h1>Draft Buddy</h1>
+      <h1>MTG Buddy</h1>
       <Selector showTier={showTier} />
-      <Search search={search} displaySearchFilter={displaySearchFilter} toggleSearchFilter={toggleSearchFilter}
-        cardTiers={cardTiers} />
+      <Search
+        search={search}
+        displaySearchFilter={displaySearchFilter}
+        toggleSearchFilter={toggleSearchFilter}
+        cardTiers={cardTiers}
+      />
     </div>
   );
 }
@@ -24,7 +30,7 @@ TopPicksHeader.propTypes = {
   }).isRequired,
   toggleSearchFilter: PropTypes.func.isRequired,
   cardTiers: PropTypes.arrayOf(
-    PropTypes.string
+    PropTypes.string,
   ).isRequired,
-}
+};
 export default TopPicksHeader;

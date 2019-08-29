@@ -18,7 +18,7 @@ class App extends React.Component {
     });
   }
 
-  static showTier(tier) {
+  static showTier(tier, e) {
     this.setState({ cardsOfTier: this.state.cardData[tier] });
   }
 

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import TopPicksHeader from './top-picks-header/top-picks-header';
 import TopPicksContent from './top-picks-content/top-picks-content';
+import Donate from '../donate/donate';
 
 function TopPicks({
   cardsOfTier, displayCard, toggleCard, showTier, search, displaySearchFilter, toggleSearchFilter,
@@ -9,9 +10,19 @@ function TopPicks({
 }) {
   return (
     <div>
-      <TopPicksHeader showTier={showTier} search={search} displaySearchFilter={displaySearchFilter}
-        toggleSearchFilter={toggleSearchFilter} cardTiers={cardTiers} />
-      <TopPicksContent cardsOfTier={cardsOfTier} displayCard={displayCard} toggleCard={toggleCard} />
+      <TopPicksHeader
+        showTier={showTier}
+        search={search}
+        displaySearchFilter={displaySearchFilter}
+        toggleSearchFilter={toggleSearchFilter}
+        cardTiers={cardTiers}
+      />
+      <TopPicksContent
+        cardsOfTier={cardsOfTier}
+        displayCard={displayCard}
+        toggleCard={toggleCard}
+      />
+      <Donate/>
     </div>
   );
 }

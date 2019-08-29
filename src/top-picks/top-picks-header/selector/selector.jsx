@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './selector.css';
-import { ButtonGroup, ButtonToolbar } from 'reactstrap';
+import { ButtonToolbar } from 'reactstrap';
 import Link from './link/link';
 import pickData from '../../../resources/tier-list';
 
