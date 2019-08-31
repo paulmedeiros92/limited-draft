@@ -14,7 +14,11 @@ class App extends React.Component {
       height = windowHeight - 400;
     }
     this.setState({
-      displayCard: { visibility: !visibility, target: { x: e.clientX + 10, y: height }, cardUri: uri },
+      displayCard: {
+        visibility: !visibility,
+        target: { x: e.clientX + 10, y: height },
+        cardUri: uri,
+      },
     });
   }
 
