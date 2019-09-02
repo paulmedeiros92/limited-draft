@@ -5,17 +5,17 @@ import { ButtonToolbar } from 'reactstrap';
 import Link from './link/link';
 import pickData from '../../../resources/tier-list';
 
-function makeLinks(showTier, tiers) {
+function makeLinks(showTier, tiers, selectedTier) {
   return tiers.map(tier => (
-    <Link showTier={showTier} tier={tier.tier} />
+    <Link showTier={showTier} tier={tier.tier} selectedTier={selectedTier} />
   ));
 }
 
-function Selector({ showTier }) {
+function Selector({ showTier, selectedTier }) {
   return (
     <div className="nav-div">
       <ButtonToolbar>
-        {makeLinks(showTier, pickData)}
+        {makeLinks(showTier, pickData, selectedTier)}
       </ButtonToolbar>
     </div>
   );
@@ -23,6 +23,8 @@ function Selector({ showTier }) {
 
 Selector.propTypes = {
   showTier: PropTypes.func.isRequired,
+  selectedTier: PropTypes.string.isRequired,
 };
+
 
 export default Selector;

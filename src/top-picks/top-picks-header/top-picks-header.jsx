@@ -5,12 +5,12 @@ import Selector from './selector/selector';
 import Search from './search/search';
 
 function TopPicksHeader({
-  showTier, search, displaySearchFilter, toggleSearchFilter, cardTiers,
+  showTier, search, displaySearchFilter, toggleSearchFilter, cardTiers, selectedTier,
 }) {
   return (
     <div>
       <h1>MTG Buddy</h1>
-      <Selector showTier={showTier} />
+      <Selector showTier={showTier} selectedTier={selectedTier} />
       <Search
         search={search}
         displaySearchFilter={displaySearchFilter}
@@ -32,5 +32,6 @@ TopPicksHeader.propTypes = {
   cardTiers: PropTypes.arrayOf(
     PropTypes.string,
   ).isRequired,
+  selectedTier: PropTypes.string.isRequired,
 };
 export default TopPicksHeader;

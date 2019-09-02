@@ -6,7 +6,7 @@ import Donate from '../donate/donate';
 
 function TopPicks({
   cardsOfTier, displayCard, toggleCard, showTier, search, displaySearchFilter, toggleSearchFilter,
-  cardTiers,
+  cardTiers, selectedTier,
 }) {
   return (
     <div>
@@ -16,13 +16,14 @@ function TopPicks({
         displaySearchFilter={displaySearchFilter}
         toggleSearchFilter={toggleSearchFilter}
         cardTiers={cardTiers}
+        selectedTier={selectedTier}
       />
       <TopPicksContent
         cardsOfTier={cardsOfTier}
         displayCard={displayCard}
         toggleCard={toggleCard}
       />
-      <Donate/>
+      <Donate />
     </div>
   );
 }
@@ -50,7 +51,8 @@ TopPicks.propTypes = {
   }).isRequired,
   toggleSearchFilter: PropTypes.func.isRequired,
   cardTiers: PropTypes.arrayOf(
-    PropTypes.string
+    PropTypes.string,
   ).isRequired,
+  selectedTier: PropTypes.string.isRequired,
 };
 export default TopPicks;

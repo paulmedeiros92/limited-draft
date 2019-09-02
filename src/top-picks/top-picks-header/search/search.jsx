@@ -4,30 +4,31 @@ import { Input, InputGroup, InputGroupButtonDropdown, DropdownToggle, DropdownMe
   DropdownItem } from 'reactstrap';
 import './search.css';
 
-function Search({ search, displaySearchFilter, toggleSearchFilter, cardTiers, }) {
-
+function Search({
+  search, displaySearchFilter, toggleSearchFilter, cardTiers,
+}) {
   function buildDropdownItems(tiers) {
-    return tiers.map( tier => (
+    return tiers.map(tier => (
       <DropdownItem>{tier}</DropdownItem>
     ));
   }
 
   function keyPress(e) {
-    if(e.keyCode === 13) {
+    if (e.keyCode === 13) {
       search(e.target.value.toLowerCase());
     }
   }
 
   function toggle(e) {
     e.preventDefault();
-    toggleSearchFilter(e.target.innerText);
+    toggleSearchFilter(e.target.innerText, e.target.className);
   }
 
   return (
     <InputGroup>
-      <Input onKeyDown={keyPress}/>
+      <Input onKeyDown={keyPress} />
       <InputGroupButtonDropdown addonType="prepend" isOpen={displaySearchFilter.visibility} toggle={toggle}>
-      <DropdownToggle caret>{displaySearchFilter.filter}</DropdownToggle>
+        <DropdownToggle caret>{displaySearchFilter.filter}</DropdownToggle>
         <DropdownMenu>
           <DropdownItem header>Tiers</DropdownItem>
           <DropdownItem>ALL</DropdownItem>
@@ -43,11 +44,11 @@ Search.propTypes = {
   search: PropTypes.func.isRequired,
   displaySearchFilter: PropTypes.shape({
     visibility: PropTypes.bool.isRequired,
-    toggleFunc: PropTypes.func.isRequired,
+    filter: PropTypes.string.isRequired,
   }).isRequired,
   toggleSearchFilter: PropTypes.func.isRequired,
   cardTiers: PropTypes.arrayOf(
-    PropTypes.string
+    PropTypes.string,
   ).isRequired,
 };
 
