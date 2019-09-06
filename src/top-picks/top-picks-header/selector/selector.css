@@ -1,22 +1,18 @@
 .nav-div {
   display: table;
-  margin: 0 auto;
   width: 100%;
-  margin-top: 2rem;
+  margin: 1rem auto 0;
 }
-
+.btn-success {
+  margin-top: 1rem;
+}
+.btn-info {
+  margin-top: 1rem;
+}
 .input-group {
   margin-top: 1rem;
 }
 
-@media only screen and (min-width: 500px) {
-  .btn-toolbar {
-    justify-content: space-between;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .btn-toolbar {
-    justify-content: space-evenly;
-  }
+.btn-toolbar {
+  justify-content: space-around;
 }
