@@ -9,7 +9,12 @@
 
 .spinner-border {
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
-    margin: -1rem 0 0 -1rem;
+    height: 4rem;
+    width: 4rem;
+    margin: -2rem 0 0 -2rem;
+    border: .5rem solid currentColor;
+    border-right-color: transparent;
+    z-index: 99;
 }

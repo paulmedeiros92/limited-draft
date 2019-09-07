@@ -6,33 +6,17 @@ import './top-picks-content.css';
 import DisplayCard from '../../cards/display-card/display-card';
 
 class TopPicksContent extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {
       visibility: false,
       target: { x: 0, y: 0 },
       cardUri: '',
-      loading: true,
     };
 
     this.rowOfCards = this.rowOfCards.bind(this);
     this.numberOfRows = this.numberOfRows.bind(this);
     this.toggleCard = this.toggleCard.bind(this);
-    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-  }
-
-  componentDidMount() {
-    this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.updateWindowDimensions);
-  }
-
-  updateWindowDimensions() {
-    this.setState({ windowHeight: window.innerHeight, windowWidth: window.innerWidth });
   }
 
   toggleCard(visibility, uri) {
@@ -40,15 +24,19 @@ class TopPicksContent extends React.Component {
       visibility: !visibility,
       target: { x: 0, y: 0 },
       cardUri: uri,
-      windowHeight: 0,
-      windowWidth: 0,
     });
   }
 
   rowOfCards(cards) {
+    const { loadTick } = this.props;
     return cards.map(card => (
       <Col>
-        <MtgCard cardUri={card.image} toggleCard={this.toggleCard} displayCard={this.state} />
+        <MtgCard
+          cardUri={card.image}
+          toggleCard={this.toggleCard}
+          displayCard={this.state}
+          loadTick={loadTick}
+        />
       </Col>
     ));
   }
@@ -65,21 +53,21 @@ class TopPicksContent extends React.Component {
   }
 
   render() {
+    const { cardsOfTier, loading } = this.props;
+    const { cardUri, target, visibility } = this.state;
     const cards = this.numberOfRows(
-      this.props.cardsOfTier, 5,
+      cardsOfTier, 5,
     );
     return (
       <div className="top-picks-content">
-        {this.state.loading && <Spinner color="success" />}
-        <div onLoad={() => { this.setState({ loading: false }); }}>
-          {cards}
-          <DisplayCard
-            cardUri={this.state.cardUri}
-            target={this.state.target}
-            visibility={this.state.visibility}
-            toggle={this.toggleCard}
-          />
-        </div>
+        {loading && <Spinner color="success" />}
+        {cards}
+        <DisplayCard
+          cardUri={cardUri}
+          target={target}
+          visibility={visibility}
+          toggle={this.toggleCard}
+        />
       </div>
     );
   }
@@ -92,5 +80,14 @@ TopPicksContent.propTypes = {
       image: PropTypes.string.isRequired,
     }),
   ).isRequired,
+  displayCard: PropTypes.shape({
+    visibility: PropTypes.bool.isRequired,
+    target: PropTypes.shape({
+      x: PropTypes.number,
+      y: PropTypes.number,
+    }),
+  }).isRequired,
+  loading: PropTypes.bool.isRequired,
+  loadTick: PropTypes.func.isRequired,
 };
 export default TopPicksContent;

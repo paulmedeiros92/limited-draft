@@ -4,28 +4,65 @@ import TopPicksHeader from './top-picks-header/top-picks-header';
 import TopPicksContent from './top-picks-content/top-picks-content';
 import Donate from '../donate/donate';
 
-function TopPicks({
-  cardsOfTier, displayCard, toggleCard, showTier, search, displaySearchFilter, toggleSearchFilter,
-  cardTiers, selectedTier,
-}) {
-  return (
-    <div>
-      <TopPicksHeader
-        showTier={showTier}
-        search={search}
-        displaySearchFilter={displaySearchFilter}
-        toggleSearchFilter={toggleSearchFilter}
-        cardTiers={cardTiers}
-        selectedTier={selectedTier}
-      />
-      <TopPicksContent
-        cardsOfTier={cardsOfTier}
-        displayCard={displayCard}
-        toggleCard={toggleCard}
-      />
-      <Donate />
-    </div>
-  );
+class TopPicks extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: true,
+      loaded: 0,
+    };
+
+    this.loadToggle = this.loadToggle.bind(this);
+    this.loadTick = this.loadTick.bind(this);
+  }
+
+  loadToggle(loading) {
+    this.setState({ loading, loaded: 0 });
+  }
+
+  loadTick() {
+    const { loaded } = this.state;
+    this.setState(prevState => ({ loaded: prevState.loaded + 1 }));
+    if (loaded === 5) {
+      this.loadToggle(false);
+    }
+  }
+
+  render() {
+    const {
+      showTier,
+      search,
+      displaySearchFilter,
+      toggleSearchFilter,
+      cardTiers,
+      selectedTier,
+      cardsOfTier,
+      displayCard,
+    } = this.props;
+    const { loading, loaded } = this.state;
+
+    return (
+      <div>
+        <TopPicksHeader
+          showTier={showTier}
+          search={search}
+          displaySearchFilter={displaySearchFilter}
+          toggleSearchFilter={toggleSearchFilter}
+          cardTiers={cardTiers}
+          selectedTier={selectedTier}
+          loadToggle={this.loadToggle}
+        />
+        <TopPicksContent
+          cardsOfTier={cardsOfTier}
+          displayCard={displayCard}
+          loading={loading}
+          loaded={loaded}
+          loadTick={this.loadTick}
+        />
+        <Donate />
+      </div>
+    );
+  }
 }
 
 TopPicks.propTypes = {
@@ -33,7 +70,7 @@ TopPicks.propTypes = {
     PropTypes.shape({
       name: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
-    })
+    }),
   ).isRequired,
   displayCard: PropTypes.shape({
     visibility: PropTypes.bool.isRequired,
@@ -42,7 +79,6 @@ TopPicks.propTypes = {
       y: PropTypes.number,
     }),
   }).isRequired,
-  toggleCard: PropTypes.func.isRequired,
   showTier: PropTypes.func.isRequired,
   search: PropTypes.func.isRequired,
   displaySearchFilter: PropTypes.shape({

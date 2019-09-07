@@ -4,7 +4,7 @@ import './display-card.css';
 import { Modal } from 'reactstrap';
 
 function DisplayCard({
-  cardUri, target, visibility, toggle,
+  cardUri, visibility, toggle,
 }) {
   return (
     <Modal isOpen={visibility} toggle={toggle}>
@@ -15,15 +15,8 @@ function DisplayCard({
 
 DisplayCard.propTypes = {
   cardUri: PropTypes.string.isRequired,
-  target: PropTypes.shape({
-    x: PropTypes.number,
-    y: PropTypes.number,
-  }),
   visibility: PropTypes.bool.isRequired,
-};
-
-DisplayCard.defaultProps = {
-  target: undefined,
+  toggle: PropTypes.func.isRequired,
 };
 
 export default DisplayCard;
