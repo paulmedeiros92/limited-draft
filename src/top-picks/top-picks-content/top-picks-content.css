@@ -6,3 +6,10 @@
     justify-content: center;
     margin-bottom: 1rem;
 }
+
+.spinner-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -1rem 0 0 -1rem;
+}

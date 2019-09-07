@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Spinner } from 'reactstrap';
 import MtgCard from '../../cards/mtg-card/mtg-card';
 import './top-picks-content.css';
 import DisplayCard from '../../cards/display-card/display-card';
@@ -13,6 +13,7 @@ class TopPicksContent extends React.Component {
       visibility: false,
       target: { x: 0, y: 0 },
       cardUri: '',
+      loading: true,
     };
 
     this.rowOfCards = this.rowOfCards.bind(this);
@@ -69,13 +70,16 @@ class TopPicksContent extends React.Component {
     );
     return (
       <div className="top-picks-content">
-        {cards}
-        <DisplayCard
-          cardUri={this.state.cardUri}
-          target={this.state.target}
-          visibility={this.state.visibility}
-          toggle={this.toggleCard}
-        />
+        {this.state.loading && <Spinner color="success" />}
+        <div onLoad={() => { this.setState({ loading: false }); }}>
+          {cards}
+          <DisplayCard
+            cardUri={this.state.cardUri}
+            target={this.state.target}
+            visibility={this.state.visibility}
+            toggle={this.toggleCard}
+          />
+        </div>
       </div>
     );
   }
