@@ -8,7 +8,7 @@ function TopPicksHeader({
   showTier, search, displaySearchFilter, toggleSearchFilter, cardTiers, selectedTier,
 }) {
   return (
-    <div>
+    <div className="top-picks-header">
       <h1>MTG Buddy</h1>
       <Selector showTier={showTier} selectedTier={selectedTier} />
       <Search

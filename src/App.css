@@ -1,10 +1,26 @@
 body {
-  background-color: darkgrey;
+  background-color: ghostwhite;
+}
+
+.row {
+  margin: 0;
+}
+
+@media only screen and (min-width: 650px) {
+  #root {
+    margin: 0 1rem;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
   #root {
-    margin: 0 25rem;
+    margin: 0 5rem;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  #root {
+    margin: 0 10rem;
   }
 }
 

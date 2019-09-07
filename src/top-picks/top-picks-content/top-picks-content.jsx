@@ -5,37 +5,80 @@ import MtgCard from '../../cards/mtg-card/mtg-card';
 import './top-picks-content.css';
 import DisplayCard from '../../cards/display-card/display-card';
 
-function rowOfCards(cards, toggleCard, displayCard) {
-  return cards.map(card => (
-    <Col>
-      <MtgCard cardUri={card.image} toggleCard={toggleCard} displayCard={displayCard} />
-    </Col>
-  ));
-}
+class TopPicksContent extends React.Component {
 
-function numberOfRows(cardsOfTier, colMax, toggleCard, displayCard) {
-  const rows = [];
-  const cards = [...cardsOfTier];
-  while (cards.length > 0) { rows.push(cards.splice(0, colMax)); }
+  constructor(props) {
+    super(props);
+    this.state = {
+      visibility: false,
+      target: { x: 0, y: 0 },
+      cardUri: '',
+    };
 
-  return rows.map(row => (
-    <Row>
-      {rowOfCards(row, toggleCard, displayCard)}
-    </Row>
-  ));
-}
+    this.rowOfCards = this.rowOfCards.bind(this);
+    this.numberOfRows = this.numberOfRows.bind(this);
+    this.toggleCard = this.toggleCard.bind(this);
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
 
-function TopPicksContent({ cardsOfTier, displayCard, toggleCard }) {
-  const cards = numberOfRows(
-    cardsOfTier, 5, toggleCard, displayCard,
-  );
-  const cardOverlay = displayCard.visibility ? <DisplayCard cardUri={displayCard.cardUri} target={displayCard.target} /> : '';
-  return (
-    <div className="top-picks-content">
-      {cards}
-      {cardOverlay}
-    </div>
-  );
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ windowHeight: window.innerHeight, windowWidth: window.innerWidth });
+  }
+
+  toggleCard(visibility, uri) {
+    this.setState({
+      visibility: !visibility,
+      target: { x: 0, y: 0 },
+      cardUri: uri,
+      windowHeight: 0,
+      windowWidth: 0,
+    });
+  }
+
+  rowOfCards(cards) {
+    return cards.map(card => (
+      <Col>
+        <MtgCard cardUri={card.image} toggleCard={this.toggleCard} displayCard={this.state} />
+      </Col>
+    ));
+  }
+
+  numberOfRows(cardsOfTier, colMax) {
+    const rows = [];
+    const cards = [...cardsOfTier];
+    while (cards.length > 0) { rows.push(cards.splice(0, colMax)); }
+    return rows.map(row => (
+      <Row>
+        {this.rowOfCards(row)}
+      </Row>
+    ));
+  }
+
+  render() {
+    const cards = this.numberOfRows(
+      this.props.cardsOfTier, 5,
+    );
+    return (
+      <div className="top-picks-content">
+        {cards}
+        <DisplayCard
+          cardUri={this.state.cardUri}
+          target={this.state.target}
+          visibility={this.state.visibility}
+          toggle={this.toggleCard}
+        />
+      </div>
+    );
+  }
 }
 
 TopPicksContent.propTypes = {
@@ -45,14 +88,5 @@ TopPicksContent.propTypes = {
       image: PropTypes.string.isRequired,
     }),
   ).isRequired,
-  displayCard: PropTypes.shape({
-    visibility: PropTypes.bool.isRequired,
-    target: PropTypes.shape({
-      x: PropTypes.number,
-      y: PropTypes.number,
-    }),
-    cardUri: PropTypes.string.isRequired,
-  }).isRequired,
-  toggleCard: PropTypes.func.isRequired,
 };
 export default TopPicksContent;

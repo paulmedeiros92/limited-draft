@@ -5,10 +5,10 @@ import './mtg-card.css';
 function MtgCard({ cardUri, toggleCard, displayCard }) {
   const toggleFunc = (e) => {
     e.preventDefault();
-    toggleCard(displayCard.visibility, e, cardUri);
+    toggleCard(displayCard.visibility, cardUri);
   };
   return (
-    <img src={cardUri} onMouseOver={toggleFunc} onMouseOut={toggleFunc} alt="beetle" />
+    <img src={cardUri} onClick={toggleFunc} alt="beetle" />
   );
 }
 
