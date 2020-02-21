@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './selector.css';
 import { ButtonToolbar } from 'reactstrap';
 import Link from './link/link';
-import pickData from '../../../resources/tier-list';
+import pickData from '../../../resources/thb-tier-list';
 
 function makeLinks(showTier, tiers, selectedTier, loadToggle) {
   return tiers.map(tier => (

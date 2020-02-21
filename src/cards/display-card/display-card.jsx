@@ -8,7 +8,7 @@ function DisplayCard({
 }) {
   return (
     <Modal isOpen={visibility} toggle={toggle}>
-      <img className="display-card" src={cardUri} alt="OOPSIE!!!" />
+      <img className="display-card" src={cardUri} alt="OOPSIE!!!" onClick={toggle} />
     </Modal>
   );
 }

@@ -3,7 +3,7 @@ import './App.css';
 import TopPicks from './top-picks/top-picks';
 import CardService from './cards/cards-service';
 import SearchService from './top-picks/top-picks-header/search/search-service';
-import TierData from './resources/tier-list';
+import TierData from './resources/thb-tier-list';
 
 class App extends React.Component {
   static showTier(tier) {
@@ -62,7 +62,7 @@ class App extends React.Component {
           data[result.tier] = result.cards;
         });
         this.setState({ cardData: data, cardTiers: Object.keys(data) });
-        this.showTier('THE BEST OF THE BEST');
+        this.showTier('Incredible Bombs');
       });
   }
 

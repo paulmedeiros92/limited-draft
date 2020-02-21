@@ -1,0 +1,397 @@
+[
+  {
+    "tier": "Incredible Bombs",
+    "cards": [
+      {
+        "name": "Dream Trawler"
+      },
+      {
+        "name": "Kiora Bests the Sea God"
+      },
+      {
+        "name": "Polukranos, Unchained"
+      },
+      {
+        "name": "Ashiok, Nightmare Muse"
+      },
+      {
+        "name": "Thassa, Deep-Dwelling"
+      },
+      {
+        "name": "Heliod, Sun-Crowned"
+      },
+      {
+        "name": "Nightmare Shepherd"
+      },
+      {
+        "name": "Nylea, Keen-Eyed"
+      },
+      {
+        "name": "Uro, Titan of Nature's Wrath"
+      },
+      {
+        "name": "Archon of Sun's Grace"
+      },
+      {
+        "name": "Nadir Kraken"
+      },
+      {
+        "name": "Erebos, Bleak-Hearted"
+      },
+      {
+        "name": "Phoenix of Ash"
+      }
+    ]
+  },
+  {
+    "tier": "Great First Picks",
+    "cards": [
+      {
+        "name": "Elspeth Conquers Death"
+      },
+      {
+        "name": "Elspeth, Sun's Nemesis"
+      },
+      {
+        "name": "Erebos's Intervention"
+      },
+      {
+        "name": "Klothys, God of Destiny"
+      },
+      {
+        "name": "The Akroan War"
+      },
+      {
+        "name": "Calix, Destiny's Hand"
+      },
+      {
+        "name": "Kroxa, Titan of Death's Hunger"
+      },
+      {
+        "name": "Eat to Extinction"
+      },
+      {
+        "name": "Tectonic Giant"
+      },
+      {
+        "name": "Shadowspear"
+      },
+      {
+        "name": "Taranika, Akroan Veteran"
+      },
+      {
+        "name": "Purphoros's Intervention"
+      },
+      {
+        "name": "Ox of Agonas"
+      },
+      {
+        "name": "Woe Strider"
+      },
+      {
+        "name": "Setessan Champion"
+      },
+      {
+        "name": "Thryx, the Sudden Storm"
+      },
+      {
+        "name": "The First Iroan Games"
+      },
+      {
+        "name": "Drag to the Underworld"
+      },
+      {
+        "name": "Pharika's Spawn"
+      },
+      {
+        "name": "Atris, Oracle of Half-Truths"
+      },
+      {
+        "name": "Banishing Light"
+      },
+      {
+        "name": "Bronzehide Lion"
+      },
+      {
+        "name": "Mantle of the Wolf"
+      },
+      {
+        "name": "Gravebreaker Lamia"
+      },
+      {
+        "name": "Dryad of the Ilysian Grove"
+      },
+      {
+        "name": "Kunoros, Hound of Athreos"
+      },
+      {
+        "name": "Tymaret Calls the Dead"
+      },
+      {
+        "name": "Labyrinth of Skophos"
+      },
+      {
+        "name": "Thassa's Intervention"
+      },
+      {
+        "name": "Fateful End"
+      },
+      {
+        "name": "Aphemia, the Cacophony"
+      },
+      {
+        "name": "Storm's Wrath"
+      },
+      {
+        "name": "Shatter the Sky"
+      },
+      {
+        "name": "Shimmerwing Chimera"
+      },
+      {
+        "name": "Nessian Boar"
+      },
+      {
+        "name": "Mire Triton"
+      },
+      {
+        "name": "Gallia of the Endless Dance"
+      },
+      {
+        "name": "Pheres-Band Brawler"
+      },
+      {
+        "name": "Entrancing Lyre"
+      },
+      {
+        "name": "Anax, Hardened in the Forge"
+      },
+      {
+        "name": "Eutropia the Twice-Favored"
+      },
+      {
+        "name": "Tymaret, Chosen from Death"
+      },
+      {
+        "name": "Final Death"
+      },
+      {
+        "name": "Staggering Insight"
+      },
+      {
+        "name": "Mire's Grasp"
+      }
+    ]
+  },
+  {
+    "tier": "Above Average Cards",
+    "cards": [
+      {
+        "name": "Heliod's Intervention"
+      },
+      {
+        "name": "Slaughter-Priest of Mogis"
+      },
+      {
+        "name": "Protean Thaumaturge"
+      },
+      {
+        "name": "Acolyte of Affliction"
+      },
+      {
+        "name": "Elspeth's Nightmare"
+      },
+      {
+        "name": "Renata, Called to the Hunt"
+      },
+      {
+        "name": "Haktos the Unscarred"
+      },
+      {
+        "name": "Wavebreak Hippocamp"
+      },
+      {
+        "name": "Arasta of the Endless Web"
+      },
+      {
+        "name": "Warden of the Chained"
+      },
+      {
+        "name": "Mischievous Chimera"
+      },
+      {
+        "name": "Storm Herald"
+      },
+      {
+        "name": "Iroas's Blessing"
+      },
+      {
+        "name": "Dreadful Apathy"
+      },
+      {
+        "name": "Hero of the Nyxborn"
+      },
+      {
+        "name": "Nessian Hornbeetle"
+      },
+      {
+        "name": "Mystic Repeal"
+      },
+      {
+        "name": "Destiny Spinner"
+      },
+      {
+        "name": "Careless Celebrant"
+      },
+      {
+        "name": "Devourer of Memory"
+      },
+      {
+        "name": "Purphoros, Bronze-Blooded"
+      },
+      {
+        "name": "Gray Merchant of Asphodel"
+      },
+      {
+        "name": "Daxos, Blessed by the Sun"
+      },
+      {
+        "name": "Inevitable End"
+      },
+      {
+        "name": "Alirios, Enraptured"
+      },
+      {
+        "name": "Warbriar Blessing"
+      },
+      {
+        "name": "Agonizing Remorse"
+      },
+      {
+        "name": "Siona, Captain of the Pyleas"
+      },
+      {
+        "name": "Voracious Typhon"
+      },
+      {
+        "name": "Furious Rise"
+      }
+    ]
+  },
+  {
+    "tier": "Solid Playables",
+    "cards": [
+      {
+        "name": "Impending Doom"
+      },
+      {
+        "name": "Heliod's Pilgrim"
+      },
+      {
+        "name": "Thassa's Oracle"
+      },
+      {
+        "name": "Omen of the Forge"
+      },
+      {
+        "name": "Callaphe, Beloved of the Sea"
+      },
+      {
+        "name": "Nyx Herald"
+      },
+      {
+        "name": "Rise to Glory"
+      },
+      {
+        "name": "Commanding Presence"
+      },
+      {
+        "name": "Omen of the Sea"
+      },
+      {
+        "name": "Ilysian Caryatid"
+      },
+      {
+        "name": "Wolfwillow Haven"
+      },
+      {
+        "name": "Dreamstalker Manticore"
+      },
+      {
+        "name": "Threnody Singer"
+      },
+      {
+        "name": "Blight-Breath Catoblepas"
+      },
+      {
+        "name": "Return to Nature"
+      },
+      {
+        "name": "Nessian Wanderer"
+      },
+      {
+        "name": "Loathsome Chimera"
+      },
+      {
+        "name": "Lagonna-Band Storyteller"
+      },
+      {
+        "name": "Enigmatic Incarnation"
+      },
+      {
+        "name": "Blood Aspirant"
+      },
+      {
+        "name": "Reverent Hoplite"
+      },
+      {
+        "name": "Thirst for Meaning"
+      },
+      {
+        "name": "Venomous Hierophant"
+      },
+      {
+        "name": "Daybreak Chimera"
+      },
+      {
+        "name": "Hydra's Growth"
+      },
+      {
+        "name": "Heroes of the Revel"
+      },
+      {
+        "name": "Treacherous Blessing"
+      },
+      {
+        "name": "Witness of Tomorrows"
+      },
+      {
+        "name": "Lampad of Death's Vigil"
+      },
+      {
+        "name": "Underworld Charger"
+      },
+      {
+        "name": "Heliod's Punishment"
+      },
+      {
+        "name": "Favored of Iroas"
+      },
+      {
+        "name": "Hero of the Pride"
+      },
+      {
+        "name": "Archon of Falling Stars"
+      },
+      {
+        "name": "Underworld Rage-Hound"
+      },
+      {
+        "name": "Incendiary Oracle"
+      },
+      {
+        "name": "Ichthyomorphosis"
+      }
+    ]
+  }
+]
