@@ -10,13 +10,14 @@ function TopPicksHeader({
   return (
     <div className="top-picks-header">
       <h1>MTG Buddy</h1>
-      <Selector showTier={showTier} selectedTier={selectedTier} loadToggle={loadToggle} />
       <Search
         search={search}
         displaySearchFilter={displaySearchFilter}
         toggleSearchFilter={toggleSearchFilter}
         cardTiers={cardTiers}
       />
+      <h2>Pick Order</h2>
+      <Selector showTier={showTier} selectedTier={selectedTier} loadToggle={loadToggle} />
     </div>
   );
 }

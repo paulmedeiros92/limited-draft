@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './mtg-card.css';
 
-function MtgCard({ cardUri, toggleCard, displayCard, loadTick }) {
+function MtgCard({
+  cardUri, toggleCard, displayCard, loadTick,
+}) {
   const toggleFunc = (e) => {
     e.preventDefault();
     toggleCard(displayCard.visibility, cardUri);
