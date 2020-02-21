@@ -28,7 +28,7 @@ function Search({
     <InputGroup>
       <Input onKeyDown={keyPress} />
       <InputGroupButtonDropdown addonType="prepend" isOpen={displaySearchFilter.visibility} toggle={toggle}>
-        <DropdownToggle caret>{displaySearchFilter.filter}</DropdownToggle>
+        <DropdownToggle caret className="search-dropdown">{displaySearchFilter.filter}</DropdownToggle>
         <DropdownMenu>
           <DropdownItem header>Tiers</DropdownItem>
           <DropdownItem>ALL</DropdownItem>
