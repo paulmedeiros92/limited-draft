@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import TopPicksHeader from './top-picks-header/top-picks-header';
 import TopPicksContent from './top-picks-content/top-picks-content';
-import Donate from '../donate/donate';
 
 class TopPicks extends React.Component {
   constructor(props) {
@@ -30,36 +28,23 @@ class TopPicks extends React.Component {
 
   render() {
     const {
-      showTier,
-      search,
-      displaySearchFilter,
-      toggleSearchFilter,
-      cardTiers,
-      selectedTier,
       cardsOfTier,
       displayCard,
+      showTier,
     } = this.props;
     const { loading, loaded } = this.state;
 
     return (
       <div>
-        <TopPicksHeader
-          showTier={showTier}
-          search={search}
-          displaySearchFilter={displaySearchFilter}
-          toggleSearchFilter={toggleSearchFilter}
-          cardTiers={cardTiers}
-          selectedTier={selectedTier}
-          loadToggle={this.loadToggle}
-        />
         <TopPicksContent
           cardsOfTier={cardsOfTier}
           displayCard={displayCard}
           loading={loading}
           loaded={loaded}
           loadTick={this.loadTick}
+          showTier={showTier}
+          loadToggle={this.loadToggle}
         />
-        <Donate />
       </div>
     );
   }
@@ -80,15 +65,5 @@ TopPicks.propTypes = {
     }),
   }).isRequired,
   showTier: PropTypes.func.isRequired,
-  search: PropTypes.func.isRequired,
-  displaySearchFilter: PropTypes.shape({
-    visibility: PropTypes.bool.isRequired,
-    filter: PropTypes.string.isRequired,
-  }).isRequired,
-  toggleSearchFilter: PropTypes.func.isRequired,
-  cardTiers: PropTypes.arrayOf(
-    PropTypes.string,
-  ).isRequired,
-  selectedTier: PropTypes.string.isRequired,
 };
 export default TopPicks;

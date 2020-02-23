@@ -1,29 +1,39 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './top-picks-header.css';
-import Selector from './selector/selector';
+import { Navbar, Nav, Form } from 'react-bootstrap';
 import Search from './search/search';
 
 function TopPicksHeader({
-  showTier, search, displaySearchFilter, toggleSearchFilter, cardTiers, selectedTier, loadToggle,
+  search, displaySearchFilter, toggleSearchFilter, cardTiers,
 }) {
   return (
     <div className="top-picks-header">
-      <h1>MTG Buddy</h1>
-      <Search
-        search={search}
-        displaySearchFilter={displaySearchFilter}
-        toggleSearchFilter={toggleSearchFilter}
-        cardTiers={cardTiers}
-      />
-      <h2>Pick Order</h2>
-      <Selector showTier={showTier} selectedTier={selectedTier} loadToggle={loadToggle} />
+      <Navbar bg="light" variant="light" expand="lg">
+        <Navbar.Brand href="order">MTG Buddy</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="/">Pick Order</Nav.Link>
+            <Nav.Link href="/mechanics">Set Mechanics</Nav.Link>
+            <Nav.Link href="/archetypes">Archetypes</Nav.Link>
+            <Nav.Link href="/removal">Removal</Nav.Link>
+          </Nav>
+          <Form inline>
+            <Search
+              search={search}
+              displaySearchFilter={displaySearchFilter}
+              toggleSearchFilter={toggleSearchFilter}
+              cardTiers={cardTiers}
+            />
+          </Form>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 }
 
 TopPicksHeader.propTypes = {
-  showTier: PropTypes.func.isRequired,
   search: PropTypes.func.isRequired,
   displaySearchFilter: PropTypes.shape({
     visibility: PropTypes.bool.isRequired,
@@ -33,7 +43,5 @@ TopPicksHeader.propTypes = {
   cardTiers: PropTypes.arrayOf(
     PropTypes.string,
   ).isRequired,
-  selectedTier: PropTypes.string.isRequired,
-  loadToggle: PropTypes.func.isRequired,
 };
 export default TopPicksHeader;

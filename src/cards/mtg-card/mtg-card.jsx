@@ -10,7 +10,7 @@ function MtgCard({
     toggleCard(displayCard.visibility, cardUri);
   };
   return (
-    <img src={cardUri} onClick={toggleFunc} alt="beetle" onLoad={loadTick}/>
+    <img src={cardUri} onClick={toggleFunc} alt="beetle" onLoad={loadTick} />
   );
 }
 

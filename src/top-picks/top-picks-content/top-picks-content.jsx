@@ -4,6 +4,7 @@ import { Row, Col, Spinner } from 'reactstrap';
 import MtgCard from '../../cards/mtg-card/mtg-card';
 import './top-picks-content.css';
 import DisplayCard from '../../cards/display-card/display-card';
+import Selector from '../top-picks-header/selector/selector';
 
 class TopPicksContent extends React.Component {
   constructor(props) {
@@ -53,13 +54,16 @@ class TopPicksContent extends React.Component {
   }
 
   render() {
-    const { cardsOfTier, loading } = this.props;
+    const {
+      cardsOfTier, loading, showTier, selectedTier, loadToggle,
+    } = this.props;
     const { cardUri, target, visibility } = this.state;
     const cards = this.numberOfRows(
       cardsOfTier, 5,
     );
     return (
       <div className="top-picks-content">
+        <Selector showTier={showTier} selectedTier={selectedTier} loadToggle={loadToggle} />
         {loading && <Spinner color="success" />}
         {cards}
         <DisplayCard
@@ -80,14 +84,10 @@ TopPicksContent.propTypes = {
       image: PropTypes.string.isRequired,
     }),
   ).isRequired,
-  displayCard: PropTypes.shape({
-    visibility: PropTypes.bool.isRequired,
-    target: PropTypes.shape({
-      x: PropTypes.number,
-      y: PropTypes.number,
-    }),
-  }).isRequired,
   loading: PropTypes.bool.isRequired,
   loadTick: PropTypes.func.isRequired,
+  showTier: PropTypes.func.isRequired,
+  selectedTier: PropTypes.string.isRequired,
+  loadToggle: PropTypes.func.isRequired,
 };
 export default TopPicksContent;

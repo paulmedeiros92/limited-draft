@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Input, InputGroup, InputGroupButtonDropdown, DropdownToggle, DropdownMenu,
-  DropdownItem } from 'reactstrap';
+import {
+  Input, InputGroup, InputGroupButtonDropdown, DropdownToggle, DropdownMenu,
+  DropdownItem,
+} from 'reactstrap';
 import './search.css';
 
 function Search({
