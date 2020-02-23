@@ -1,23 +1,82 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Row, Col, Spinner } from 'reactstrap';
 import MtgCard from '../../cards/mtg-card/mtg-card';
 import './top-picks-content.css';
 import DisplayCard from '../../cards/display-card/display-card';
 import Selector from '../top-picks-header/selector/selector';
+import TierData from '../../resources/thb-tier-list.json';
+import CardService from '../../cards/cards-service';
+import SearchService from '../top-picks-header/search/search-service';
 
 class TopPicksContent extends React.Component {
+  static showTier(tier) {
+    const { cardData } = this.state;
+    this.setState({ cardsOfTier: cardData[tier], selectedTier: tier });
+  }
+
+  static search(string) {
+    const { cardData, displaySearchFilter } = this.state;
+    this.setState(
+      {
+        cardsOfTier: SearchService.findMatchingCards(
+          string, cardData, displaySearchFilter.filter,
+        ),
+        selectedTier: '',
+      },
+    );
+  }
+
+  static toggleSearchFilter(filter, className) {
+    const { displaySearchFilter } = this.state;
+    if (className.includes('dropdown')) {
+      this.setState(
+        { displaySearchFilter: { visibility: !displaySearchFilter.visibility, filter } },
+      );
+    } else {
+      this.setState(
+        {
+          displaySearchFilter: {
+            visibility: !displaySearchFilter.visibility,
+            filter: displaySearchFilter.filter,
+          },
+        },
+      );
+    }
+  }
+
   constructor(props) {
     super(props);
     this.state = {
+      cardData: {},
+      cardsOfTier: [],
+      selectedTier: '',
+      cardTiers: [],
+      displaySearchFilter: { visibility: false, filter: 'Search By' },
       visibility: false,
       target: { x: 0, y: 0 },
       cardUri: '',
+      loading: true,
+      loaded: 0,
     };
 
+    this.showTier = TopPicksContent.showTier.bind(this);
+    this.search = TopPicksContent.search.bind(this);
+    this.toggleSearchFilter = TopPicksContent.toggleSearchFilter.bind(this);
     this.rowOfCards = this.rowOfCards.bind(this);
     this.numberOfRows = this.numberOfRows.bind(this);
     this.toggleCard = this.toggleCard.bind(this);
+    this.loadToggle = this.loadToggle.bind(this);
+    this.loadTick = this.loadTick.bind(this);
+
+    Promise.all(TierData.map(tier => CardService.fetchCards(tier)))
+      .then((results) => {
+        const data = {};
+        results.forEach((result) => {
+          data[result.tier] = result.cards;
+        });
+        this.setState({ cardData: data, cardTiers: Object.keys(data) });
+        this.showTier('Incredible Bombs');
+      });
   }
 
   toggleCard(visibility, uri) {
@@ -28,15 +87,27 @@ class TopPicksContent extends React.Component {
     });
   }
 
+  loadToggle(loading) {
+    this.setState({ loading, loaded: 0 });
+  }
+
+  loadTick() {
+    const { loaded, cardsOfTier } = this.state;
+    this.setState(prevState => ({ loaded: prevState.loaded + 1 }));
+    if (loaded === 5 || loaded >= cardsOfTier.length - 1) {
+      this.loadToggle(false);
+    }
+  }
+
   rowOfCards(cards) {
-    const { loadTick } = this.props;
+    const { visibility, target, cardUri } = this.state;
     return cards.map(card => (
       <Col>
         <MtgCard
           cardUri={card.image}
           toggleCard={this.toggleCard}
-          displayCard={this.state}
-          loadTick={loadTick}
+          displayCard={{ visibility, target, cardUri }}
+          loadTick={this.loadTick}
         />
       </Col>
     ));
@@ -55,15 +126,23 @@ class TopPicksContent extends React.Component {
 
   render() {
     const {
-      cardsOfTier, loading, showTier, selectedTier, loadToggle,
-    } = this.props;
-    const { cardUri, target, visibility } = this.state;
+      cardUri, target, visibility, loading, cardsOfTier, selectedTier,
+      cardTiers, displaySearchFilter,
+    } = this.state;
     const cards = this.numberOfRows(
       cardsOfTier, 5,
     );
     return (
       <div className="top-picks-content">
-        <Selector showTier={showTier} selectedTier={selectedTier} loadToggle={loadToggle} />
+        <Selector
+          showTier={this.showTier}
+          selectedTier={selectedTier}
+          loadToggle={this.loadToggle}
+          search={this.search}
+          displaySearchFilter={displaySearchFilter}
+          toggleSearchFilter={this.toggleSearchFilter}
+          cardTiers={cardTiers}
+        />
         {loading && <Spinner color="success" />}
         {cards}
         <DisplayCard
@@ -77,17 +156,4 @@ class TopPicksContent extends React.Component {
   }
 }
 
-TopPicksContent.propTypes = {
-  cardsOfTier: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      image: PropTypes.string.isRequired,
-    }),
-  ).isRequired,
-  loading: PropTypes.bool.isRequired,
-  loadTick: PropTypes.func.isRequired,
-  showTier: PropTypes.func.isRequired,
-  selectedTier: PropTypes.string.isRequired,
-  loadToggle: PropTypes.func.isRequired,
-};
 export default TopPicksContent;

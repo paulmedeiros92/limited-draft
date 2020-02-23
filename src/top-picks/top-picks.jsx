@@ -2,52 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import TopPicksContent from './top-picks-content/top-picks-content';
 
-class TopPicks extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      loading: true,
-      loaded: 0,
-    };
-
-    this.loadToggle = this.loadToggle.bind(this);
-    this.loadTick = this.loadTick.bind(this);
-  }
-
-  loadToggle(loading) {
-    this.setState({ loading, loaded: 0 });
-  }
-
-  loadTick() {
-    const { loaded } = this.state;
-    this.setState(prevState => ({ loaded: prevState.loaded + 1 }));
-    if (loaded === 5) {
-      this.loadToggle(false);
-    }
-  }
-
-  render() {
-    const {
-      cardsOfTier,
-      displayCard,
-      showTier,
-    } = this.props;
-    const { loading, loaded } = this.state;
-
-    return (
-      <div>
-        <TopPicksContent
-          cardsOfTier={cardsOfTier}
-          displayCard={displayCard}
-          loading={loading}
-          loaded={loaded}
-          loadTick={this.loadTick}
-          showTier={showTier}
-          loadToggle={this.loadToggle}
-        />
-      </div>
-    );
-  }
+function TopPicks({
+  cardsOfTier, displayCard, showTier, selectedTier, search,
+  displaySearchFilter, toggleSearchFilter, cardTiers,
+}) {
+  return (
+    <div>
+      <TopPicksContent
+        cardsOfTier={cardsOfTier}
+        displayCard={displayCard}
+        showTier={showTier}
+        selectedTier={selectedTier}
+        search={search}
+        displaySearchFilter={displaySearchFilter}
+        toggleSearchFilter={toggleSearchFilter}
+        cardTiers={cardTiers}
+      />
+    </div>
+  );
 }
 
 TopPicks.propTypes = {
@@ -65,5 +37,15 @@ TopPicks.propTypes = {
     }),
   }).isRequired,
   showTier: PropTypes.func.isRequired,
+  selectedTier: PropTypes.string.isRequired,
+  search: PropTypes.func.isRequired,
+  displaySearchFilter: PropTypes.shape({
+    visibility: PropTypes.bool.isRequired,
+    toggleFunc: PropTypes.func.isRequired,
+  }).isRequired,
+  toggleSearchFilter: PropTypes.func.isRequired,
+  cardTiers: PropTypes.arrayOf(
+    PropTypes.string,
+  ).isRequired,
 };
 export default TopPicks;
