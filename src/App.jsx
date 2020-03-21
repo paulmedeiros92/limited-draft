@@ -5,11 +5,10 @@ import TopPicks from './top-picks/top-picks';
 import Removal from './removal/removal';
 import Archetypes from './archetypes/archetypes';
 import Mechanics from './mechanics/mechanics';
-import TopPicksHeader from './top-picks/top-picks-header/top-picks-header';
+import TopPicksHeader from './top-picks-header/top-picks-header';
 import Donate from './donate/donate';
 
 class App extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {};

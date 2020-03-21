@@ -1,3 +1,22 @@
-.top-picks-header {
-  margin: auto 1rem;
+.top-picks-content {
+    margin: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.row {
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.spinner-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 4rem;
+    width: 4rem;
+    margin: -2rem 0 0 -2rem;
+    border: .5rem solid currentColor;
+    border-right-color: transparent;
+    z-index: 99;
 }
