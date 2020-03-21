@@ -1,16 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './selector.css';
-import { ButtonToolbar } from 'reactstrap';
+import { ButtonToolbar } from 'react-bootstrap';
 import Link from './link/link';
 import pickData from '../../../resources/thb-tier-list.json';
-import Search from '../search/search';
+import Search from './search/search';
 
 function makeLinks(showTier, tiers, selectedTier, loadToggle) {
   return tiers.map(tier => (
     <Link
       showTier={showTier}
       tier={tier.tier}
+      key={`Select${tier.tier}`}
       selectedTier={selectedTier}
       loadToggle={loadToggle}
     />

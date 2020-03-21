@@ -1,12 +1,12 @@
 import React from 'react';
-import { Row, Col, Spinner } from 'reactstrap';
+import { Row, Col, Spinner } from 'react-bootstrap';
 import MtgCard from '../../cards/mtg-card/mtg-card';
 import './top-picks-content.css';
 import DisplayCard from '../../cards/display-card/display-card';
 import Selector from '../top-picks-header/selector/selector';
 import TierData from '../../resources/thb-tier-list.json';
 import CardService from '../../cards/cards-service';
-import SearchService from '../top-picks-header/search/search-service';
+import SearchService from '../top-picks-header/selector/search/search-service';
 
 class TopPicksContent extends React.Component {
   static showTier(tier) {
@@ -102,7 +102,7 @@ class TopPicksContent extends React.Component {
   rowOfCards(cards) {
     const { visibility, target, cardUri } = this.state;
     return cards.map(card => (
-      <Col>
+      <Col key={card.image}>
         <MtgCard
           cardUri={card.image}
           toggleCard={this.toggleCard}
@@ -118,7 +118,7 @@ class TopPicksContent extends React.Component {
     const cards = [...cardsOfTier];
     while (cards.length > 0) { rows.push(cards.splice(0, colMax)); }
     return rows.map(row => (
-      <Row>
+      <Row key={row[0].image + row[1].image}>
         {this.rowOfCards(row)}
       </Row>
     ));
@@ -143,7 +143,7 @@ class TopPicksContent extends React.Component {
           toggleSearchFilter={this.toggleSearchFilter}
           cardTiers={cardTiers}
         />
-        {loading && <Spinner color="success" />}
+        {loading && <Spinner animation="border" variant="success" />}
         {cards}
         <DisplayCard
           cardUri={cardUri}

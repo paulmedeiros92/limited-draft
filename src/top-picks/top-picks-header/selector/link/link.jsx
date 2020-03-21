@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './link.css';
-import { Button } from 'reactstrap';
+import { Button } from 'react-bootstrap';
 
 function Link({
   showTier, tier, selectedTier, loadToggle,
 }) {
-  const color = tier === selectedTier ? 'success' : 'info';
+  const variant = tier === selectedTier ? 'success' : 'primary';
 
   function click(e) {
     showTier(tier, e);
@@ -14,7 +14,7 @@ function Link({
   }
 
   return (
-    <Button color={color} onClick={click}>{tier}</Button>
+    <Button variant={variant} onClick={click}>{tier}</Button>
   );
 }
 
