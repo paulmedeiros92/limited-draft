@@ -1,7 +1,9 @@
 import React from 'react';
-import { Row, Col, Spinner } from 'react-bootstrap';
+import {
+  Row, Col, Spinner, Button,
+} from 'react-bootstrap';
 import MtgCard from '../cards/mtg-card/mtg-card';
-import './top-picks.css';
+import './top-picks.scss';
 import DisplayCard from '../cards/display-card/display-card';
 import Selector from './selector/selector';
 import TierData from '../resources/thb-tier-list.json';
@@ -9,6 +11,10 @@ import CardService from '../cards/cards-service';
 import SearchService from './selector/search/search-service';
 
 class TopPicks extends React.Component {
+  static scrollTop() {
+    window.scrollTo(0, 0);
+  }
+
   static showTier(tier) {
     const { cardData } = this.state;
     this.setState({ cardsOfTier: cardData[tier], selectedTier: tier });
@@ -47,6 +53,7 @@ class TopPicks extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      hasScrolled: false,
       cardData: {},
       cardsOfTier: [],
       selectedTier: '',
@@ -63,6 +70,7 @@ class TopPicks extends React.Component {
       loaded: 0,
     };
 
+    this.scrollTop = TopPicks.scrollTop.bind(this);
     this.showTier = TopPicks.showTier.bind(this);
     this.search = TopPicks.search.bind(this);
     this.toggleSearchFilter = TopPicks.toggleSearchFilter.bind(this);
@@ -81,6 +89,16 @@ class TopPicks extends React.Component {
         this.setState({ cardData: data, cardTiers: Object.keys(data) });
         this.showTier('Incredible Bombs');
       });
+  }
+
+  componentDidMount() {
+    document.addEventListener('scroll', () => {
+      if (window.scrollY === 0) {
+        this.setState({ hasScrolled: false });
+      } else {
+        this.setState({ hasScrolled: true });
+      }
+    });
   }
 
   toggleCard(cardUri, cardTier, cardRank, visibility) {
@@ -133,6 +151,7 @@ class TopPicks extends React.Component {
   render() {
     const {
       loading, cardsOfTier, selectedTier, cardTiers, displaySearchFilter, displayCard,
+      hasScrolled,
     } = this.state;
     const cards = this.numberOfRows(cardsOfTier, 5);
     return (
@@ -148,6 +167,7 @@ class TopPicks extends React.Component {
         />
         {loading && <Spinner animation="border" variant="success" />}
         {cards}
+        {hasScrolled && <Button className="scroll-button" variant="primary" onClick={this.scrollTop}>Top</Button>}
         <DisplayCard
           displayCard={displayCard}
           toggle={this.toggleCard}
