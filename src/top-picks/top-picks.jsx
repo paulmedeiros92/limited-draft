@@ -52,9 +52,13 @@ class TopPicks extends React.Component {
       selectedTier: '',
       cardTiers: [],
       displaySearchFilter: { visibility: false, filter: 'Search By' },
-      visibility: false,
-      target: { x: 0, y: 0 },
-      cardUri: '',
+      displayCard: {
+        cardUri: '',
+        cardTier: '',
+        cardRank: -1,
+        visibility: false,
+        target: { x: 0, y: 0 },
+      },
       loading: true,
       loaded: 0,
     };
@@ -79,11 +83,11 @@ class TopPicks extends React.Component {
       });
   }
 
-  toggleCard(visibility, uri) {
+  toggleCard(cardUri, cardTier, cardRank, visibility) {
     this.setState({
-      visibility: !visibility,
-      target: { x: 0, y: 0 },
-      cardUri: uri,
+      displayCard: {
+        cardUri, cardTier, cardRank, visibility: !visibility, target: { x: 0, y: 0 },
+      },
     });
   }
 
@@ -100,13 +104,15 @@ class TopPicks extends React.Component {
   }
 
   rowOfCards(cards) {
-    const { visibility, target, cardUri } = this.state;
+    const { displayCard } = this.state;
     return cards.map(card => (
       <Col key={card.image}>
         <MtgCard
           cardUri={card.image}
+          cardTier={card.tier}
+          cardRank={card.rank}
           toggleCard={this.toggleCard}
-          displayCard={{ visibility, target, cardUri }}
+          displayVisibility={displayCard.visibility}
           loadTick={this.loadTick}
         />
       </Col>
@@ -117,21 +123,18 @@ class TopPicks extends React.Component {
     const rows = [];
     const cards = [...cardsOfTier];
     while (cards.length > 0) { rows.push(cards.splice(0, colMax)); }
-    return rows.map(row => (
-      <Row key={row[0].image + row[1].image}>
-        {this.rowOfCards(row)}
+    return Object.keys(rows).map(index => (
+      <Row key={rows[index][0].image + rows[index][1].image}>
+        {this.rowOfCards(rows[index])}
       </Row>
     ));
   }
 
   render() {
     const {
-      cardUri, target, visibility, loading, cardsOfTier, selectedTier,
-      cardTiers, displaySearchFilter,
+      loading, cardsOfTier, selectedTier, cardTiers, displaySearchFilter, displayCard,
     } = this.state;
-    const cards = this.numberOfRows(
-      cardsOfTier, 5,
-    );
+    const cards = this.numberOfRows(cardsOfTier, 5);
     return (
       <div className="top-picks-content">
         <Selector
@@ -146,9 +149,7 @@ class TopPicks extends React.Component {
         {loading && <Spinner animation="border" variant="success" />}
         {cards}
         <DisplayCard
-          cardUri={cardUri}
-          target={target}
-          visibility={visibility}
+          displayCard={displayCard}
           toggle={this.toggleCard}
         />
       </div>

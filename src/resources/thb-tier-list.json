@@ -1,397 +1,1002 @@
 [
-  {
-    "tier": "Incredible Bombs",
-    "cards": [
-      {
-        "name": "Dream Trawler"
-      },
-      {
-        "name": "Kiora Bests the Sea God"
-      },
-      {
-        "name": "Polukranos, Unchained"
-      },
-      {
-        "name": "Ashiok, Nightmare Muse"
-      },
-      {
-        "name": "Thassa, Deep-Dwelling"
-      },
-      {
-        "name": "Heliod, Sun-Crowned"
-      },
-      {
-        "name": "Nightmare Shepherd"
-      },
-      {
-        "name": "Nylea, Keen-Eyed"
-      },
-      {
-        "name": "Uro, Titan of Nature's Wrath"
-      },
-      {
-        "name": "Archon of Sun's Grace"
-      },
-      {
-        "name": "Nadir Kraken"
-      },
-      {
-        "name": "Erebos, Bleak-Hearted"
-      },
-      {
-        "name": "Phoenix of Ash"
-      }
-    ]
-  },
-  {
-    "tier": "Great First Picks",
-    "cards": [
-      {
-        "name": "Elspeth Conquers Death"
-      },
-      {
-        "name": "Elspeth, Sun's Nemesis"
-      },
-      {
-        "name": "Erebos's Intervention"
-      },
-      {
-        "name": "Klothys, God of Destiny"
-      },
-      {
-        "name": "The Akroan War"
-      },
-      {
-        "name": "Calix, Destiny's Hand"
-      },
-      {
-        "name": "Kroxa, Titan of Death's Hunger"
-      },
-      {
-        "name": "Eat to Extinction"
-      },
-      {
-        "name": "Tectonic Giant"
-      },
-      {
-        "name": "Shadowspear"
-      },
-      {
-        "name": "Taranika, Akroan Veteran"
-      },
-      {
-        "name": "Purphoros's Intervention"
-      },
-      {
-        "name": "Ox of Agonas"
-      },
-      {
-        "name": "Woe Strider"
-      },
-      {
-        "name": "Setessan Champion"
-      },
-      {
-        "name": "Thryx, the Sudden Storm"
-      },
-      {
-        "name": "The First Iroan Games"
-      },
-      {
-        "name": "Drag to the Underworld"
-      },
-      {
-        "name": "Pharika's Spawn"
-      },
-      {
-        "name": "Atris, Oracle of Half-Truths"
-      },
-      {
-        "name": "Banishing Light"
-      },
-      {
-        "name": "Bronzehide Lion"
-      },
-      {
-        "name": "Mantle of the Wolf"
-      },
-      {
-        "name": "Gravebreaker Lamia"
-      },
-      {
-        "name": "Dryad of the Ilysian Grove"
-      },
-      {
-        "name": "Kunoros, Hound of Athreos"
-      },
-      {
-        "name": "Tymaret Calls the Dead"
-      },
-      {
-        "name": "Labyrinth of Skophos"
-      },
-      {
-        "name": "Thassa's Intervention"
-      },
-      {
-        "name": "Fateful End"
-      },
-      {
-        "name": "Aphemia, the Cacophony"
-      },
-      {
-        "name": "Storm's Wrath"
-      },
-      {
-        "name": "Shatter the Sky"
-      },
-      {
-        "name": "Shimmerwing Chimera"
-      },
-      {
-        "name": "Nessian Boar"
-      },
-      {
-        "name": "Mire Triton"
-      },
-      {
-        "name": "Gallia of the Endless Dance"
-      },
-      {
-        "name": "Pheres-Band Brawler"
-      },
-      {
-        "name": "Entrancing Lyre"
-      },
-      {
-        "name": "Anax, Hardened in the Forge"
-      },
-      {
-        "name": "Eutropia the Twice-Favored"
-      },
-      {
-        "name": "Tymaret, Chosen from Death"
-      },
-      {
-        "name": "Final Death"
-      },
-      {
-        "name": "Staggering Insight"
-      },
-      {
-        "name": "Mire's Grasp"
-      }
-    ]
-  },
-  {
-    "tier": "Above Average Cards",
-    "cards": [
-      {
-        "name": "Heliod's Intervention"
-      },
-      {
-        "name": "Slaughter-Priest of Mogis"
-      },
-      {
-        "name": "Protean Thaumaturge"
-      },
-      {
-        "name": "Acolyte of Affliction"
-      },
-      {
-        "name": "Elspeth's Nightmare"
-      },
-      {
-        "name": "Renata, Called to the Hunt"
-      },
-      {
-        "name": "Haktos the Unscarred"
-      },
-      {
-        "name": "Wavebreak Hippocamp"
-      },
-      {
-        "name": "Arasta of the Endless Web"
-      },
-      {
-        "name": "Warden of the Chained"
-      },
-      {
-        "name": "Mischievous Chimera"
-      },
-      {
-        "name": "Storm Herald"
-      },
-      {
-        "name": "Iroas's Blessing"
-      },
-      {
-        "name": "Dreadful Apathy"
-      },
-      {
-        "name": "Hero of the Nyxborn"
-      },
-      {
-        "name": "Nessian Hornbeetle"
-      },
-      {
-        "name": "Mystic Repeal"
-      },
-      {
-        "name": "Destiny Spinner"
-      },
-      {
-        "name": "Careless Celebrant"
-      },
-      {
-        "name": "Devourer of Memory"
-      },
-      {
-        "name": "Purphoros, Bronze-Blooded"
-      },
-      {
-        "name": "Gray Merchant of Asphodel"
-      },
-      {
-        "name": "Daxos, Blessed by the Sun"
-      },
-      {
-        "name": "Inevitable End"
-      },
-      {
-        "name": "Alirios, Enraptured"
-      },
-      {
-        "name": "Warbriar Blessing"
-      },
-      {
-        "name": "Agonizing Remorse"
-      },
-      {
-        "name": "Siona, Captain of the Pyleas"
-      },
-      {
-        "name": "Voracious Typhon"
-      },
-      {
-        "name": "Furious Rise"
-      }
-    ]
-  },
-  {
-    "tier": "Solid Playables",
-    "cards": [
-      {
-        "name": "Impending Doom"
-      },
-      {
-        "name": "Heliod's Pilgrim"
-      },
-      {
-        "name": "Thassa's Oracle"
-      },
-      {
-        "name": "Omen of the Forge"
-      },
-      {
-        "name": "Callaphe, Beloved of the Sea"
-      },
-      {
-        "name": "Nyx Herald"
-      },
-      {
-        "name": "Rise to Glory"
-      },
-      {
-        "name": "Commanding Presence"
-      },
-      {
-        "name": "Omen of the Sea"
-      },
-      {
-        "name": "Ilysian Caryatid"
-      },
-      {
-        "name": "Wolfwillow Haven"
-      },
-      {
-        "name": "Dreamstalker Manticore"
-      },
-      {
-        "name": "Threnody Singer"
-      },
-      {
-        "name": "Blight-Breath Catoblepas"
-      },
-      {
-        "name": "Return to Nature"
-      },
-      {
-        "name": "Nessian Wanderer"
-      },
-      {
-        "name": "Loathsome Chimera"
-      },
-      {
-        "name": "Lagonna-Band Storyteller"
-      },
-      {
-        "name": "Enigmatic Incarnation"
-      },
-      {
-        "name": "Blood Aspirant"
-      },
-      {
-        "name": "Reverent Hoplite"
-      },
-      {
-        "name": "Thirst for Meaning"
-      },
-      {
-        "name": "Venomous Hierophant"
-      },
-      {
-        "name": "Daybreak Chimera"
-      },
-      {
-        "name": "Hydra's Growth"
-      },
-      {
-        "name": "Heroes of the Revel"
-      },
-      {
-        "name": "Treacherous Blessing"
-      },
-      {
-        "name": "Witness of Tomorrows"
-      },
-      {
-        "name": "Lampad of Death's Vigil"
-      },
-      {
-        "name": "Underworld Charger"
-      },
-      {
-        "name": "Heliod's Punishment"
-      },
-      {
-        "name": "Favored of Iroas"
-      },
-      {
-        "name": "Hero of the Pride"
-      },
-      {
-        "name": "Archon of Falling Stars"
-      },
-      {
-        "name": "Underworld Rage-Hound"
-      },
-      {
-        "name": "Incendiary Oracle"
-      },
-      {
-        "name": "Ichthyomorphosis"
-      }
-    ]
-  }
+    {
+        "tier": "Incredible Bombs",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Incredible Bombs",
+                "name": "Dream Trawler"
+            },
+            {
+                "rank": 2,
+                "tier": "Incredible Bombs",
+                "name": "Kiora Bests the Sea God"
+            },
+            {
+                "rank": 3,
+                "tier": "Incredible Bombs",
+                "name": "Polukranos, Unchained"
+            },
+            {
+                "rank": 4,
+                "tier": "Incredible Bombs",
+                "name": "Ashiok, Nightmare Muse"
+            },
+            {
+                "rank": 5,
+                "tier": "Incredible Bombs",
+                "name": "Thassa, Deep-Dwelling"
+            },
+            {
+                "rank": 6,
+                "tier": "Incredible Bombs",
+                "name": "Heliod, Sun-Crowned"
+            },
+            {
+                "rank": 7,
+                "tier": "Incredible Bombs",
+                "name": "Nightmare Shepherd"
+            },
+            {
+                "rank": 8,
+                "tier": "Incredible Bombs",
+                "name": "Nylea, Keen-Eyed"
+            },
+            {
+                "rank": 9,
+                "tier": "Incredible Bombs",
+                "name": "Uro, Titan of Nature's Wrath"
+            },
+            {
+                "rank": 10,
+                "tier": "Incredible Bombs",
+                "name": "Archon of Sun's Grace"
+            },
+            {
+                "rank": 11,
+                "tier": "Incredible Bombs",
+                "name": "Nadir Kraken"
+            },
+            {
+                "rank": 12,
+                "tier": "Incredible Bombs",
+                "name": "Erebos, Bleak-Hearted"
+            },
+            {
+                "rank": 13,
+                "tier": "Incredible Bombs",
+                "name": "Phoenix of Ash"
+            }
+        ]
+    },
+    {
+        "tier": "Great First Picks",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Great First Picks",
+                "name": "Elspeth Conquers Death"
+            },
+            {
+                "rank": 2,
+                "tier": "Great First Picks",
+                "name": "Elspeth, Sun's Nemesis"
+            },
+            {
+                "rank": 3,
+                "tier": "Great First Picks",
+                "name": "Erebos's Intervention"
+            },
+            {
+                "rank": 4,
+                "tier": "Great First Picks",
+                "name": "Klothys, God of Destiny"
+            },
+            {
+                "rank": 5,
+                "tier": "Great First Picks",
+                "name": "The Akroan War"
+            },
+            {
+                "rank": 6,
+                "tier": "Great First Picks",
+                "name": "Calix, Destiny's Hand"
+            },
+            {
+                "rank": 7,
+                "tier": "Great First Picks",
+                "name": "Kroxa, Titan of Death's Hunger"
+            },
+            {
+                "rank": 8,
+                "tier": "Great First Picks",
+                "name": "Eat to Extinction"
+            },
+            {
+                "rank": 9,
+                "tier": "Great First Picks",
+                "name": "Tectonic Giant"
+            },
+            {
+                "rank": 10,
+                "tier": "Great First Picks",
+                "name": "Shadowspear"
+            },
+            {
+                "rank": 11,
+                "tier": "Great First Picks",
+                "name": "Taranika, Akroan Veteran"
+            },
+            {
+                "rank": 12,
+                "tier": "Great First Picks",
+                "name": "Purphoros's Intervention"
+            },
+            {
+                "rank": 13,
+                "tier": "Great First Picks",
+                "name": "Ox of Agonas"
+            },
+            {
+                "rank": 14,
+                "tier": "Great First Picks",
+                "name": "Woe Strider"
+            },
+            {
+                "rank": 15,
+                "tier": "Great First Picks",
+                "name": "Setessan Champion"
+            },
+            {
+                "rank": 16,
+                "tier": "Great First Picks",
+                "name": "Thryx, the Sudden Storm"
+            },
+            {
+                "rank": 17,
+                "tier": "Great First Picks",
+                "name": "The First Iroan Games"
+            },
+            {
+                "rank": 18,
+                "tier": "Great First Picks",
+                "name": "Drag to the Underworld"
+            },
+            {
+                "rank": 19,
+                "tier": "Great First Picks",
+                "name": "Pharika's Spawn"
+            },
+            {
+                "rank": 20,
+                "tier": "Great First Picks",
+                "name": "Atris, Oracle of Half-Truths"
+            },
+            {
+                "rank": 21,
+                "tier": "Great First Picks",
+                "name": "Banishing Light"
+            },
+            {
+                "rank": 22,
+                "tier": "Great First Picks",
+                "name": "Bronzehide Lion"
+            },
+            {
+                "rank": 23,
+                "tier": "Great First Picks",
+                "name": "Mantle of the Wolf"
+            },
+            {
+                "rank": 24,
+                "tier": "Great First Picks",
+                "name": "Gravebreaker Lamia"
+            },
+            {
+                "rank": 25,
+                "tier": "Great First Picks",
+                "name": "Dryad of the Ilysian Grove"
+            },
+            {
+                "rank": 26,
+                "tier": "Great First Picks",
+                "name": "Kunoros, Hound of Athreos"
+            },
+            {
+                "rank": 27,
+                "tier": "Great First Picks",
+                "name": "Tymaret Calls the Dead"
+            },
+            {
+                "rank": 28,
+                "tier": "Great First Picks",
+                "name": "Labyrinth of Skophos"
+            },
+            {
+                "rank": 29,
+                "tier": "Great First Picks",
+                "name": "Thassa's Intervention"
+            },
+            {
+                "rank": 30,
+                "tier": "Great First Picks",
+                "name": "Fateful End"
+            },
+            {
+                "rank": 31,
+                "tier": "Great First Picks",
+                "name": "Aphemia, the Cacophony"
+            },
+            {
+                "rank": 32,
+                "tier": "Great First Picks",
+                "name": "Storm's Wrath"
+            },
+            {
+                "rank": 33,
+                "tier": "Great First Picks",
+                "name": "Shatter the Sky"
+            },
+            {
+                "rank": 34,
+                "tier": "Great First Picks",
+                "name": "Shimmerwing Chimera"
+            },
+            {
+                "rank": 35,
+                "tier": "Great First Picks",
+                "name": "Nessian Boar"
+            },
+            {
+                "rank": 36,
+                "tier": "Great First Picks",
+                "name": "Mire Triton"
+            },
+            {
+                "rank": 37,
+                "tier": "Great First Picks",
+                "name": "Gallia of the Endless Dance"
+            },
+            {
+                "rank": 38,
+                "tier": "Great First Picks",
+                "name": "Pheres-Band Brawler"
+            },
+            {
+                "rank": 39,
+                "tier": "Great First Picks",
+                "name": "Entrancing Lyre"
+            },
+            {
+                "rank": 40,
+                "tier": "Great First Picks",
+                "name": "Anax, Hardened in the Forge"
+            },
+            {
+                "rank": 41,
+                "tier": "Great First Picks",
+                "name": "Eutropia the Twice-Favored"
+            },
+            {
+                "rank": 42,
+                "tier": "Great First Picks",
+                "name": "Tymaret, Chosen from Death"
+            },
+            {
+                "rank": 43,
+                "tier": "Great First Picks",
+                "name": "Final Death"
+            },
+            {
+                "rank": 44,
+                "tier": "Great First Picks",
+                "name": "Staggering Insight"
+            },
+            {
+                "rank": 45,
+                "tier": "Great First Picks",
+                "name": "Mire's Grasp"
+            }
+        ]
+    },
+    {
+        "tier": "Above Average Cards",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Above Average Cards",
+                "name": "Heliod's Intervention"
+            },
+            {
+                "rank": 2,
+                "tier": "Above Average Cards",
+                "name": "Slaughter-Priest of Mogis"
+            },
+            {
+                "rank": 3,
+                "tier": "Above Average Cards",
+                "name": "Protean Thaumaturge"
+            },
+            {
+                "rank": 4,
+                "tier": "Above Average Cards",
+                "name": "Acolyte of Affliction"
+            },
+            {
+                "rank": 5,
+                "tier": "Above Average Cards",
+                "name": "Elspeth's Nightmare"
+            },
+            {
+                "rank": 6,
+                "tier": "Above Average Cards",
+                "name": "Renata, Called to the Hunt"
+            },
+            {
+                "rank": 7,
+                "tier": "Above Average Cards",
+                "name": "Haktos the Unscarred"
+            },
+            {
+                "rank": 8,
+                "tier": "Above Average Cards",
+                "name": "Wavebreak Hippocamp"
+            },
+            {
+                "rank": 9,
+                "tier": "Above Average Cards",
+                "name": "Arasta of the Endless Web"
+            },
+            {
+                "rank": 10,
+                "tier": "Above Average Cards",
+                "name": "Warden of the Chained"
+            },
+            {
+                "rank": 11,
+                "tier": "Above Average Cards",
+                "name": "Mischievous Chimera"
+            },
+            {
+                "rank": 12,
+                "tier": "Above Average Cards",
+                "name": "Storm Herald"
+            },
+            {
+                "rank": 13,
+                "tier": "Above Average Cards",
+                "name": "Iroas's Blessing"
+            },
+            {
+                "rank": 14,
+                "tier": "Above Average Cards",
+                "name": "Dreadful Apathy"
+            },
+            {
+                "rank": 15,
+                "tier": "Above Average Cards",
+                "name": "Hero of the Nyxborn"
+            },
+            {
+                "rank": 16,
+                "tier": "Above Average Cards",
+                "name": "Nessian Hornbeetle"
+            },
+            {
+                "rank": 17,
+                "tier": "Above Average Cards",
+                "name": "Mystic Repeal"
+            },
+            {
+                "rank": 18,
+                "tier": "Above Average Cards",
+                "name": "Destiny Spinner"
+            },
+            {
+                "rank": 19,
+                "tier": "Above Average Cards",
+                "name": "Careless Celebrant"
+            },
+            {
+                "rank": 20,
+                "tier": "Above Average Cards",
+                "name": "Devourer of Memory"
+            },
+            {
+                "rank": 21,
+                "tier": "Above Average Cards",
+                "name": "Purphoros, Bronze-Blooded"
+            },
+            {
+                "rank": 22,
+                "tier": "Above Average Cards",
+                "name": "Gray Merchant of Asphodel"
+            },
+            {
+                "rank": 23,
+                "tier": "Above Average Cards",
+                "name": "Daxos, Blessed by the Sun"
+            },
+            {
+                "rank": 24,
+                "tier": "Above Average Cards",
+                "name": "Inevitable End"
+            },
+            {
+                "rank": 25,
+                "tier": "Above Average Cards",
+                "name": "Alirios, Enraptured"
+            },
+            {
+                "rank": 26,
+                "tier": "Above Average Cards",
+                "name": "Warbriar Blessing"
+            },
+            {
+                "rank": 27,
+                "tier": "Above Average Cards",
+                "name": "Agonizing Remorse"
+            },
+            {
+                "rank": 28,
+                "tier": "Above Average Cards",
+                "name": "Siona, Captain of the Pyleas"
+            },
+            {
+                "rank": 29,
+                "tier": "Above Average Cards",
+                "name": "Voracious Typhon"
+            },
+            {
+                "rank": 30,
+                "tier": "Above Average Cards",
+                "name": "Furious Rise"
+            }
+        ]
+    },
+    {
+        "tier": "Solid Playables",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Solid Playables",
+                "name": "Impending Doom"
+            },
+            {
+                "rank": 2,
+                "tier": "Solid Playables",
+                "name": "Heliod's Pilgrim"
+            },
+            {
+                "rank": 3,
+                "tier": "Solid Playables",
+                "name": "Thassa's Oracle"
+            },
+            {
+                "rank": 4,
+                "tier": "Solid Playables",
+                "name": "Omen of the Forge"
+            },
+            {
+                "rank": 5,
+                "tier": "Solid Playables",
+                "name": "Callaphe, Beloved of the Sea"
+            },
+            {
+                "rank": 6,
+                "tier": "Solid Playables",
+                "name": "Nyx Herald"
+            },
+            {
+                "rank": 7,
+                "tier": "Solid Playables",
+                "name": "Rise to Glory"
+            },
+            {
+                "rank": 8,
+                "tier": "Solid Playables",
+                "name": "Commanding Presence"
+            },
+            {
+                "rank": 9,
+                "tier": "Solid Playables",
+                "name": "Omen of the Sea"
+            },
+            {
+                "rank": 10,
+                "tier": "Solid Playables",
+                "name": "Ilysian Caryatid"
+            },
+            {
+                "rank": 11,
+                "tier": "Solid Playables",
+                "name": "Wolfwillow Haven"
+            },
+            {
+                "rank": 12,
+                "tier": "Solid Playables",
+                "name": "Dreamstalker Manticore"
+            },
+            {
+                "rank": 13,
+                "tier": "Solid Playables",
+                "name": "Threnody Singer"
+            },
+            {
+                "rank": 14,
+                "tier": "Solid Playables",
+                "name": "Blight-Breath Catoblepas"
+            },
+            {
+                "rank": 15,
+                "tier": "Solid Playables",
+                "name": "Return to Nature"
+            },
+            {
+                "rank": 16,
+                "tier": "Solid Playables",
+                "name": "Nessian Wanderer"
+            },
+            {
+                "rank": 17,
+                "tier": "Solid Playables",
+                "name": "Loathsome Chimera"
+            },
+            {
+                "rank": 18,
+                "tier": "Solid Playables",
+                "name": "Lagonna-Band Storyteller"
+            },
+            {
+                "rank": 19,
+                "tier": "Solid Playables",
+                "name": "Enigmatic Incarnation"
+            },
+            {
+                "rank": 20,
+                "tier": "Solid Playables",
+                "name": "Blood Aspirant"
+            },
+            {
+                "rank": 21,
+                "tier": "Solid Playables",
+                "name": "Reverent Hoplite"
+            },
+            {
+                "rank": 22,
+                "tier": "Solid Playables",
+                "name": "Thirst for Meaning"
+            },
+            {
+                "rank": 23,
+                "tier": "Solid Playables",
+                "name": "Venomous Hierophant"
+            },
+            {
+                "rank": 24,
+                "tier": "Solid Playables",
+                "name": "Daybreak Chimera"
+            },
+            {
+                "rank": 25,
+                "tier": "Solid Playables",
+                "name": "Hydra's Growth"
+            },
+            {
+                "rank": 26,
+                "tier": "Solid Playables",
+                "name": "Heroes of the Revel"
+            },
+            {
+                "rank": 27,
+                "tier": "Solid Playables",
+                "name": "Treacherous Blessing"
+            },
+            {
+                "rank": 28,
+                "tier": "Solid Playables",
+                "name": "Witness of Tomorrows"
+            },
+            {
+                "rank": 29,
+                "tier": "Solid Playables",
+                "name": "Lampad of Death's Vigil"
+            },
+            {
+                "rank": 30,
+                "tier": "Solid Playables",
+                "name": "Underworld Charger"
+            },
+            {
+                "rank": 31,
+                "tier": "Solid Playables",
+                "name": "Heliod's Punishment"
+            },
+            {
+                "rank": 32,
+                "tier": "Solid Playables",
+                "name": "Favored of Iroas"
+            },
+            {
+                "rank": 33,
+                "tier": "Solid Playables",
+                "name": "Hero of the Pride"
+            },
+            {
+                "rank": 34,
+                "tier": "Solid Playables",
+                "name": "Archon of Falling Stars"
+            },
+            {
+                "rank": 35,
+                "tier": "Solid Playables",
+                "name": "Underworld Rage-Hound"
+            },
+            {
+                "rank": 36,
+                "tier": "Solid Playables",
+                "name": "Incendiary Oracle"
+            },
+            {
+                "rank": 37,
+                "tier": "Solid Playables",
+                "name": "Ichthyomorphosis"
+            }
+        ]
+    },
+    {
+        "tier": "Sometimes Playable",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Sometimes Playable",
+                "name": "Sentinel's Eyes"
+            },
+            {
+                "rank": 2,
+                "tier": "Sometimes Playable",
+                "name": "Sunmane Pegasus"
+            },
+            {
+                "rank": 3,
+                "tier": "Sometimes Playable",
+                "name": "Deny the Divine"
+            },
+            {
+                "rank": 4,
+                "tier": "Sometimes Playable",
+                "name": "Riptide Turtle"
+            },
+            {
+                "rank": 5,
+                "tier": "Sometimes Playable",
+                "name": "Stern Dismissal"
+            },
+            {
+                "rank": 6,
+                "tier": "Sometimes Playable",
+                "name": "Enemy of Enlightenment"
+            },
+            {
+                "rank": 7,
+                "tier": "Sometimes Playable",
+                "name": "Mogis's Favor"
+            },
+            {
+                "rank": 8,
+                "tier": "Sometimes Playable",
+                "name": "Skophos Warleader"
+            },
+            {
+                "rank": 9,
+                "tier": "Sometimes Playable",
+                "name": "Stampede Rider"
+            },
+            {
+                "rank": 10,
+                "tier": "Sometimes Playable",
+                "name": "Nylea's Forerunner"
+            },
+            {
+                "rank": 11,
+                "tier": "Sometimes Playable",
+                "name": "Traveler's Amulet"
+            },
+            {
+                "rank": 12,
+                "tier": "Sometimes Playable",
+                "name": "Hateful Eidolon"
+            },
+            {
+                "rank": 13,
+                "tier": "Sometimes Playable",
+                "name": "Relentless Pursuit"
+            },
+            {
+                "rank": 14,
+                "tier": "Sometimes Playable",
+                "name": "Hero of the Games"
+            },
+            {
+                "rank": 15,
+                "tier": "Sometimes Playable",
+                "name": "Sea God's Scorn"
+            },
+            {
+                "rank": 16,
+                "tier": "Sometimes Playable",
+                "name": "Skophos Maze-Warden"
+            },
+            {
+                "rank": 17,
+                "tier": "Sometimes Playable",
+                "name": "Alseid of Life's Bounty"
+            },
+            {
+                "rank": 18,
+                "tier": "Sometimes Playable",
+                "name": "Whirlwind Denial"
+            },
+            {
+                "rank": 19,
+                "tier": "Sometimes Playable",
+                "name": "Shoal Kraken"
+            },
+            {
+                "rank": 20,
+                "tier": "Sometimes Playable",
+                "name": "Omen of the Sun"
+            },
+            {
+                "rank": 21,
+                "tier": "Sometimes Playable",
+                "name": "Stinging Lionfish"
+            },
+            {
+                "rank": 22,
+                "tier": "Sometimes Playable",
+                "name": "One with the Stars"
+            },
+            {
+                "rank": 23,
+                "tier": "Sometimes Playable",
+                "name": "Cling to Dust"
+            },
+            {
+                "rank": 24,
+                "tier": "Sometimes Playable",
+                "name": "Temple of Enlightenment"
+            },
+            {
+                "rank": 25,
+                "tier": "Sometimes Playable",
+                "name": "Temple of Deceit"
+            },
+            {
+                "rank": 26,
+                "tier": "Sometimes Playable",
+                "name": "Temple of Malice"
+            },
+            {
+                "rank": 27,
+                "tier": "Sometimes Playable",
+                "name": "Temple of Abandon"
+            },
+            {
+                "rank": 28,
+                "tier": "Sometimes Playable",
+                "name": "Temple of Plenty"
+            },
+            {
+                "rank": 29,
+                "tier": "Sometimes Playable",
+                "name": "The Binding of the Titans"
+            },
+            {
+                "rank": 30,
+                "tier": "Sometimes Playable",
+                "name": "Hero of the Winds"
+            },
+            {
+                "rank": 31,
+                "tier": "Sometimes Playable",
+                "name": "Revoke Existence"
+            },
+            {
+                "rank": 32,
+                "tier": "Sometimes Playable",
+                "name": "Funeral Rites"
+            },
+            {
+                "rank": 33,
+                "tier": "Sometimes Playable",
+                "name": "Setessan Training"
+            },
+            {
+                "rank": 34,
+                "tier": "Sometimes Playable",
+                "name": "Indomitable Will"
+            },
+            {
+                "rank": 35,
+                "tier": "Sometimes Playable",
+                "name": "Omen of the Dead"
+            },
+            {
+                "rank": 36,
+                "tier": "Sometimes Playable",
+                "name": "Dreamshaper Shaman"
+            },
+            {
+                "rank": 37,
+                "tier": "Sometimes Playable",
+                "name": "Medomai's Prophecy"
+            },
+            {
+                "rank": 38,
+                "tier": "Sometimes Playable",
+                "name": "Skola Grovedancer"
+            },
+            {
+                "rank": 39,
+                "tier": "Sometimes Playable",
+                "name": "Nylea's Huntmaster"
+            },
+            {
+                "rank": 40,
+                "tier": "Sometimes Playable",
+                "name": "Transcendent Envoy"
+            },
+            {
+                "rank": 41,
+                "tier": "Sometimes Playable",
+                "name": "Soulreaper of Mogis"
+            },
+            {
+                "rank": 42,
+                "tier": "Sometimes Playable",
+                "name": "Aspect of Manticore"
+            },
+            {
+                "rank": 43,
+                "tier": "Sometimes Playable",
+                "name": "Flummoxed Cyclops"
+            },
+            {
+                "rank": 44,
+                "tier": "Sometimes Playable",
+                "name": "Eidolon of Obstruction"
+            },
+            {
+                "rank": 45,
+                "tier": "Sometimes Playable",
+                "name": "Oread of Mountain's Blaze"
+            },
+            {
+                "rank": 46,
+                "tier": "Sometimes Playable",
+                "name": "The Triumph of Anax"
+            },
+            {
+                "rank": 47,
+                "tier": "Sometimes Playable",
+                "name": "Dawn Evangel"
+            },
+            {
+                "rank": 48,
+                "tier": "Sometimes Playable",
+                "name": "Glimpse of Freedom"
+            },
+            {
+                "rank": 49,
+                "tier": "Sometimes Playable",
+                "name": "The Birth of Meletis"
+            },
+            {
+                "rank": 50,
+                "tier": "Sometimes Playable",
+                "name": "Brine Giant"
+            },
+            {
+                "rank": 51,
+                "tier": "Sometimes Playable",
+                "name": "Pious Wayfarer"
+            },
+            {
+                "rank": 52,
+                "tier": "Sometimes Playable",
+                "name": "Rage-Scarred Berserker"
+            },
+            {
+                "rank": 53,
+                "tier": "Sometimes Playable",
+                "name": "Moss Viper"
+            },
+            {
+                "rank": 54,
+                "tier": "Sometimes Playable",
+                "name": "Naiad of Hidden Coves"
+            },
+            {
+                "rank": 55,
+                "tier": "Sometimes Playable",
+                "name": "Leonin of the Lost Pride"
+            },
+            {
+                "rank": 56,
+                "tier": "Sometimes Playable",
+                "name": "Karametra's Blessing"
+            },
+            {
+                "rank": 57,
+                "tier": "Sometimes Playable",
+                "name": "Nyxborn Courser"
+            },
+            {
+                "rank": 58,
+                "tier": "Sometimes Playable",
+                "name": "Dalakos, Crafter of Wonders"
+            },
+            {
+                "rank": 59,
+                "tier": "Sometimes Playable",
+                "name": "Starlit Mantle"
+            },
+            {
+                "rank": 60,
+                "tier": "Sometimes Playable",
+                "name": "Final Flare"
+            },
+            {
+                "rank": 61,
+                "tier": "Sometimes Playable",
+                "name": "Hyrax Tower Scout"
+            },
+            {
+                "rank": 62,
+                "tier": "Sometimes Playable",
+                "name": "Wings of Hubris"
+            },
+            {
+                "rank": 63,
+                "tier": "Sometimes Playable",
+                "name": "Triumphant Surge"
+            },
+            {
+                "rank": 64,
+                "tier": "Sometimes Playable",
+                "name": "Soul-Guide Lantern"
+            },
+            {
+                "rank": 65,
+                "tier": "Sometimes Playable",
+                "name": "Discordant Piper"
+            },
+            {
+                "rank": 66,
+                "tier": "Sometimes Playable",
+                "name": "Vexing Gull"
+            },
+            {
+                "rank": 67,
+                "tier": "Sometimes Playable",
+                "name": "Scavenging Harpy"
+            },
+            {
+                "rank": 68,
+                "tier": "Sometimes Playable",
+                "name": "Sweet Oblivion"
+            },
+            {
+                "rank": 69,
+                "tier": "Sometimes Playable",
+                "name": "Memory Drain"
+            },
+            {
+                "rank": 70,
+                "tier": "Sometimes Playable",
+                "name": "Nyxborn Marauder"
+            }
+        ]
+    }
 ]
