@@ -123,8 +123,8 @@ class TopPicks extends React.Component {
     const rows = [];
     const cards = [...cardsOfTier];
     while (cards.length > 0) { rows.push(cards.splice(0, colMax)); }
-    return Object.keys(rows).map(index => (
-      <Row key={rows[index][0].image + rows[index][1].image}>
+    return rows.map((row, index) => (
+      <Row key={row[0].image}>
         {this.rowOfCards(rows[index])}
       </Row>
     ));
