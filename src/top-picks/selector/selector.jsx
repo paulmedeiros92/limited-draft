@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './selector.css';
 import { ButtonToolbar } from 'react-bootstrap';
 import Link from './link/link';
-import pickData from '../../resources/thb-tier-list.json';
+import pickData from '../../set-data/thb.json';
 import Search from './search/search';
 
 function makeLinks(showTier, tiers, selectedTier, loadToggle) {

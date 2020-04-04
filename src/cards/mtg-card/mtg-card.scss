@@ -1,0 +1,16 @@
+.pick-card {
+    border-radius: .5em;
+    height: 15rem;
+    img {
+        height: 100%;
+        border-radius: .5em;
+    }
+    &:hover {
+        cursor: pointer;
+        box-shadow: 8px 8px 5px grey;
+    }
+}
+.col {
+    margin-top: .5rem;
+    flex-grow: 0;
+}

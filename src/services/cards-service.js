@@ -2,9 +2,7 @@ const baseUrl = 'https://api.scryfall.com';
 
 function handleResult(result, tier) {
   const cardInfo = result.data.map((cardResult) => {
-    const found = tier.cards.find((card) => {
-      return card.name.replace(/\W/gi, '') === cardResult.name.replace(/\W/gi, '');
-    });
+    const found = tier.cards.find(card => cardResult.name.replace(/\W/gi, '').includes(card.name.replace(/\W/gi, '')));
     return {
       name: cardResult.name,
       image: cardResult.image_uris.normal,

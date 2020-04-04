@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './mtg-card.css';
+import './mtg-card.scss';
 
 function MtgCard({
   cardUri, cardTier, cardRank, toggleCard, displayVisibility, loadTick,
@@ -10,7 +10,9 @@ function MtgCard({
     toggleCard(cardUri, cardTier, cardRank, displayVisibility);
   };
   return (
-    <img src={cardUri} onClick={toggleFunc} alt="beetle" onLoad={loadTick} />
+    <div className="pick-card">
+      <img src={cardUri} onClick={toggleFunc} alt="beetle" onLoad={loadTick} />
+    </div>
   );
 }
 

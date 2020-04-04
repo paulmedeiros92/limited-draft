@@ -6,9 +6,8 @@ import MtgCard from '../cards/mtg-card/mtg-card';
 import './top-picks.scss';
 import DisplayCard from '../cards/display-card/display-card';
 import Selector from './selector/selector';
-import TierData from '../resources/thb-tier-list.json';
-import CardService from '../cards/cards-service';
-import SearchService from './selector/search/search-service';
+import CardService from '../services/cards-service';
+import SearchService from '../services/search-service';
 
 class TopPicks extends React.Component {
   static scrollTop() {
@@ -80,7 +79,7 @@ class TopPicks extends React.Component {
     this.loadToggle = this.loadToggle.bind(this);
     this.loadTick = this.loadTick.bind(this);
 
-    Promise.all(TierData.map(tier => CardService.fetchCards(tier)))
+    Promise.all(props.setPicks.map(tier => CardService.fetchCards(tier)))
       .then((results) => {
         const data = {};
         results.forEach((result) => {
@@ -153,7 +152,7 @@ class TopPicks extends React.Component {
       loading, cardsOfTier, selectedTier, cardTiers, displaySearchFilter, displayCard,
       hasScrolled,
     } = this.state;
-    const cards = this.numberOfRows(cardsOfTier, 5);
+    const cards = cardsOfTier ? this.numberOfRows(cardsOfTier, 5) : '';
     return (
       <div className="top-picks-content">
         <Selector
