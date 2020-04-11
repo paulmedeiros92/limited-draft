@@ -20,7 +20,7 @@ function TopPicksHeader({ changeSet, selectedSet, sets }) {
   return (
     <div className="top-picks-header">
       <Navbar bg="light" variant="light" expand="lg" className="mr-auto">
-        <Navbar.Brand href="order">MTG Buddy</Navbar.Brand>
+        <Navbar.Brand href="/">MTG Buddy</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

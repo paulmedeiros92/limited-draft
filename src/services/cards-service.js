@@ -16,7 +16,7 @@ function handleResult(result, tier) {
 const CardService = {
   // do something on error
   fetchCards(tier) {
-    const cards = tier.cards.map(card => ({ name: card.name }));
+    const identifiers = tier.cards.map(card => ({ name: card.name }));
     return new Promise((resolve, reject) => {
       fetch(`${baseUrl}/cards/collection`, {
         mode: 'cors',
@@ -24,7 +24,7 @@ const CardService = {
         headers: {
           'content-type': 'application/json',
         },
-        body: JSON.stringify({ identifiers: cards }),
+        body: JSON.stringify({ identifiers }),
       })
         .then(res => res.json())
         .then(

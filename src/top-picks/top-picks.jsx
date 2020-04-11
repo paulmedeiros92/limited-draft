@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {
   Row, Col, Spinner, Button,
 } from 'react-bootstrap';
@@ -176,4 +177,14 @@ class TopPicks extends React.Component {
   }
 }
 
+TopPicks.propTypes = {
+  setPicks: PropTypes.arrayOf({
+    cards: PropTypes.arrayOf({
+      name: PropTypes.string,
+      rank: PropTypes.number,
+      tier: PropTypes.string,
+    }),
+    tier: PropTypes.string.isRequired,
+  }).isRequired,
+};
 export default TopPicks;

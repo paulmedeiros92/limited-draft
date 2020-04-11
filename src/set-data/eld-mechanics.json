@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Adventure",
+    "description": "You may cast the adventure portion of a card to send that creature on an adventure. Doing this exiles the creature on resolution. In exile the creature may be cast.",
+    "citation": "https://mtg.gamepedia.com/Adventure",
+    "exampleCards": [
+      {
+        "rank": 3,
+        "tier": "Incredible Bombs",
+        "name": "Murderous Rider"
+      },
+      {
+        "rank": 1,
+        "tier": "Great First Picks",
+        "name": "Realm-Cloaked Giant"
+      },
+      {
+        "rank": 3,
+        "tier": "Great First Picks",
+        "name": "Brazen Borrower"
+      }
+    ]
+  },
+  {
+    "title": "Adamant",
+    "description": "Spells with Adamant have additional or alternative effects if you cast the spell with three or more mana of one color.",
+    "citation": "https://mtg.gamepedia.com/Adamant",
+    "exampleCards": [
+      {
+        "rank": 35,
+        "tier": "Great First Picks",
+        "name": "Slaying Fire"
+      },
+      {
+        "rank": 29,
+        "tier": "Above Average Cards",
+        "name": "Searing Barrage"
+      },
+      {
+        "rank": 31,
+        "tier": "Above Average Cards",
+        "name": "Outmuscle"
+      }
+    ]
+  },
+  {
+    "title": "Food",
+    "description": "A token in which you may pay 2 mana, tap, and sacrifice this artifact to gain 3 life.",
+    "citation": "https://mtg.gamepedia.com/Food",
+    "exampleCards": [
+      {
+        "rank": 6,
+        "tier": "Great First Picks",
+        "name": "Wicked Wolf"
+      },
+      {
+        "rank": 8,
+        "tier": "Great First Picks",
+        "name": "Feasting Troll King"
+      },
+      {
+        "rank": 18,
+        "tier": "Great First Picks",
+        "name": "Gilded Goose"
+      }
+    ]
+  }
+]

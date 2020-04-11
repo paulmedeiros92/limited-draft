@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Constellation",
+    "description": "A constellation ability triggers every time an enchantment enters the battlefield under your control.",
+    "citation": "https://mtg.gamepedia.com/Constellation",
+    "exampleCards": [
+      {
+        "rank": 10,
+        "tier": "Incredible Bombs",
+        "name": "Archon of Sun's Grace"
+      },
+      {
+        "rank": 15,
+        "tier": "Great First Picks",
+        "name": "Setessan Champion"
+      },
+      {
+        "rank": 41,
+        "tier": "Great First Picks",
+        "name": "Eutropia the Twice-Favored"
+      }
+    ]
+  },
+  {
+    "title": "Escape",
+    "description": "You may cast an escape card from your graveyard. The Escape cost is specified near the keyword by an amount of mana and a number of other cards you must exile from your graveyard.",
+    "citation": "https://mtg.gamepedia.com/Escape",
+    "exampleCards": [
+      {
+        "rank": 3,
+        "tier": "Incredible Bombs",
+        "name": "Polukranos, Unchained"
+      },
+      {
+        "rank": 9,
+        "tier": "Incredible Bombs",
+        "name": "Uro, Titan of Nature's Wrath"
+      },
+      {
+        "rank": 13,
+        "tier": "Incredible Bombs",
+        "name": "Phoenix of Ash"
+      }
+    ]
+  },
+  {
+    "title": "Devotion",
+    "description": "Devotion to a color is equal to the number of mana symbols of the specified color in the mana costs of permanents you control.",
+    "citation": "https://mtg.gamepedia.com/Devotion",
+    "exampleCards": [
+      {
+        "rank": 5,
+        "tier": "Incredible Bombs",
+        "name": "Thassa, Deep-Dwelling"
+      },
+      {
+        "rank": 6,
+        "tier": "Incredible Bombs",
+        "name": "Heliod, Sun-Crowned"
+      },
+      {
+        "rank": 8,
+        "tier": "Incredible Bombs",
+        "name": "Nylea, Keen-Eyed"
+      }
+    ]
+  },
+  {
+    "title": "Sagas",
+    "description": "As a sage enters the battlefield, its controller puts a lore count on it. Immediately after your draw step, ypu put another lore counter on each Saga you control. For each chapter an ability triggers. Once a lore counter is greater than or equal to the number of chapters, the controllers owner sacrifices the sage.",
+    "citation": "https://mtg.gamepedia.com/Saga",
+    "exampleCards": [
+      {
+        "rank": 2,
+        "tier": "Incredible Bombs",
+        "name": "Kiora Bests the Sea God"
+      },
+      {
+        "rank": 1,
+        "tier": "Great First Picks",
+        "name": "Elspeth Conquers Death"
+      },
+      {
+        "rank": 5,
+        "tier": "Great First Picks",
+        "name": "The Akroan War"
+      }
+    ]
+  }
+]

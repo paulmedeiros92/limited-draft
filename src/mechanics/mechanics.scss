@@ -1,0 +1,17 @@
+.mechanics {
+  .mechanic {
+    margin: 2rem;
+    .title-row {
+      font-size: 1.23rem;
+      font-weight: 700;
+    }
+    .examples {
+      position: relative;
+      .learn-more {
+        position: absolute;
+        bottom: 0;
+        left: 1rem;
+      }
+    }
+  }
+}

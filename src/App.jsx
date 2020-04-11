@@ -25,7 +25,7 @@ class App extends React.Component {
       selectedSet: {
         name: '',
         uri: '',
-        code: '',
+        code: 'thb',
       },
       sets: [],
       setPicks: [],
@@ -40,13 +40,15 @@ class App extends React.Component {
   }
 
   render() {
-    const { selectedSet, sets, setPicks } = this.state;
+    const {
+      selectedSet, sets, setPicks,
+    } = this.state;
     return (
       <main>
         <TopPicksHeader selectedSet={selectedSet} sets={sets} changeSet={this.changeSet} />
         <Switch>
           <Route exact path="/" component={() => <TopPicks setPicks={setPicks} />} />
-          <Route path="/mechanics" component={Mechanics} />
+          <Route path="/mechanics" component={() => <Mechanics selectedSet={selectedSet} />} />
           <Route path="/archetypes" component={Archetypes} />
           <Route path="/removal" component={Removal} />
         </Switch>
