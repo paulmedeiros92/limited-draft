@@ -63,7 +63,7 @@ class Mechanics extends React.Component {
             <Row>
               <Col md={3}>
                 {mechanic.description}
-                <a className="learn-more" href={mechanic.citation}>Learn More</a>
+                <a className="learn-more" target="_blank" rel="noopener noreferrer" href={mechanic.citation}>Learn More</a>
               </Col>
               <Col md={9}>
                 <Row>

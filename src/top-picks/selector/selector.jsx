@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './selector.css';
-import { ButtonGroup, ButtonToolbar } from 'react-bootstrap';
+import { ButtonToolbar } from 'react-bootstrap';
 import Link from './link/link';
 import pickData from '../../set-data/thb.json';
 import Search from './search/search';
@@ -25,9 +25,7 @@ function Selector({
   return (
     <div className="nav-div">
       <ButtonToolbar>
-        <ButtonGroup>
-          {makeLinks(showTier, pickData, selectedTier, loadToggle)}
-        </ButtonGroup>
+        {makeLinks(showTier, pickData, selectedTier, loadToggle)}
         <Search
           search={search}
           displaySearchFilter={displaySearchFilter}
