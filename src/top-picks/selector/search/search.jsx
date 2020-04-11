@@ -24,6 +24,7 @@ function Search({
     <InputGroup className="search">
       <FormControl placeholder="Search" onKeyDown={keyPress} />
       <DropdownButton
+        as={InputGroup.Append}
         title={displaySearchFilter.filter}
         variant="outline-secondary"
       >

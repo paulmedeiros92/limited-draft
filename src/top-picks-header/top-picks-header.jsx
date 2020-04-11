@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './top-picks-header.css';
+import './top-picks-header.scss';
 import {
   Navbar, Nav, Dropdown,
 } from 'react-bootstrap';
@@ -24,9 +24,8 @@ function TopPicksHeader({ changeSet, selectedSet, sets }) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/">Pick Order</Nav.Link>
-            <Nav.Link href="/mechanics">Mechanics</Nav.Link>
             <Nav.Link href="/archetypes">Archetypes</Nav.Link>
+            <Nav.Link href="/mechanics">Mechanics</Nav.Link>
             <Nav.Link href="/removal">Removal</Nav.Link>
           </Nav>
           <Nav>
