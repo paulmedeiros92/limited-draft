@@ -25,7 +25,7 @@ function TopPicksHeader({ changeSet, selectedSet, sets }) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">Pick Order</Nav.Link>
-            <Nav.Link href="/mechanics">Set Mechanics</Nav.Link>
+            <Nav.Link href="/mechanics">Mechanics</Nav.Link>
             <Nav.Link href="/archetypes">Archetypes</Nav.Link>
             <Nav.Link href="/removal">Removal</Nav.Link>
           </Nav>
