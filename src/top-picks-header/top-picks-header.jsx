@@ -26,7 +26,7 @@ function TopPicksHeader({ changeSet, selectedSet, sets }) {
           <Nav className="mr-auto">
             <Nav.Link href="/archetypes">Archetypes</Nav.Link>
             <Nav.Link href="/mechanics">Mechanics</Nav.Link>
-            <Nav.Link href="/removal">Removal</Nav.Link>
+            <Nav.Link href="/removal" disabled>Removal</Nav.Link>
           </Nav>
           <Nav>
             <Dropdown>

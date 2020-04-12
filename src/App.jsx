@@ -23,7 +23,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       selectedSet: {
-        name: '',
+        name: 'Theros Beyond Death',
         uri: '',
         code: 'thb',
       },
@@ -49,7 +49,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={() => <TopPicks setPicks={setPicks} />} />
           <Route path="/mechanics" component={() => <Mechanics selectedSet={selectedSet} />} />
-          <Route path="/archetypes" component={Archetypes} />
+          <Route path="/archetypes" component={() => <Archetypes selectedSet={selectedSet} />} />
           <Route path="/removal" component={Removal} />
         </Switch>
         <Donate />

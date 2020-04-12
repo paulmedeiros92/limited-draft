@@ -1,0 +1,136 @@
+[
+  {
+    "tier": 1,
+    "archetypes": [
+      {
+        "title": "Escape Midrange",
+        "tier": 1,
+        "colors": ["{B}", "{G}"],
+        "description": [
+          "This is the escape deck. Green-black is your classic Limited midrange, with the twist that it values dumping cards in its graveyard with Relentless Pursuit and Funeral Rites to allow you to escape multiple times a game.",
+          "This is the deck where you’re most likely to play more than 40 cards. Green-black is one of the best examples of a good midrange deck we’ve seen in Limited in a while. It’s good at gumming up the ground and stopping early aggression but can also out-grind many of the blue control decks in the format.",
+          "As boring as it sounds, generally you’re just taking good black or green cards and then moving in. So, many of the black and green commons are conducive to this strategy and you naturally end up in a synergistic deck a lot of the time.",
+          "The deck is easy to get into, can support multiple drafters at a table, can be built with only commons, and has an absurdly high ceiling if you open or get passed the good rare or uncommons. Aside from blue-red which can often out-tempo this deck and win in the air, I don’t consider it to have any markedly bad matchups and it’s favored against decks who lean hard into aggression or late game control. It sometimes struggles with mirrors, as you may get paired against a deck that’s going slightly bigger than you."
+        ]
+      },
+      {
+        "title": "Control",
+        "tier": 1,
+        "colors": ["{U}", "{B}"],
+        "description": [
+          "This your classic blue-black control deck. You want the game to go as long possible by playing cheap blockers and removing hard to block threats. The base blue versions of this deck tend play almost exclusively at instant speed and highly value Riptide Turtle and Deny the Divine.",
+          "This deck has some problems winning the game sometimes, though. You really want a good rare or mythic to get the job done but if you don’t pick up one of those, a single copy of Sweet Oblivion can get you there.",
+          "My most common way to get into this deck is picking up a few of the good black removal spells early as they’re likely to get cut, and then grabbing the blue cards coming my way after. You get to play a base blue deck with the early removal spells you picked up supplementing your counter spells and early blockers",
+          "Riptide Turtle is the truth in this deck—and by the truth I mean close to integral to its success. The card looks underwhelming but being able to “remove” escape creatures in a sense without sending them to the graveyard is big game. Deny the Divine is a card I want four of if I have enough things to do at instant speed, but Memory Drain does the trick in a pinch.",
+          "Like green-black, it can mostly be built from just Commons and Uncommons. The deck can answer close to anything, though it needs Deny the Divine or exile-based removal for matchups with escape cards. It also uses lots of commons like Riptide Turtle that other decks don’t want."
+        ]
+      },
+      {
+        "title": "Heroic",
+        "tier": 1,
+        "colors": ["{R}", "{W}"],
+        "description": [
+          "Red-white heroic is trying to go wide with creatures or token makers, deal some early damage, and then finish off the game by casting a spell or two that targets one of the deck’s many “hero” cards. I’d classify this deck as the most aggressive deck in the format. RW? What a surprise!",
+          "When I’m drafting white aggressive decks in this format, I generally start off close to mono-white and then try to pick up a secondary color after seeing what’s open. Often, I’ll be passed Hero of the Nyxborn which prompts me to move in and want to take all the heroic creatures slightly higher.",
+          "Wrap in Flames is one of the best cards in a good version of this deck. So often, the game ends when you cast the card targeting one of your heroes and two of your opponent’s blockers. My red-white decks generally want two to three copies of Wrap if I have more than five heroes. Reverent Hoplite isn’t a card you can usually wheel, but it’s great in this deck. Sentinel’s Eyes is already a good card in the white decks but is even better here as it’s a way to repeatedly target your heroes.",
+          "In a format where a less-than-modest percentage of decks are casting Divination variants on turn three and planning for what’s going to happen on turn 10, RW has a good matchup against a lot of what you’ll see in the format. It struggles a bit against green-black if it doesn’t have a tight enough curve out, but even then, Wrap in Flames can easily break through a board where the opponent has just stabilized. A common thread of these tier 1 decks is that a good version of them exists at Common, and RW is no different."
+        ]
+      },
+      {
+        "title": "Attrition",
+        "tier": 1,
+        "colors": ["{B}", "{R}"],
+        "description": [
+          "Red-black is one of my favorite archetypes in a lot of formats because it can beat down and punish an already-stumbling opponent while also can grinding into the late game, and that’s exactly what this iteration of RB does. You can force through your good 2-drops like Underworld Rage-Hound using cheap removal, or just let them trade off and use them as fodder for your escape cards later.",
+          "This deck has a mild sacrifice theme but its not very pronounced most times. If you end up with enough cheap sacrifice outlets, you may run a few copies of Portent of Betrayal. It’s often superfluous with the number of removal spells you have access to in the color pair, though.",
+          "A lot of time, you wind up in this deck just by picking up a collection of good red and black cards. Depending on the cards you’re passed, you can lean hard or not at all into the sacrifice theme. The deck can also end up more aggressive if you draft a lower curve, so understand the direction you’re leaning as you draft.",
+          "You definitely want some version of Portent of Betrayal in this deck. Final Flare is a card you’ll happily play two copies of, especially if you have a few omens lying around. Discordant Piper isn’t really a great card, but if there’s a home for it anywhere, it’d be in this deck.",
+          "Once again, the deck is easily draft-able with just commons, and your average RB deck is reasonably powerful. When I play red-black, I never feel like there’s a matchup that I don’t at least have a fighting chance against. I’d describe the deck’s matchups to be similar to Jund in Modern when Jund was good. You never feel like a dog, but you also never feel like you’re a shoo-in when you see what your opponent is playing."
+        ]
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "archetypes": [
+      {
+        "title": "Delver",
+        "tier": 2,
+        "colors": ["{U}", "{R}"],
+        "description": [
+          "Blue-red is trying to stick an evasive threat and back it up with tempo plays and cheap removal. The deck plays out similarly to Delver decks in Legacy: once it lands a threat, it’s unlikely to tap out often. Your best Delver-like threat is Mischievous Chimera, but Vexing Gull does a decent impression as well.",
+          "Aside from generally good blue and red cards, Mischievous Chimera is the reason to be in the deck. It provides a nice amount of card selection and a reasonably fast clock.",
+          "Vexing Gull and Stern Dismissal are cards this deck will happily play multiple copies of that many of the other blue decks in the format don’t generally want.",
+          "When this deck comes together, it feels like a tier 1 deck. But when the best versions of it rely on the table opening a specific uncommon and said uncommon also making its way to you, you’re in a spot where this deck’s not going to be present at every 8-person pod."
+        ]
+      },
+      {
+        "title": "Orzhov",
+        "tier": 2,
+        "colors": ["{B}", "{W}"],
+        "description": [
+          "White-black is a deck that’s sort of hard to pin. It’s sort of like red-black in the sense that it’s just good cards of the deck’s color with some minor subthemes. It can lean more aggressive if you’re base white or more controlling if you’re base black, and sometimes has an aura subtheme if you pick up uncommons like Hateful Eidolon and Rise to Glory.",
+          "The most synergistic thing other than auras that you can do in WB is to draft a few combos. Omen of the Dead plus Lagonna-Band Storyteller means you can never deck. Omen of the Dead paired with Archon of Falling Stars lets you infinitely recur the flying cow. And Archon of Falling Stars matched up with Minion’s Return plus Lampad of Death’s Vigil is life drain equal to the amount of mana you have.",
+          "Out of all the archetypes in the format, this is the most “I just picked up good color1 and color2 cards”. A mid-pack Rise to Glory will push me towards the deck but not so much that I’m locking it in until I know both colors are open.",
+          "Hateful Eidolon excels in this deck and can draw you a ton of cards in tandem with Mogis’s Favor. Dawn Evangel goes from “generally worse than Nyxborn Courser” to a decent value engine.",
+          "I have this deck in tier 2 simply because it lacks identity. It’s good, and just like RB I always feel like I have a puncher’s chance, but it’s not something I’m actively looking to draft unless the stars align."
+        ]
+      },
+      {
+        "title": "Beatdown",
+        "tier": 2,
+        "colors": ["{R}", "{G}"],
+        "description": [
+          "This is one of the more aggressive decks in the format because it basically goes “here is a very large creature, I hope you can’t block it” starting early in the game. This is classic red-green beatdown with under-costed beaters and combat tricks to force your creatures through after the inevitable double blocks your opponent is going to have to make.",
+          "There is sometimes a “4-power matters” theme, but that’s mostly incidental. Your creatures are generally just large and sometimes you’ll have cards that reward you for them being, well, large.",
+          "A mid-pack Warden of the Chain or an early Nessian Hornbeetle often prompts me to bias my picks towards RG. Both cards are fine on their own and are two of the only cards that make me lean hard into the 4-power matters theme.",
+          "Ilysian Caryatid is at it’s best in this deck. There are some real explosive starts you can have when you play a 4-powered 3-drop on curve or play a 4-mana card on turn three and have six mana on turn four. Nylea’s Forerunner is a card I want a copy of in my RG decks because your creatures really appreciate trample. Setessan Training works here as well.",
+          "When this deck does its thing and curves out it feels almost busted, but one bounce or cheap removal spell often feels like the game is over. The deck has issues against counter spell-heavy blue decks since it’s very much “one spell a turn”. It’s quite good against white aggro decks since it brick-walls their creatures at every point on the curve, though."
+        ]
+      },
+      {
+        "title": "Dream Trawler",
+        "tier": 2,
+        "colors": ["{U}", "{W}"],
+        "description": [
+          "I have UW as two different decks: the ones with Dream Trawler and the ones without. The ones with it general have one goal in mind and that’s “survive until you get Dream Trawler and then cast it”. Dream Trawlers only want one thing, am I right?",
+          "Drafters who aren’t so lucky as to open the card are resigned to playing as a classic UW fliers deck. Staggering Insight is a powerful card that leads you to playing a protect-the-queen style game with Karametra’s Blessing and Starlit Mantle to protect your staggeringly insightful creature.",
+          "The Dream Trawler variant: Open or get passed Dream Trawler and don’t move off it unless blue and white are both near impossible to draft in your seat.",
+          "The Staggering Insight variant: Again, this deck’s namesake card is what pulls me in. If I’m base blue or white with no clear direction, I’ll pick up an Insight and move in.",
+          "In the Dream Trawler variants, you’ll play a deck of entirely defensive cards like Nyxborn Seaguard and Rumbling Sentry as your Trawler is all you need to win the game most times.",
+          "Karametra’s Blessing and Starlit Mantle are cards you want in the Staggering Insight version of the deck.",
+          "I might have this deck too low. Both versions are great when you get them, but both are reliant on opening or getting passed specific cards and I’m wary to put a deck like that in tier 1."
+        ]
+      },
+      {
+        "title": "Constellation",
+        "tier": 2,
+        "colors": ["{U}", "{G}"],
+        "description": [
+          "Again, I have this deck split into two separate options: ones that have a Constellation theme, and ones that are trying to play multiple colors.",
+          "The Constellation variant is fairly aggressive, planning to beatdown with large creatures and send them flying with Eutropia the Twice-Favored. As I mentioned when talking about constellation as a mechanic, most of the payoffs are weak so you generally aren’t relying on them to be the core of your deck. Instead, you’re just playing generally good green and blue cards. This variant of the deck doesn’t really want counter spells like many of the blue decks in this format do because it’s generally tapping out each turn.",
+          "The second variant of this deck looks to use blue and green as a base for a three- or four-color deck by splashing powerful cards. It’s doesn’t have a strong identity and is generally just trying to jam as much power as it can into its 40-card deck.",
+          "Eutropia the Twice-Favored is the headliner here and the main reason to find yourself in the Constellation beatdown version of the deck.",
+          "Any cheap enchantment goes up in value here. The more times you can trigger constellation the better.",
+          "Both variants of the deck require specific uncommons to work, and even when you get two copies of Eutropia, it doesn’t by any means feel like it’s unbeatable."
+        ]
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "archetypes": [
+      {
+        "title": "Auras",
+        "tier": 3,
+        "colors": ["{G}", "{W}"],
+        "description": [
+          "This one is straight-forward: play some cheap creatures, put some Auras on them, and beatdown while you protect them with Karametra’s Blessing.",
+          "I’d recommend not getting into this deck unless you have strong incentives from both green and white. The deck isn’t bad, but it’s easy enough to bias yourself into a color pair that has a bit more going for it.",
+          "Setessan Training and Sentinel’s Eyes are both cards that this deck appreciates that you can try to wheel.",
+          "It both requires somewhat niche cards and isn’t all that impressive when it does come together. I haven’t found that this deck ever feels like more than the sum of its parts. As a final dagger to it, its signpost uncommon Siona, Captain of the Pyleas is aggressively medium and is, at times, just plain worse than Heliod’s Pilgrim."
+        ]
+      }
+    ]
+  }
+]
