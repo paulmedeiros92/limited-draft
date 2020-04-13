@@ -3,7 +3,7 @@ import './donate.css';
 
 function Donate() {
   return (
-    <a title="Drafting Money!" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=heavenscloud60%40gmail.com&item_name=MTG+Buddy&currency_code=USD&source=url">
+    <a title="Drafting Money!" href="https://paypal.me/mtgBuddy">
       <img className="donate" src="donate.png" alt="No Money :'(" />
     </a>
   );
