@@ -1,0 +1,39 @@
+[
+  {
+    "tier": 1,
+    "archetypes": [
+      {
+        "title": "Humans",
+        "tier": 1,
+        "colors": ["{B}","{W}"],
+        "description": [
+          "Coming Soon: Once the community has had more time to play Ikoria"
+        ]
+      },
+      {
+        "title": "Flyers",
+        "tier": 1,
+        "colors": ["{U}", "{W}"],
+        "description": [
+          "Coming Soon: Once the community has had more time to play Ikoria"
+        ]
+      },
+      {
+        "title": "Cycling",
+        "tier": 1,
+        "colors": ["{R}", "{W}"],
+        "description": [
+          "Coming Soon: Once the community has had more time to play Ikoria"
+        ]
+      },
+      {
+        "title": "Graveyard",
+        "tier": 1,
+        "colors": ["{B}", "{G}"],
+        "description": [
+          "Coming Soon: Once the community has had more time to play Ikoria"
+        ]
+      }
+    ]
+  }
+]

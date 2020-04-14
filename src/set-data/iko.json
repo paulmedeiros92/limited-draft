@@ -1,0 +1,1157 @@
+[
+  {
+      "tier": "Incredible Bombs",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Incredible Bombs",
+              "name": "Vivien, Monsters' Advocate"
+          },
+          {
+              "rank": 2,
+              "tier": "Incredible Bombs",
+              "name": "Inspired Ultimatum"
+          },
+          {
+              "rank": 3,
+              "tier": "Incredible Bombs",
+              "name": "Quartzwood Crasher"
+          },
+          {
+              "rank": 4,
+              "tier": "Incredible Bombs",
+              "name": "Snapdax, Apex of the Hunt"
+          },
+          {
+              "rank": 5,
+              "tier": "Incredible Bombs",
+              "name": "Kogla, the Titan Ape"
+          },
+          {
+              "rank": 6,
+              "tier": "Incredible Bombs",
+              "name": "Everquill Phoenix"
+          },
+          {
+              "rank": 7,
+              "tier": "Incredible Bombs",
+              "name": "Dirge Bat"
+          },
+          {
+              "rank": 8,
+              "tier": "Incredible Bombs",
+              "name": "Illuna, Apex of Wishes"
+          },
+          {
+              "rank": 9,
+              "tier": "Incredible Bombs",
+              "name": "Nethroi, Apex of Death"
+          },
+          {
+              "rank": 10,
+              "tier": "Incredible Bombs",
+              "name": "Lukka, Coppercoat Outcast"
+          }
+      ]
+  },
+  {
+      "tier": "Great First Picks",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Great First Picks",
+              "name": "Song of Creation"
+          },
+          {
+              "rank": 2,
+              "tier": "Great First Picks",
+              "name": "Narset of the Ancient Way"
+          },
+          {
+              "rank": 3,
+              "tier": "Great First Picks",
+              "name": "Fiend Artisan"
+          },
+          {
+              "rank": 4,
+              "tier": "Great First Picks",
+              "name": "Vadrok, Apex of Thunder"
+          },
+          {
+              "rank": 5,
+              "tier": "Great First Picks",
+              "name": "Brokkos, Apex of Forever"
+          },
+          {
+              "rank": 6,
+              "tier": "Great First Picks",
+              "name": "Voracious Greatshark"
+          },
+          {
+              "rank": 7,
+              "tier": "Great First Picks",
+              "name": "Luminous Broodmoth"
+          },
+          {
+              "rank": 8,
+              "tier": "Great First Picks",
+              "name": "Ruinous Ultimatum"
+          },
+          {
+              "rank": 9,
+              "tier": "Great First Picks",
+              "name": "Shark Typhoon"
+          },
+          {
+              "rank": 10,
+              "tier": "Great First Picks",
+              "name": "Yidaro, Wandering Monster"
+          },
+          {
+              "rank": 11,
+              "tier": "Great First Picks",
+              "name": "Frondland Felidar"
+          },
+          {
+              "rank": 12,
+              "tier": "Great First Picks",
+              "name": "Eerie Ultimatum"
+          },
+          {
+              "rank": 13,
+              "tier": "Great First Picks",
+              "name": "Cubwarden"
+          },
+          {
+              "rank": 14,
+              "tier": "Great First Picks",
+              "name": "Lutri, the Spellchaser"
+          },
+          {
+              "rank": 15,
+              "tier": "Great First Picks",
+              "name": "Gemrazer"
+          },
+          {
+              "rank": 16,
+              "tier": "Great First Picks",
+              "name": "Kinnan, Bonder Prodigy"
+          },
+          {
+              "rank": 17,
+              "tier": "Great First Picks",
+              "name": "Emergent Ultimatum"
+          },
+          {
+              "rank": 18,
+              "tier": "Great First Picks",
+              "name": "Rielle, the Everwise"
+          },
+          {
+              "rank": 19,
+              "tier": "Great First Picks",
+              "name": "Chevill, Bane of Monsters"
+          },
+          {
+              "rank": 20,
+              "tier": "Great First Picks",
+              "name": "Yorion, Sky Nomad"
+          },
+          {
+              "rank": 21,
+              "tier": "Great First Picks",
+              "name": "Winota, Joiner of Forces"
+          },
+          {
+              "rank": 22,
+              "tier": "Great First Picks",
+              "name": "Skycat Sovereign"
+          },
+          {
+              "rank": 23,
+              "tier": "Great First Picks",
+              "name": "Crystalline Giant"
+          },
+          {
+              "rank": 24,
+              "tier": "Great First Picks",
+              "name": "Labyrinth Raptor"
+          },
+          {
+              "rank": 25,
+              "tier": "Great First Picks",
+              "name": "Zirda, the Dawnwaker"
+          },
+          {
+              "rank": 26,
+              "tier": "Great First Picks",
+              "name": "Lavabrink Venturer"
+          },
+          {
+              "rank": 27,
+              "tier": "Great First Picks",
+              "name": "General Kudro of Drannith"
+          },
+          {
+              "rank": 28,
+              "tier": "Great First Picks",
+              "name": "Flame Spill"
+          },
+          {
+              "rank": 29,
+              "tier": "Great First Picks",
+              "name": "Sea-Dasher Octopus"
+          },
+          {
+              "rank": 30,
+              "tier": "Great First Picks",
+              "name": "Hunted Nightmare"
+          },
+          {
+              "rank": 31,
+              "tier": "Great First Picks",
+              "name": "Slitherwisp"
+          },
+          {
+              "rank": 32,
+              "tier": "Great First Picks",
+              "name": "Heartless Act"
+          },
+          {
+              "rank": 33,
+              "tier": "Great First Picks",
+              "name": "Mythos of Vadrok"
+          },
+          {
+              "rank": 34,
+              "tier": "Great First Picks",
+              "name": "Genesis Ultimatum"
+          },
+          {
+              "rank": 35,
+              "tier": "Great First Picks",
+              "name": "Mythos of Illuna"
+          },
+          {
+              "rank": 36,
+              "tier": "Great First Picks",
+              "name": "Boneyard Lurker"
+          },
+          {
+              "rank": 37,
+              "tier": "Great First Picks",
+              "name": "Jegantha, the Wellspring"
+          },
+          {
+              "rank": 38,
+              "tier": "Great First Picks",
+              "name": "Mythos of Nethroi"
+          },
+          {
+              "rank": 39,
+              "tier": "Great First Picks",
+              "name": "Whirlwind of Thought"
+          },
+          {
+              "rank": 40,
+              "tier": "Great First Picks",
+              "name": "Fire Prophecy"
+          },
+          {
+              "rank": 41,
+              "tier": "Great First Picks",
+              "name": "Kaheera, the Orphanguard"
+          },
+          {
+              "rank": 42,
+              "tier": "Great First Picks",
+              "name": "Blood Curdle"
+          }
+      ]
+  },
+  {
+      "tier": "Above Average Cards",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Above Average Cards",
+              "name": "Ram Through"
+          },
+          {
+              "rank": 2,
+              "tier": "Above Average Cards",
+              "name": "Rumbling Rockslide"
+          },
+          {
+              "rank": 3,
+              "tier": "Above Average Cards",
+              "name": "Savai Triome"
+          },
+          {
+              "rank": 4,
+              "tier": "Above Average Cards",
+              "name": "Ketria Triome"
+          },
+          {
+              "rank": 5,
+              "tier": "Above Average Cards",
+              "name": "Zagoth Triome"
+          },
+          {
+              "rank": 6,
+              "tier": "Above Average Cards",
+              "name": "Raugrin Triome"
+          },
+          {
+              "rank": 7,
+              "tier": "Above Average Cards",
+              "name": "Indatha Triome"
+          },
+          {
+              "rank": 8,
+              "tier": "Above Average Cards",
+              "name": "Necropanther"
+          },
+          {
+              "rank": 9,
+              "tier": "Above Average Cards",
+              "name": "Savai Thundermane"
+          },
+          {
+              "rank": 10,
+              "tier": "Above Average Cards",
+              "name": "Parcelbeast"
+          },
+          {
+              "rank": 11,
+              "tier": "Above Average Cards",
+              "name": "Splendor Mare"
+          },
+          {
+              "rank": 12,
+              "tier": "Above Average Cards",
+              "name": "Back for More"
+          },
+          {
+              "rank": 13,
+              "tier": "Above Average Cards",
+              "name": "Trumpeting Gnarr"
+          },
+          {
+              "rank": 14,
+              "tier": "Above Average Cards",
+              "name": "Proud Wildbonder"
+          },
+          {
+              "rank": 15,
+              "tier": "Above Average Cards",
+              "name": "Dire Tactics"
+          },
+          {
+              "rank": 16,
+              "tier": "Above Average Cards",
+              "name": "Skull Prophet"
+          },
+          {
+              "rank": 17,
+              "tier": "Above Average Cards",
+              "name": "Gyruda, Doom of Depths"
+          },
+          {
+              "rank": 18,
+              "tier": "Above Average Cards",
+              "name": "Keruga, the Macrosage"
+          },
+          {
+              "rank": 19,
+              "tier": "Above Average Cards",
+              "name": "Auspicious Starrix"
+          },
+          {
+              "rank": 20,
+              "tier": "Above Average Cards",
+              "name": "Grimdancer"
+          },
+          {
+              "rank": 21,
+              "tier": "Above Average Cards",
+              "name": "Boon of the Wish-Giver"
+          },
+          {
+              "rank": 22,
+              "tier": "Above Average Cards",
+              "name": "Obosh, the Preypiercer"
+          },
+          {
+              "rank": 23,
+              "tier": "Above Average Cards",
+              "name": "Umori, the Collector"
+          },
+          {
+              "rank": 24,
+              "tier": "Above Average Cards",
+              "name": "Colossification"
+          },
+          {
+              "rank": 25,
+              "tier": "Above Average Cards",
+              "name": "Pacifism"
+          },
+          {
+              "rank": 26,
+              "tier": "Above Average Cards",
+              "name": "Wingspan Mentor"
+          },
+          {
+              "rank": 27,
+              "tier": "Above Average Cards",
+              "name": "Regal Leosaur"
+          },
+          {
+              "rank": 28,
+              "tier": "Above Average Cards",
+              "name": "Lore Drakkis"
+          },
+          {
+              "rank": 29,
+              "tier": "Above Average Cards",
+              "name": "Lurrus of the Dream Den"
+          },
+          {
+              "rank": 30,
+              "tier": "Above Average Cards",
+              "name": "Mythos of Brokkos"
+          },
+          {
+              "rank": 31,
+              "tier": "Above Average Cards",
+              "name": "Go for Blood"
+          },
+          {
+              "rank": 32,
+              "tier": "Above Average Cards",
+              "name": "Capture Sphere"
+          },
+          {
+              "rank": 33,
+              "tier": "Above Average Cards",
+              "name": "Pouncing Shoreshark"
+          },
+          {
+              "rank": 34,
+              "tier": "Above Average Cards",
+              "name": "General's Enforcer"
+          },
+          {
+              "rank": 35,
+              "tier": "Above Average Cards",
+              "name": "Sprite Dragon"
+          },
+          {
+              "rank": 36,
+              "tier": "Above Average Cards",
+              "name": "Charge of the Forever-Beast"
+          },
+          {
+              "rank": 37,
+              "tier": "Above Average Cards",
+              "name": "Chittering Harvester"
+          },
+          {
+              "rank": 38,
+              "tier": "Above Average Cards",
+              "name": "Humble Naturalist"
+          },
+          {
+              "rank": 39,
+              "tier": "Above Average Cards",
+              "name": "Dead Weight"
+          },
+          {
+              "rank": 40,
+              "tier": "Above Average Cards",
+              "name": "Divine Arrow"
+          },
+          {
+              "rank": 41,
+              "tier": "Above Average Cards",
+              "name": "Porcuparrot"
+          },
+          {
+              "rank": 42,
+              "tier": "Above Average Cards",
+              "name": "Offspring's Revenge"
+          },
+          {
+              "rank": 43,
+              "tier": "Above Average Cards",
+              "name": "Hornbash Mentor"
+          },
+          {
+              "rank": 44,
+              "tier": "Above Average Cards",
+              "name": "Frillscare Mentor"
+          },
+          {
+              "rank": 45,
+              "tier": "Above Average Cards",
+              "name": "Swallow Whole"
+          },
+          {
+              "rank": 46,
+              "tier": "Above Average Cards",
+              "name": "Majestic Auricorn"
+          },
+          {
+              "rank": 47,
+              "tier": "Above Average Cards",
+              "name": "Keensight Mentor"
+          },
+          {
+              "rank": 48,
+              "tier": "Above Average Cards",
+              "name": "Channeled Force"
+          },
+          {
+              "rank": 49,
+              "tier": "Above Average Cards",
+              "name": "Zagoth Mamba"
+          },
+          {
+              "rank": 50,
+              "tier": "Above Average Cards",
+              "name": "Pollywog Symbiote"
+          },
+          {
+              "rank": 51,
+              "tier": "Above Average Cards",
+              "name": "Flourishing Fox"
+          }
+      ]
+  },
+  {
+      "tier": "Solid Playables",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Solid Playables",
+              "name": "Nightsquad Commando"
+          },
+          {
+              "rank": 2,
+              "tier": "Solid Playables",
+              "name": "Frost Lynx"
+          },
+          {
+              "rank": 3,
+              "tier": "Solid Playables",
+              "name": "Avian Oddity"
+          },
+          {
+              "rank": 4,
+              "tier": "Solid Playables",
+              "name": "Alert Heedbonder"
+          },
+          {
+              "rank": 5,
+              "tier": "Solid Playables",
+              "name": "Sonorous Howlbonder"
+          },
+          {
+              "rank": 6,
+              "tier": "Solid Playables",
+              "name": "Exuberant Wolfbear"
+          },
+          {
+              "rank": 7,
+              "tier": "Solid Playables",
+              "name": "Footfall Crater"
+          },
+          {
+              "rank": 8,
+              "tier": "Solid Playables",
+              "name": "Rooting Moloch"
+          },
+          {
+              "rank": 9,
+              "tier": "Solid Playables",
+              "name": "Sanctuary Smasher"
+          },
+          {
+              "rank": 10,
+              "tier": "Solid Playables",
+              "name": "Primal Empathy"
+          },
+          {
+              "rank": 11,
+              "tier": "Solid Playables",
+              "name": "Glowstone Recluse"
+          },
+          {
+              "rank": 12,
+              "tier": "Solid Playables",
+              "name": "Titanoth Rex"
+          },
+          {
+              "rank": 13,
+              "tier": "Solid Playables",
+              "name": "Clash of Titans"
+          },
+          {
+              "rank": 14,
+              "tier": "Solid Playables",
+              "name": "Extinction Event"
+          },
+          {
+              "rank": 15,
+              "tier": "Solid Playables",
+              "name": "Essence Scatter"
+          },
+          {
+              "rank": 16,
+              "tier": "Solid Playables",
+              "name": "Archipelagore"
+          },
+          {
+              "rank": 17,
+              "tier": "Solid Playables",
+              "name": "Valiant Rescuer"
+          },
+          {
+              "rank": 18,
+              "tier": "Solid Playables",
+              "name": "Greater Sandwurm"
+          },
+          {
+              "rank": 19,
+              "tier": "Solid Playables",
+              "name": "Gust of Wind"
+          },
+          {
+              "rank": 20,
+              "tier": "Solid Playables",
+              "name": "Easy Prey"
+          },
+          {
+              "rank": 21,
+              "tier": "Solid Playables",
+              "name": "Farfinder"
+          },
+          {
+              "rank": 22,
+              "tier": "Solid Playables",
+              "name": "Duskfang Mentor"
+          },
+          {
+              "rank": 23,
+              "tier": "Solid Playables",
+              "name": "Void Beckoner"
+          },
+          {
+              "rank": 24,
+              "tier": "Solid Playables",
+              "name": "Ivy Elemental"
+          },
+          {
+              "rank": 25,
+              "tier": "Solid Playables",
+              "name": "Excavation Mole"
+          },
+          {
+              "rank": 26,
+              "tier": "Solid Playables",
+              "name": "Prickly Marmoset"
+          },
+          {
+              "rank": 27,
+              "tier": "Solid Playables",
+              "name": "Mutual Destruction"
+          },
+          {
+              "rank": 28,
+              "tier": "Solid Playables",
+              "name": "Mystic Subdual"
+          },
+          {
+              "rank": 29,
+              "tier": "Solid Playables",
+              "name": "Facet Reader"
+          },
+          {
+              "rank": 30,
+              "tier": "Solid Playables",
+              "name": "Daysquad Marshal"
+          },
+          {
+              "rank": 31,
+              "tier": "Solid Playables",
+              "name": "Blade Banish"
+          },
+          {
+              "rank": 32,
+              "tier": "Solid Playables",
+              "name": "Unpredictable Cyclone"
+          },
+          {
+              "rank": 33,
+              "tier": "Solid Playables",
+              "name": "Zenith Flare"
+          },
+          {
+              "rank": 34,
+              "tier": "Solid Playables",
+              "name": "Blitz of the Thunder-Raptor"
+          },
+          {
+              "rank": 35,
+              "tier": "Solid Playables",
+              "name": "Momentum Rumbler"
+          },
+          {
+              "rank": 36,
+              "tier": "Solid Playables",
+              "name": "Bushmeat Poacher"
+          },
+          {
+              "rank": 37,
+              "tier": "Solid Playables",
+              "name": "Bastion of Remembrance"
+          },
+          {
+              "rank": 38,
+              "tier": "Solid Playables",
+              "name": "Drannith Healer"
+          },
+          {
+              "rank": 39,
+              "tier": "Solid Playables",
+              "name": "Sanctuary Lockdown"
+          },
+          {
+              "rank": 40,
+              "tier": "Solid Playables",
+              "name": "Death's Oasis"
+          },
+          {
+              "rank": 41,
+              "tier": "Solid Playables",
+              "name": "Monstrous Step"
+          },
+          {
+              "rank": 42,
+              "tier": "Solid Playables",
+              "name": "Call of the Death-Dweller"
+          },
+          {
+              "rank": 43,
+              "tier": "Solid Playables",
+              "name": "Insatiable Hemophage"
+          },
+          {
+              "rank": 44,
+              "tier": "Solid Playables",
+              "name": "Dreamtail Heron"
+          },
+          {
+              "rank": 45,
+              "tier": "Solid Playables",
+              "name": "Reconnaissance Mission"
+          },
+          {
+              "rank": 46,
+              "tier": "Solid Playables",
+              "name": "Neutralize"
+          },
+          {
+              "rank": 47,
+              "tier": "Solid Playables",
+              "name": "Huntmaster Liger"
+          },
+          {
+              "rank": 48,
+              "tier": "Solid Playables",
+              "name": "Mythos of Snapdax"
+          }
+      ]
+  },
+  {
+      "tier": "Sometimes Playable",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Sometimes Playable",
+              "name": "Thornwood Falls"
+          },
+          {
+              "rank": 2,
+              "tier": "Sometimes Playable",
+              "name": "Blossoming Sands"
+          },
+          {
+              "rank": 3,
+              "tier": "Sometimes Playable",
+              "name": "Wind-Scarred Crag"
+          },
+          {
+              "rank": 4,
+              "tier": "Sometimes Playable",
+              "name": "Rugged Highlands"
+          },
+          {
+              "rank": 5,
+              "tier": "Sometimes Playable",
+              "name": "Jungle Hollow"
+          },
+          {
+              "rank": 6,
+              "tier": "Sometimes Playable",
+              "name": "Bloodfell Caves"
+          },
+          {
+              "rank": 7,
+              "tier": "Sometimes Playable",
+              "name": "Swiftwater Cliffs"
+          },
+          {
+              "rank": 8,
+              "tier": "Sometimes Playable",
+              "name": "Dismal Backwater"
+          },
+          {
+              "rank": 9,
+              "tier": "Sometimes Playable",
+              "name": "Scoured Barrens"
+          },
+          {
+              "rank": 10,
+              "tier": "Sometimes Playable",
+              "name": "Tranquil Cove"
+          },
+          {
+              "rank": 11,
+              "tier": "Sometimes Playable",
+              "name": "Evolving Wilds"
+          },
+          {
+              "rank": 12,
+              "tier": "Sometimes Playable",
+              "name": "Flycatcher Giraffid"
+          },
+          {
+              "rank": 13,
+              "tier": "Sometimes Playable",
+              "name": "Frenzied Raptor"
+          },
+          {
+              "rank": 14,
+              "tier": "Sometimes Playable",
+              "name": "Dark Bargain"
+          },
+          {
+              "rank": 15,
+              "tier": "Sometimes Playable",
+              "name": "Boot Nipper"
+          },
+          {
+              "rank": 16,
+              "tier": "Sometimes Playable",
+              "name": "Glimmerbell"
+          },
+          {
+              "rank": 17,
+              "tier": "Sometimes Playable",
+              "name": "Perimeter Sergeant"
+          },
+          {
+              "rank": 18,
+              "tier": "Sometimes Playable",
+              "name": "Vulpikeet"
+          },
+          {
+              "rank": 19,
+              "tier": "Sometimes Playable",
+              "name": "Snare Tactician"
+          },
+          {
+              "rank": 20,
+              "tier": "Sometimes Playable",
+              "name": "The Ozolith"
+          },
+          {
+              "rank": 21,
+              "tier": "Sometimes Playable",
+              "name": "Cunning Nightbonder"
+          },
+          {
+              "rank": 22,
+              "tier": "Sometimes Playable",
+              "name": "Jubilant Skybonder"
+          },
+          {
+              "rank": 23,
+              "tier": "Sometimes Playable",
+              "name": "Migratory Greathorn"
+          },
+          {
+              "rank": 24,
+              "tier": "Sometimes Playable",
+              "name": "Essence Symbiote"
+          },
+          {
+              "rank": 25,
+              "tier": "Sometimes Playable",
+              "name": "Forbidden Friendship"
+          },
+          {
+              "rank": 26,
+              "tier": "Sometimes Playable",
+              "name": "Weaponize the Monsters"
+          },
+          {
+              "rank": 27,
+              "tier": "Sometimes Playable",
+              "name": "Reptilian Reflection"
+          },
+          {
+              "rank": 28,
+              "tier": "Sometimes Playable",
+              "name": "Ominous Seas"
+          },
+          {
+              "rank": 29,
+              "tier": "Sometimes Playable",
+              "name": "Escape Protocol"
+          },
+          {
+              "rank": 30,
+              "tier": "Sometimes Playable",
+              "name": "Patagia Tiger"
+          },
+          {
+              "rank": 31,
+              "tier": "Sometimes Playable",
+              "name": "Checkpoint Officer"
+          },
+          {
+              "rank": 32,
+              "tier": "Sometimes Playable",
+              "name": "Stormwild Capridor"
+          },
+          {
+              "rank": 33,
+              "tier": "Sometimes Playable",
+              "name": "Fight as One"
+          },
+          {
+              "rank": 34,
+              "tier": "Sometimes Playable",
+              "name": "Cloudpiercer"
+          },
+          {
+              "rank": 35,
+              "tier": "Sometimes Playable",
+              "name": "Drannith Stinger"
+          },
+          {
+              "rank": 36,
+              "tier": "Sometimes Playable",
+              "name": "Cavern Whisperer"
+          },
+          {
+              "rank": 37,
+              "tier": "Sometimes Playable",
+              "name": "Phase Dolphin"
+          },
+          {
+              "rank": 38,
+              "tier": "Sometimes Playable",
+              "name": "Will of the All-Hunter"
+          },
+          {
+              "rank": 39,
+              "tier": "Sometimes Playable",
+              "name": "Springjaw Trap"
+          },
+          {
+              "rank": 40,
+              "tier": "Sometimes Playable",
+              "name": "Survivors' Bond"
+          },
+          {
+              "rank": 41,
+              "tier": "Sometimes Playable",
+              "name": "Honey Mammoth"
+          },
+          {
+              "rank": 42,
+              "tier": "Sometimes Playable",
+              "name": "Raking Claws"
+          },
+          {
+              "rank": 43,
+              "tier": "Sometimes Playable",
+              "name": "Pyroceratops"
+          },
+          {
+              "rank": 44,
+              "tier": "Sometimes Playable",
+              "name": "Lava Serpent"
+          },
+          {
+              "rank": 45,
+              "tier": "Sometimes Playable",
+              "name": "Ferocious Tigorilla"
+          },
+          {
+              "rank": 46,
+              "tier": "Sometimes Playable",
+              "name": "Blisterspit Gremlin"
+          },
+          {
+              "rank": 47,
+              "tier": "Sometimes Playable",
+              "name": "Suffocating Fumes"
+          },
+          {
+              "rank": 48,
+              "tier": "Sometimes Playable",
+              "name": "Memory Leak"
+          },
+          {
+              "rank": 49,
+              "tier": "Sometimes Playable",
+              "name": "Lurking Deadeye"
+          },
+          {
+              "rank": 50,
+              "tier": "Sometimes Playable",
+              "name": "Durable Coilbug"
+          },
+          {
+              "rank": 51,
+              "tier": "Sometimes Playable",
+              "name": "Hampering Snare"
+          },
+          {
+              "rank": 52,
+              "tier": "Sometimes Playable",
+              "name": "Frostveil Ambush"
+          },
+          {
+              "rank": 53,
+              "tier": "Sometimes Playable",
+              "name": "Maned Serval"
+          },
+          {
+              "rank": 54,
+              "tier": "Sometimes Playable",
+              "name": "Imposing Vantasaur"
+          },
+          {
+              "rank": 55,
+              "tier": "Sometimes Playable",
+              "name": "Coordinated Charge"
+          },
+          {
+              "rank": 56,
+              "tier": "Sometimes Playable",
+              "name": "Bonders' Enclave"
+          },
+          {
+              "rank": 57,
+              "tier": "Sometimes Playable",
+              "name": "Of One Mind"
+          },
+          {
+              "rank": 58,
+              "tier": "Sometimes Playable",
+              "name": "Thwart the Enemy"
+          },
+          {
+              "rank": 59,
+              "tier": "Sometimes Playable",
+              "name": "Thieving Otter"
+          },
+          {
+              "rank": 60,
+              "tier": "Sometimes Playable",
+              "name": "Wingfold Pteron"
+          },
+          {
+              "rank": 61,
+              "tier": "Sometimes Playable",
+              "name": "Garrison Cat"
+          },
+          {
+              "rank": 62,
+              "tier": "Sometimes Playable",
+              "name": "Helica Glider"
+          },
+          {
+              "rank": 63,
+              "tier": "Sometimes Playable",
+              "name": "Mysterious Egg"
+          },
+          {
+              "rank": 64,
+              "tier": "Sometimes Playable",
+              "name": "Raugrin Crystal"
+          },
+          {
+              "rank": 65,
+              "tier": "Sometimes Playable",
+              "name": "Indatha Crystal"
+          },
+          {
+              "rank": 66,
+              "tier": "Sometimes Playable",
+              "name": "Ketria Crystal"
+          },
+          {
+              "rank": 67,
+              "tier": "Sometimes Playable",
+              "name": "Zagoth Crystal"
+          },
+          {
+              "rank": 68,
+              "tier": "Sometimes Playable",
+              "name": "Savai Crystal"
+          },
+          {
+              "rank": 69,
+              "tier": "Sometimes Playable",
+              "name": "Wilt"
+          },
+          {
+              "rank": 70,
+              "tier": "Sometimes Playable",
+              "name": "Bristling Boar"
+          },
+          {
+              "rank": 71,
+              "tier": "Sometimes Playable",
+              "name": "Migration Path"
+          },
+          {
+              "rank": 72,
+              "tier": "Sometimes Playable",
+              "name": "Shredded Sails"
+          },
+          {
+              "rank": 73,
+              "tier": "Sometimes Playable",
+              "name": "Keep Safe"
+          },
+          {
+              "rank": 74,
+              "tier": "Sometimes Playable",
+              "name": "Anticipate"
+          },
+          {
+              "rank": 75,
+              "tier": "Sometimes Playable",
+              "name": "Sleeper Dart"
+          }
+      ]
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Cycling",
+    "description": "Cycling allows a player to pay the cycling cost on a card and discard that card to draw a new one.",
+    "citation": "https://mtg.gamepedia.com/Cycling",
+    "exampleCards": [
+      {
+        "rank": 9,
+        "tier": "Great First Picks",
+        "name": "Shark Typhoon"
+      },
+      {
+        "rank": 10,
+        "tier": "Great First Picks",
+        "name": "Yidaro, Wandering Monster"
+      },
+      {
+        "rank": 3,
+        "tier": "Above Average Cards",
+        "name": "Savai Triome"
+      }
+    ]
+  },
+  {
+    "title": "Keyword Counters",
+    "description": "Keyword counters, like +1/+1 counters live on a permanent. Any permanent with a keyword counter is given that keyword ability.",
+    "citation": "https://mtg.gamepedia.com/Keyword_counter",
+    "exampleCards": [
+      {
+        "rank": 7,
+        "tier": "Great First Picks",
+        "name": "Luminous Broodmoth"
+      },
+      {
+        "rank": 11,
+        "tier": "Above Average Cards",
+        "name": "Splendor Mare"
+      },
+      {
+        "rank": 9,
+        "tier": "Solid Playables",
+        "name": "Sanctuary Smasher"
+      }
+    ]
+  },
+  {
+    "title": "Mutate",
+    "description": "Mutate is an alternate cost that allows you to cast a card for its mutate cost on top or underneath target non-human creature. This will result in the creature card on top with all the abilities of the creatures below.",
+    "citation": "https://mtg.gamepedia.com/Mutate",
+    "exampleCards": [
+      {
+        "rank": 4,
+        "tier": "Incredible Bombs",
+        "name": "Snapdax, Apex of the Hunt"
+      },
+      {
+        "rank": 6,
+        "tier": "Incredible Bombs",
+        "name": "Everquill Phoenix"
+      },
+      {
+        "rank": 7,
+        "tier": "Incredible Bombs",
+        "name": "Dirge Bat"
+      }
+    ]
+  },
+  {
+    "title": "Companion",
+    "description": "You may have up to one companion per game. A companion card will list a deck building requirement for your deck, if satisfied the companion card will live in your sideboard and be cast-able once during the game. Casting a companion follows all normal rules for casting a creature.",
+    "citation": "https://mtg.gamepedia.com/Companion",
+    "exampleCards": [
+      {
+        "rank": 14,
+        "tier": "Great First Picks",
+        "name": "Lutri, the Spellchaser"
+      },
+      {
+        "rank": 20,
+        "tier": "Great First Picks",
+        "name": "Yorion, Sky Nomad"
+      },
+      {
+        "rank": 25,
+        "tier": "Great First Picks",
+        "name": "Zirda, the Dawnwaker"
+      }
+    ]
+  }
+]

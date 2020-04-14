@@ -7,8 +7,9 @@ import {
 import SymbolService from '../services/symbol-service';
 import THB_ARCHETYPES from '../set-data/thb-archetypes.json';
 import ELD_ARCHETYPES from '../set-data/eld-archetypes.json';
+import IKO_ARCHETYPES from '../set-data/iko-archetypes.json';
 
-const ARCHETYPES = { thb: THB_ARCHETYPES, eld: ELD_ARCHETYPES };
+const ARCHETYPES = { thb: THB_ARCHETYPES, eld: ELD_ARCHETYPES, iko: IKO_ARCHETYPES };
 
 class Archetypes extends React.Component {
   static buildMana(uris) {
