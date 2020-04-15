@@ -51,7 +51,7 @@ TopPicksHeader.propTypes = {
   changeSet: PropTypes.func.isRequired,
   selectedSet: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    icon_svg_uri: PropTypes.string.isRequired,
+    icon_svg_uri: PropTypes.string,
   }).isRequired,
   sets: PropTypes.arrayOf(
     PropTypes.shape({

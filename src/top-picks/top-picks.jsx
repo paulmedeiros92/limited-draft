@@ -16,20 +16,20 @@ class TopPicks extends React.Component {
   }
 
   static showTier(tier) {
-    const { cardData } = this.state;
-    this.setState({ cardsOfTier: cardData[tier], selectedTier: tier });
+    CardService.fetchCards(tier).then((result) => {
+      this.setState({ cardsOfTier: result.cards, selectedTier: tier.tier });
+    });
   }
 
   static search(string) {
-    const { cardData, displaySearchFilter } = this.state;
-    this.setState(
-      {
-        cardsOfTier: SearchService.findMatchingCards(
-          string, cardData, displaySearchFilter.filter,
-        ),
-        selectedTier: '',
-      },
-    );
+    const { displaySearchFilter } = this.state;
+    const { setPicks } = this.props;
+    this.showTier({
+      tier: '',
+      cards: SearchService.findMatchingCards(
+        string, setPicks, displaySearchFilter.filter,
+      ),
+    });
   }
 
   static toggleSearchFilter(filter, className) {
@@ -54,10 +54,9 @@ class TopPicks extends React.Component {
     super(props);
     this.state = {
       hasScrolled: false,
-      cardData: {},
       cardsOfTier: [],
       selectedTier: '',
-      cardTiers: [],
+      cardTiers: props.setPicks.map(tier => tier.tier),
       displaySearchFilter: { visibility: false, filter: 'Search By' },
       displayCard: {
         cardUri: '',
@@ -80,15 +79,9 @@ class TopPicks extends React.Component {
     this.loadToggle = this.loadToggle.bind(this);
     this.loadTick = this.loadTick.bind(this);
 
-    Promise.all(props.setPicks.map(tier => CardService.fetchCards(tier)))
-      .then((results) => {
-        const data = {};
-        results.forEach((result) => {
-          data[result.tier] = result.cards;
-        });
-        this.setState({ cardData: data, cardTiers: Object.keys(data) });
-        this.showTier('Incredible Bombs');
-      });
+    if (props.setPicks.length > 0) {
+      this.showTier(props.setPicks.find(tier => tier.tier === 'Incredible Bombs'));
+    }
   }
 
   componentDidMount() {
@@ -153,7 +146,8 @@ class TopPicks extends React.Component {
       loading, cardsOfTier, selectedTier, cardTiers, displaySearchFilter, displayCard,
       hasScrolled,
     } = this.state;
-    const cards = cardsOfTier ? this.numberOfRows(cardsOfTier, 5) : '';
+    const { setPicks } = this.props;
+    const cards = cardsOfTier.length > 0 ? this.numberOfRows(cardsOfTier, 5) : '';
     return (
       <div className="top-picks-content">
         <Selector
@@ -164,6 +158,7 @@ class TopPicks extends React.Component {
           displaySearchFilter={displaySearchFilter}
           toggleSearchFilter={this.toggleSearchFilter}
           cardTiers={cardTiers}
+          setPicks={setPicks}
         />
         {loading && <Spinner animation="border" variant="success" />}
         {cards}
@@ -178,13 +173,17 @@ class TopPicks extends React.Component {
 }
 
 TopPicks.propTypes = {
-  setPicks: PropTypes.arrayOf({
-    cards: PropTypes.arrayOf({
-      name: PropTypes.string,
-      rank: PropTypes.number,
-      tier: PropTypes.string,
+  setPicks: PropTypes.arrayOf(
+    PropTypes.shape({
+      cards: PropTypes.arrayOf(
+        PropTypes.shape({
+          name: PropTypes.string,
+          rank: PropTypes.number,
+          tier: PropTypes.string,
+        }),
+      ),
+      tier: PropTypes.string.isRequired,
     }),
-    tier: PropTypes.string.isRequired,
-  }).isRequired,
+  ).isRequired,
 };
 export default TopPicks;

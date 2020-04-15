@@ -6,7 +6,7 @@ import Link from './link/link';
 import pickData from '../../set-data/thb.json';
 import Search from './search/search';
 
-function makeLinks(showTier, tiers, selectedTier, loadToggle) {
+function makeLinks(showTier, tiers, selectedTier, loadToggle, setPicks) {
   return tiers.map(tier => (
     <Link
       showTier={showTier}
@@ -14,18 +14,19 @@ function makeLinks(showTier, tiers, selectedTier, loadToggle) {
       key={`Select${tier.tier}`}
       selectedTier={selectedTier}
       loadToggle={loadToggle}
+      setPicks={setPicks}
     />
   ));
 }
 
 function Selector({
   showTier, selectedTier, loadToggle, search, displaySearchFilter,
-  toggleSearchFilter, cardTiers,
+  toggleSearchFilter, cardTiers, setPicks,
 }) {
   return (
     <div className="nav-div">
       <ButtonToolbar>
-        {makeLinks(showTier, pickData, selectedTier, loadToggle)}
+        {makeLinks(showTier, pickData, selectedTier, loadToggle, setPicks)}
         <Search
           search={search}
           displaySearchFilter={displaySearchFilter}
@@ -49,6 +50,18 @@ Selector.propTypes = {
   toggleSearchFilter: PropTypes.func.isRequired,
   cardTiers: PropTypes.arrayOf(
     PropTypes.string,
+  ).isRequired,
+  setPicks: PropTypes.arrayOf(
+    PropTypes.shape({
+      cards: PropTypes.arrayOf(
+        PropTypes.shape({
+          name: PropTypes.string,
+          rank: PropTypes.number,
+          tier: PropTypes.string,
+        }),
+      ),
+      tier: PropTypes.string.isRequired,
+    }),
   ).isRequired,
 };
 
