@@ -12,7 +12,6 @@ import THB from './set-data/thb.json';
 import ELD from './set-data/eld.json';
 import IKO from './set-data/iko.json';
 
-const CURRENT_SET = 'iko';
 const ALL_SETS = { thb: THB, eld: ELD, iko: IKO };
 
 class App extends React.Component {
@@ -35,7 +34,8 @@ class App extends React.Component {
     this.changeSet = App.changeSet.bind(this);
 
     SetService.fetchAvailableSets().then((sets) => {
-      const selectedSet = sets.find(set => set.code === CURRENT_SET);
+      const currentSet = this.state.selectedSet.code;
+      const selectedSet = sets.find(set => set.code === currentSet);
       this.setState({ sets, selectedSet, setPicks: ALL_SETS[selectedSet.code] });
     });
   }
