@@ -38,14 +38,13 @@ class Mechanics extends React.Component {
 
     this.toggleCard = Mechanics.toggleCard.bind(this);
 
-    Promise.all(
-      MECHANICS[props.selectedSet.code].map(mechanic => CardService.fetchCards(
-        { tier: mechanic.title, cards: mechanic.exampleCards },
-      )),
-    ).then((results) => {
+    CardService.fetchCards(
+      { tier: 'Archetype Examples', cards: MECHANICS[props.selectedSet.code].map(mechanic => mechanic.exampleCards).flat() },
+    ).then((result) => {
       const cardMap = {};
-      results.forEach((result) => {
-        cardMap[result.tier] = result.cards;
+      MECHANICS[props.selectedSet.code].forEach((mechanic) => {
+        cardMap[mechanic.title] = result.cards.filter(card => mechanic.exampleCards
+          .find(example => example.name === card.name) !== undefined);
       });
       this.setState({ exampleCards: cardMap, loading: false });
     });

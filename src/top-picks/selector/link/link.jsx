@@ -6,15 +6,19 @@ import { Button } from 'react-bootstrap';
 function Link({
   showTier, tier, selectedTier, loadToggle, setPicks,
 }) {
-  const variant = tier === selectedTier ? 'success' : 'primary';
-
   function click(e) {
     showTier(setPicks.find(x => x.tier === tier), e);
     loadToggle(true);
   }
 
   return (
-    <Button variant={variant} onClick={click}>{tier}</Button>
+    <Button
+      variant={tier === selectedTier ? 'success' : 'primary'}
+      onClick={click}
+      disabled={tier === selectedTier}
+    >
+      {tier}
+    </Button>
   );
 }
 

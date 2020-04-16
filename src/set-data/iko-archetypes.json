@@ -3,19 +3,19 @@
     "tier": 1,
     "archetypes": [
       {
-        "title": "Humans",
+        "title": "Flyers",
         "tier": 1,
-        "colors": ["{B}","{W}"],
+        "colors": ["{U}","{W}"],
         "description": [
-          "Coming Soon: Once the community has had more time to play Ikoria"
+          "In this set there are 18 creatures with flying 13 of which are playable in Blue/White. So if you stick with the strategy of blockers on the ground and flyers in the air you should do well."
         ]
       },
       {
-        "title": "Flyers",
+        "title": "Humans",
         "tier": 1,
-        "colors": ["{U}", "{W}"],
+        "colors": ["{B}", "{W}"],
         "description": [
-          "Coming Soon: Once the community has had more time to play Ikoria"
+          "Humans work well in groups so you are going to want to draft a lot of humans in this archetype. This will set you up to take advantage some very good payoffs in cards like Sanctuary Lockdown, Bastion of Remembrance, and Dire Tactics"
         ]
       },
       {
@@ -23,7 +23,47 @@
         "tier": 1,
         "colors": ["{R}", "{W}"],
         "description": [
-          "Coming Soon: Once the community has had more time to play Ikoria"
+          "Cycling has many pay off in the form of cards such as Savai Thundermane, in which case the payoff may be good enough to warrant using cards such as Frostveil Ambush. Frostveil Ambush is a blue card that has the cycling cost of 1, meaning its perfect to activate many of those cycling benefits you have on your battlefield. Another thing to consider is that with so many cycling cards you may run into more lands than usual so you may want to adjust the typical 23-17 spell to land ratio."
+        ]
+      },
+      {
+        "title": "Vigilance",
+        "tier": 1,
+        "colors": ["{G}", "{W}"],
+        "description": [
+          "Vigilance is a theme in these colors offerring some payoff in Keensight Mento and Frondland Felidar, but you should be fine by focusing on efficient green and white creatures."
+        ]
+      },
+      {
+        "title": "Flash",
+        "tier": 1,
+        "colors": ["{U}", "{B}"],
+        "description": [
+          "Flash is the name of the game, 15 cards will keep you in your lane. There is ample support for flash and instant spells here with major counter support in blue to shut down anything you don't like with Essence Scatter and Neutralize. You also get decent synergy from cards like Slitherwisp and Cunning Nightbonder."
+        ]
+      },
+      {
+        "title": "Spells",
+        "tier": 1,
+        "colors": ["{R}", "{U}"],
+        "description": [
+          "This is your standard non-creature spells matter deck, evidenced by cards like Sprite Dragon. Find a good synergy between serious threats and tuns of spells and yuo will be good to go."
+        ]
+      },
+      {
+        "title": "Mutate",
+        "tier": 1,
+        "colors": ["{U}", "{G}"],
+        "description": [
+          "This color combo focuses on Ikoria's new mechanic Mutate. Trumpeting Gnarr shows you don't have to put all your eggs in that funky basket by giving you a serious advantage for mutating. There are also good common and uncommons such as the Essence Symbiote Pollywog Symbiote who help prop up the mechanics success."
+        ]
+      },
+      {
+        "title": "Menace",
+        "tier": 1,
+        "colors": ["{B}", "{R}"],
+        "description": [
+          "Aggro Aggro Aggro, with some evasiveness in the form of menace, be sure to attack early! This color combo also has good access to removal if you find yourself in a spot where you can't attack!"
         ]
       },
       {
@@ -31,7 +71,15 @@
         "tier": 1,
         "colors": ["{B}", "{G}"],
         "description": [
-          "Coming Soon: Once the community has had more time to play Ikoria"
+          "With cycling in this set, this color combo is uniquely positioned to take advantage of any cards cycled to the grave with all the graveyard interactions id has. And with access to big meanies and removal like Back for More, you should be enjoying your matches immensely."
+        ]
+      },
+      {
+        "title": "Trample",
+        "tier": 1,
+        "colors": ["{R}", "{G}"],
+        "description": [
+          "Trample! Another aggro option, be sure to curve out and have large threats. With all the trample going around you should have no trouble getting damage though."
         ]
       }
     ]

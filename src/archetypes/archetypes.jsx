@@ -32,22 +32,15 @@ class Archetypes extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      symbols: {
-        data: [],
-      },
       archetypes: ARCHETYPES[props.selectedSet.code],
     };
 
     this.buildMana = Archetypes.buildMana.bind(this);
     this.tieredDescriptions = Archetypes.tieredDescriptions.bind(this);
-
-    SymbolService.fetchSymbols().then((symbols) => {
-      this.setState({ symbols });
-    });
   }
 
   archetypeName(colors, title) {
-    const { symbols } = this.state;
+    const { symbols } = this.props;
     let mana = '';
     if (symbols.data.length > 0) {
       const uris = SymbolService.getSvgFromCodes(colors, symbols.data);

@@ -16,9 +16,13 @@ class TopPicks extends React.Component {
   }
 
   static showTier(tier) {
-    CardService.fetchCards(tier).then((result) => {
-      this.setState({ cardsOfTier: result.cards, selectedTier: tier.tier });
-    });
+    if (tier.cards.length > 0) {
+      CardService.fetchCards(tier).then((result) => {
+        this.setState({ cardsOfTier: result.cards, selectedTier: tier.tier });
+      });
+    } else {
+      this.setState({ cardsOfTier: [], selectedTier: tier.tier });
+    }
   }
 
   static search(string) {
