@@ -1,6 +1,9 @@
 const SearchService = {
   findMatchingCards(searchString, cardData, filter) {
     let results = [];
+    if (searchString === '') {
+      return results;
+    }
     if (filter.toLowerCase() === 'all' || filter.toLowerCase() === 'search by') {
       cardData.forEach((tier) => {
         results = results.concat(tier.cards.filter(card => card.name.toLowerCase()
