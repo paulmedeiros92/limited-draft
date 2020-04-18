@@ -10,7 +10,8 @@
           "Limited MTG is all about assembling efficient creatures, removal, and spells that generate card advantage. It is almost unbelievable how well this archetype is able to do all of those things. Both Black and Green go very deep to the point that this is the easiest archetype to force in draft as well. Black-Green is midrange but often comes together as a pseudo combo deck due to certain payoffs for the Food mechanic that give it serious legs in long, grindy games. Having the option to sacrifice Food for life gain means that this deck has tools to take on all comers from Aggro to Control/Mill.",
           "Bog Naughty, Deathless Knight, Savvy Hunter, and Trail of Crumbs are the key Food payoffs to be on the lookout for. There are many ways to generate Food but fewer ways to capitalize on it, so keep that in mind when prioritizing draft picks. Epic Downfall isn’t archetype specific but it is premium removal, and sending the target into exile is often relevant in this format. Finally, Keeper of Fables is an incredible card and one of the very best uncommons in the set. This archetype contains some Humans, but Keeper’s ability even applies to itself and there are still going to be plenty of other non-humans in your deck to benefit from it.",
           "Both Black and Green have some ‘pushed’ commons that can add a ton of power to your deck. Bake Into Pie and Fierce Witchstalker are especially strong. 4 mana for instant speed unconditional removal or a 4/4 trample are both strong playables in any Limited environment. The fact that they both generate Food is truly icing on the cake, or uhh crumbly topping on the pie, or something. Golden Egg and Forever Young both have a nice home in this archetype as well. Both are ‘free’ cantrip spells that can be used to generate advantages. This type of value spell does take some time to set up, but this format seems to be allowing for it. Hell, if people are getting away with playing cards like Reaper of Night, dropping a couple Golden Eggs is nothing. Lastly, Outmuscle and Reave Soul are a bit worse than Bake Into Pie, but each give the deck some additional answers. Outmuscle, especially with Adamant, can be a huge swing at times. Just be careful not to get blown out if they could potentially remove or bounce your creature when you cast it. One mistake I have been seeing regarding this archetype is players not drafting enough creatures. This archetype can have trouble pressuring Blue-based control if it doesn’t present enough threats. Bake Into Pie vs. Fierce Witchstalker can be a tough decision."
-        ]
+        ],
+        "exampleCards": []
       },
       {
         "title": "Control/Mill",
@@ -20,7 +21,8 @@
           "This classic control archetype is once again a dominant force in Eldraine. It is getting a little stale having this as a Tier 1 color combination format after format, but it is what it is. In ELD we see the return of viable Mill decks, which will often be at least a secondary win condition for this archetype.",
           "Card Draw and Removal are the keys to victory with this archetype. Syr Konrad, the Grim is a really important card, and depending on the game/deck allows you to win through damage or Mill. Revenge of Ravens is another card you always want to play in these colors. The amount of value that thing can generate in a prolonged game is tremendous.",
           "Obviously Bake Into Pie and Reave Soul are still great in this archetype, but I wanted to showcase what Blue is bringing to the table. It is possible to win with flyers, but more often than not this archetype controls the game until the opponent runs out of cards. Spells like Merfolk Secretkeeper and Didn’t Say Please help ensure that your opponent runs out before you do, considering how many cards you can potentially draw from spells like Into the Story, Tome Raider, and Witching Well. Overall, this deck is incredibly annoying to play against. It is able to lock down key threats and establish a commanding position over time. The weakness of this archetype is getting overwhelmed early, but once it stabilizes and has the opponent topdecking, the game is usually over."
-        ]
+        ],
+        "exampleCards": []
       }
     ]
   },
@@ -34,7 +36,8 @@
         "description": [
           "With White you get some additional Artifact/Enchantment payoffs and Flyers, which tends to make this archetype more aggressive than mono-Blue artifacts or Mill. Archon of Absolution is another great Uncommon to have for that reason. Cards like Glass Casket and Turn Into a Pumpkin get you a nice effect while generating an additional artifact",
           "Flyers complimented by Enchantment-based removal and card advantage makes for a really strong archetype when it comes together. These decks really need some decent threats to put into the sky or they tend to stall out. Of all of the archetypes this one is probably the most reliant on finding relevant rares like Vantress Gargoyle or Emry, Lurker of the Loch."
-        ]
+        ],
+        "exampleCards": []
       },
       {
         "title": "Looting",
@@ -43,7 +46,8 @@
         "description": [
           "Faerie Vandal and Improbable Alliance are the best payoffs. Similar to the enabler/payoff dynamics for Food, there are a lot of ways to draw/loot cards but not that many payoffs for doing so.",
           "In the right deck Bloodhaze Wolverine is actually a solid beater. The threat of activation is nice due to the first strike. Once again, there are a lot of commons that support the card draw/looting theme, but if you don’t find the payoffs this archetype has a lot of trouble competing against the Tier 1 decks."
-        ]
+        ],
+        "exampleCards": []
       },
       {
         "title": "Knights!",
@@ -52,7 +56,8 @@
         "description": [
           "There are a lot of really great knights in this set. If you are able to find some of the good rares like Oathsworn Knight, Acclaimed Contended, or even The Circle of Loyalty, this deck can get ridiculous.",
           "The commons are a bit weaker than average in this archetype, which does hurt it quite a bit. I have found that leaning on Black and doing about a 10 swamp 7 plains split allows the deck to support multiple Locthwain Paladins, and they are great threats at common. A lot of the slower archetypes rely on 0/4 walls or chump blockers, and a 4/3 menace causes them all kinds of problems. Ardenvale Tactician is the best White can offer at common besides Trapped in a Tower, and it does a great job at removing some blockers and/or providing an additional evasive creature."
-        ]
+        ],
+        "exampleCards": []
       },
       {
         "title": "Knights!!",
@@ -60,7 +65,8 @@
         "colors": ["{B}", "{R}"],
         "description": [
           "This archetype is extremely similar to BW Knights, but plays a little faster and provides some additional removal with cards like Joust, Slaying Fire, Scorching Dragonfire, and Searing Barrage. I would still build it primarily Black and use Red in a supporting role."
-        ]
+        ],
+        "exampleCards": []
       }
     ]
   },
@@ -73,7 +79,8 @@
         "colors": ["{G}", "{W}"],
         "description": [
           "This is another archetype that is extremely scary when it comes together, but unfortunately it plays rather durdly when you can’t find the payoffs. Edgewall Inkeeper is just too important. If you draw him (or are able to draft multiples) this archetype can absolutely go off, but without the card advantage it is really difficult to keep up with the Tier 1 archetypes. Keeper of Fables can help mitigate somewhat, but in White you are going to have mostly humans, so there is a bit of anti-synergy going that route. I would rather play Keeper of Fables in RG or UG for that reason. It is worth mentioning that this archetype has some pretty cool interactions at common, such as using Faerie Guidemother to give your fatty Green creatures flying, or using Tuinvale Treefolk to beef up the relatively tame Ardenvale Paladin. Of all of the Tier 3 decks I really believe this one should be higher, I just haven’t really seen it yet."
-        ]
+        ],
+        "exampleCards": []
       },
       {
         "title": "Non-Human",
@@ -81,7 +88,8 @@
         "colors": ["{G}", "{R}"],
         "description": [
           "This is the straightforward go-wide midrange deck that these colors tend to be. I think Grumgully is very important and that Syr Faren has his best home in this deck, but it’s a really tough format for this sort of deck."
-        ]
+        ],
+        "exampleCards": []
       },
       {
         "title": "Ramp",
@@ -89,7 +97,8 @@
         "colors": ["{U}", "{G}"],
         "description": [
           "This archetype has potential, but I don’t think this color pair makes a lot of sense in ELD. First of all, there are quite a few ways to mana ramp in these colors, but what are the payoffs? There really aren’t that many expensive creatures or spells worth playing, and your mana dorks just end up cluttering the board once it ineveitably stalls. If you draft Oko you should for sure build around it, but I don’t think opening Maraleaf Pixie is going to make me jump in."
-        ]
+        ],
+        "exampleCards": []
       },
       {
         "title": "Knights!!!",
@@ -97,7 +106,8 @@
         "colors": ["{R}", "{W}"],
         "description": [
           "This archetype really hinges on Inspiring Veteran, and a tribe really needs to be more than its lord. Really the problem is that these two are the least powerful colors in Eldraine."
-        ]
+        ],
+        "exampleCards": []
       }
     ]
   }

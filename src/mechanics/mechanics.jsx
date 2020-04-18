@@ -39,7 +39,7 @@ class Mechanics extends React.Component {
     this.toggleCard = Mechanics.toggleCard.bind(this);
 
     CardService.fetchCards(
-      { tier: 'Archetype Examples', cards: MECHANICS[props.selectedSet.code].map(mechanic => mechanic.exampleCards).flat() },
+      { tier: 'Mechanics Examples', cards: MECHANICS[props.selectedSet.code].map(mechanic => mechanic.exampleCards).flat() },
     ).then((result) => {
       const cardMap = {};
       MECHANICS[props.selectedSet.code].forEach((mechanic) => {

@@ -3,51 +3,45 @@
     "tier": 1,
     "archetypes": [
       {
-        "title": "Flyers",
-        "tier": 1,
-        "colors": ["{U}","{W}"],
-        "description": [
-          "In this set there are 18 creatures with flying 13 of which are playable in Blue/White. So if you stick with the strategy of blockers on the ground and flyers in the air you should do well."
-        ]
-      },
-      {
-        "title": "Humans",
-        "tier": 1,
-        "colors": ["{B}", "{W}"],
-        "description": [
-          "Humans work well in groups so you are going to want to draft a lot of humans in this archetype. This will set you up to take advantage some very good payoffs in cards like Sanctuary Lockdown, Bastion of Remembrance, and Dire Tactics"
-        ]
-      },
-      {
         "title": "Cycling",
         "tier": 1,
         "colors": ["{R}", "{W}"],
         "description": [
-          "Cycling has many pay off in the form of cards such as Savai Thundermane, in which case the payoff may be good enough to warrant using cards such as Frostveil Ambush. Frostveil Ambush is a blue card that has the cycling cost of 1, meaning its perfect to activate many of those cycling benefits you have on your battlefield. Another thing to consider is that with so many cycling cards you may run into more lands than usual so you may want to adjust the typical 23-17 spell to land ratio."
+          "This is the cycling deck; red and white have really good cycling pay-offs. A perfect example is Savai Thundermane, dealing 2 damage to target creature and gaining 2 life is icing on the cake when I'm trying to cycle through unwanted spells.",
+          "Cycling remains a strong mechanic as it allows a higher density of threats and more consistency in your deck. Considering this you may even want to adjust your typical land-to-spell ratio so you don't run into too many lands while cycling."
+        ],
+        "exampleCards": [
+          {
+            "rank": 9,
+            "tier": "Above Average Cards",
+            "name": "Savai Thundermane"
+          }
         ]
       },
       {
-        "title": "Vigilance",
+        "title": "Flyers",
         "tier": 1,
-        "colors": ["{G}", "{W}"],
+        "colors": ["{U}","{W}"],
         "description": [
-          "Vigilance is a theme in these colors offerring some payoff in Keensight Mento and Frondland Felidar, but you should be fine by focusing on efficient green and white creatures."
-        ]
-      },
-      {
-        "title": "Flash",
-        "tier": 1,
-        "colors": ["{U}", "{B}"],
-        "description": [
-          "Flash is the name of the game, 15 cards will keep you in your lane. There is ample support for flash and instant spells here with major counter support in blue to shut down anything you don't like with Essence Scatter and Neutralize. You also get decent synergy from cards like Slitherwisp and Cunning Nightbonder."
-        ]
-      },
-      {
-        "title": "Spells",
-        "tier": 1,
-        "colors": ["{R}", "{U}"],
-        "description": [
-          "This is your standard non-creature spells matter deck, evidenced by cards like Sprite Dragon. Find a good synergy between serious threats and tuns of spells and yuo will be good to go."
+          "This is your typical flyer deck, blockers on the bottom and flyers up top. This archetype has the most access to flying creature with 13 of the 18 flyers in the whole set being playable in blue white.",
+          "You are going to want to back up those flyers with proper counters and removal. Blue-White has great access to common level removal and counters such as Pacifism, Capture Sphere, and Essence Scatter. "
+        ],
+        "exampleCards": [
+          {
+            "rank": 25,
+            "tier": "Above Average Cards",
+            "name": "Pacifism"
+          },
+          {
+            "rank": 32,
+            "tier": "Above Average Cards",
+            "name": "Capture Sphere"
+          },
+          {
+            "rank": 15,
+            "tier": "Solid Playables",
+            "name": "Essence Scatter"
+          }
         ]
       },
       {
@@ -55,31 +49,209 @@
         "tier": 1,
         "colors": ["{U}", "{G}"],
         "description": [
-          "This color combo focuses on Ikoria's new mechanic Mutate. Trumpeting Gnarr shows you don't have to put all your eggs in that funky basket by giving you a serious advantage for mutating. There are also good common and uncommons such as the Essence Symbiote Pollywog Symbiote who help prop up the mechanics success."
-        ]
-      },
-      {
-        "title": "Menace",
-        "tier": 1,
-        "colors": ["{B}", "{R}"],
-        "description": [
-          "Aggro Aggro Aggro, with some evasiveness in the form of menace, be sure to attack early! This color combo also has good access to removal if you find yourself in a spot where you can't attack!"
-        ]
+          "Mutating seems gross I know, and sometimes it will be if you mutate a creature only to have it die to a single removal spell. The trick in this archetype will be determining when we have mutated too far and start to think \"should I\" instead of \"can I\".",
+          "This mechanic is posed to be successful in limited. We want to be playing large threats and mutating our smaller creatures in this deck. I can see runaway games happening in this archetype from early mutations that don't get answered by the opponent. It's important to also be wary when mutating a creature; you may be making a valuable target for a removal spell your opponent has been sitting on."
+        ],
+        "exampleCards": []
       },
       {
         "title": "Graveyard",
         "tier": 1,
         "colors": ["{B}", "{G}"],
         "description": [
-          "With cycling in this set, this color combo is uniquely positioned to take advantage of any cards cycled to the grave with all the graveyard interactions id has. And with access to big meanies and removal like Back for More, you should be enjoying your matches immensely."
+          "Black-Green is back from the dead with lots of graveyard interactions. The goal here is to play big threats and have removal in case your favorite mutant dies. The pain will be eased in knowing you can bring them back with cards like Back for More.",
+          "If you have the chance to pull some cycling cards in your deck there will be some interesting interactions. Imagine cycling a card like Void Beckoner for the nice deathtouch token and being able to bring it back with Back for More."
+        ],
+        "exampleCards": [
+          {
+            "rank": 12,
+            "tier": "Above Average Cards",
+            "name": "Back for More"
+          },
+          {
+            "rank": 23,
+            "tier": "Solid Playables",
+            "name": "Void Beckoner"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "archetypes": [
+      {
+        "title": "Spells",
+        "tier": 2,
+        "colors": ["{R}", "{U}"],
+        "description": [
+          "Get ready to sling some spells and shut down your opponent. By filling your deck with enough spells you may even be able to turn your Sprite Dragon into a sizeable threat.",
+          "In this deck it is important to find the correct balance of threats to spells. There will be many options from Fire Prophecy to Essence Scatter."
+        ],
+        "exampleCards": [
+          {
+            "rank": 35,
+            "tier": "Above Average Cards",
+            "name": "Sprite Dragon"
+          },
+          {
+            "rank": 40,
+            "tier": "Great First Picks",
+            "name": "Fire Prophecy"
+          },
+          {
+            "rank": 15,
+            "tier": "Solid Playables",
+            "name": "Essence Scatter"
+          }
+        ]
+      },
+      {
+        "title": "Humans",
+        "tier": 2,
+        "colors": ["{B}", "{W}"],
+        "description": [
+          "Humans work best in groups (I know, I know, but it's just a game), so you're going to want to go wide on this one. This archetype is well-positioned to take advantage of cards like Sanctuary Lockdown and Bastion of Remembrance.",
+          "Dire Tactics was made for this archetype, and to close out a game you might want to use something like Coordinated Charge."
+        ],
+        "exampleCards": [
+          {
+            "rank": 39,
+            "tier": "Solid Playables",
+            "name": "Sanctuary Lockdown"
+          },
+          {
+            "rank": 37,
+            "tier": "Solid Playables",
+            "name": "Bastion of Remembrance"
+          },
+          {
+            "rank": 15,
+            "tier": "Above Average Cards",
+            "name": "Dire Tactics"
+          },
+          {
+            "rank": 55,
+            "tier": "Sometimes Playable",
+            "name": "Coordinated Charge"
+          }
+        ]
+      },
+      {
+        "title": "Menace",
+        "tier": 2,
+        "colors": ["{B}", "{R}"],
+        "description": [
+          "Aggro! Aggro! Aggro! I mean of course, right? A good curve is most important in this archetype and remember your ABA's (Always be Attacking). You get some evasiveness from the menace found in these colors, which will help you get your damage in. This archetype really shines when it comes to removal with access to Blood Curdle, Mutual Destruction, and Fire Prophecy all at common level."
+        ],
+        "exampleCards": [
+          {
+            "rank": 42,
+            "tier": "Great First Picks",
+            "name": "Blood Curdle"
+          },
+          {
+            "rank": 27,
+            "tier": "Solid Playables",
+            "name": "Mutual Destruction"
+          },
+          {
+            "rank": 40,
+            "tier": "Great First Picks",
+            "name": "Fire Prophecy"
+          }
         ]
       },
       {
         "title": "Trample",
-        "tier": 1,
+        "tier": 2,
         "colors": ["{R}", "{G}"],
         "description": [
-          "Trample! Another aggro option, be sure to curve out and have large threats. With all the trample going around you should have no trouble getting damage though."
+          "In this archetype you get big meaty creatures and as a bonus they should have trample too (see Proud Wildbonder). An aggressive curve is very important here so remember your 2-drop creatures. In these colors you get good removal in the form of Ram Through and Fire Prophecy."
+        ],
+        "exampleCards": [
+          {
+            "rank": 14,
+            "tier": "Above Average Cards",
+            "name": "Proud Wildbonder"
+          },
+          {
+            "rank": 1,
+            "tier": "Above Average Cards",
+            "name": "Ram Through"
+          },
+          {
+            "rank": 40,
+            "tier": "Great First Picks",
+            "name": "Fire Prophecy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "archetypes": [
+      {
+        "title": "Flash",
+        "tier": 3,
+        "colors": ["{U}", "{B}"],
+        "description": [
+          "\"No\" is what you will say when your opponent asks to cast something. This archetype is your typical counter/removal control deck with a couple major threats: Essence Scatter, Neutralize, Blood Curdle.",
+          "This archetype has good support from the flash theme, just in case your opponent doesn't play anything worth countering on their turn. Cunning Nightbonder gives a little incentive to go the flash route."
+        ],
+        "exampleCards": [
+          {
+            "rank": 15,
+            "tier": "Solid Playables",
+            "name": "Essence Scatter"
+          },
+          {
+            "rank": 46,
+            "tier": "Solid Playables",
+            "name": "Neutralize"
+          },
+          {
+            "rank": 42,
+            "tier": "Great First Picks",
+            "name": "Blood Curdle"
+          },
+          {
+            "rank": 21,
+            "tier": "Sometimes Playable",
+            "name": "Cunning Nightbonder"
+          }
+        ]
+      },
+      {
+        "title": "Vigilance",
+        "tier": 3,
+        "colors": ["{G}", "{W}"],
+        "description": [
+          "Play good stuff! Like always, I know, but with large creatures that have access to flying you start to seem like a threat.",
+          "You get some good removal with Pacifism and Ram Through at common level so you better pick one up. You should also be able to take advantage of the vigilance theme going on in this archetype with Keensight Mentor and Frondland Felidar."
+        ],
+        "exampleCards": [
+          {
+            "rank": 25,
+            "tier": "Above Average Cards",
+            "name": "Pacifism"
+          },
+          {
+            "rank": 1,
+            "tier": "Above Average Cards",
+            "name": "Ram Through"
+          },
+          {
+            "rank": 47,
+            "tier": "Above Average Cards",
+            "name": "Keensight Mentor"
+          },
+          {
+            "rank": 11,
+            "tier": "Great First Picks",
+            "name": "Frondland Felidar"
+          }
         ]
       }
     ]
