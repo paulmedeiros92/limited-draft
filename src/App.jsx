@@ -2,54 +2,48 @@ import React from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import TopPicks from './top-picks/top-picks';
-import Removal from './removal/removal';
-import Archetypes from './archetypes/archetypes';
 import Mechanics from './mechanics/mechanics';
 import TopPicksHeader from './top-picks-header/top-picks-header';
 import Donate from './donate/donate';
 import SetService from './services/set-service';
-import SymbolService from './services/symbol-service';
-import THB from './set-data/thb.json';
-import ELD from './set-data/eld.json';
-import IKO from './set-data/iko.json';
+import ELD from './set-data/eld/eld.json';
+import IKO from './set-data/iko/iko.json';
+import ZNR from './set-data/znr/znr.json';
+import M21 from './set-data/m21/m21.json';
 
-const ALL_SETS = { thb: THB, eld: ELD, iko: IKO };
+const ALL_SETS = {
+  znr: ZNR, m21: M21, iko: IKO, eld: ELD,
+};
 
 class App extends React.Component {
   static changeSet(selectedSet) {
     this.setState({ selectedSet, setPicks: ALL_SETS[selectedSet.code] });
   }
 
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       selectedSet: {
-        name: 'Ikoria',
+        name: 'Zendikar Rising',
         uri: '',
-        code: 'iko',
+        code: 'znr',
       },
       sets: [],
       setPicks: [],
-      symbols: {
-        data: [],
-      },
     };
 
     this.changeSet = App.changeSet.bind(this);
 
-    SetService.fetchAvailableSets().then((sets) => {
-      const currentSet = this.state.selectedSet.code;
-      const selectedSet = sets.find(set => set.code === currentSet);
-      this.setState({ sets, selectedSet, setPicks: ALL_SETS[selectedSet.code] });
-    });
-    SymbolService.fetchSymbols().then((symbols) => {
-      this.setState({ symbols });
+    SetService.fetchAvailableSets(Object.keys(ALL_SETS)).then((sets) => {
+      const { selectedSet } = this.state;
+      const foundSet = sets.find(set => set.code === selectedSet.code);
+      this.setState({ sets, selectedSet: foundSet, setPicks: ALL_SETS[foundSet.code] });
     });
   }
 
   render() {
     const {
-      selectedSet, sets, setPicks, symbols,
+      selectedSet, sets, setPicks,
     } = this.state;
     return (
       <main>
@@ -57,8 +51,6 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={() => <TopPicks setPicks={setPicks} />} />
           <Route path="/mechanics" component={() => <Mechanics selectedSet={selectedSet} />} />
-          <Route path="/archetypes" component={() => <Archetypes selectedSet={selectedSet} symbols={symbols} />} />
-          <Route path="/removal" component={Removal} />
         </Switch>
         <Donate />
       </main>

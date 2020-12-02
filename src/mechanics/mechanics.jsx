@@ -7,11 +7,14 @@ import {
 import CardService from '../services/cards-service';
 import DisplayCard from '../cards/display-card/display-card';
 import MtgCard from '../cards/mtg-card/mtg-card';
-import THB_MECHANICS from '../set-data/thb-mechanics.json';
-import ELD_MECHANICS from '../set-data/eld-mechanics.json';
-import IKO_MECHANICS from '../set-data/iko-mechanics.json';
+import ZNR_MECHANICS from '../set-data/znr/znr-mechanics.json';
+import ELD_MECHANICS from '../set-data/eld/eld-mechanics.json';
+import IKO_MECHANICS from '../set-data/iko/iko-mechanics.json';
+import M21_MECHANICS from '../set-data/m21/m21-mechanics.json';
 
-const MECHANICS = { thb: THB_MECHANICS, eld: ELD_MECHANICS, iko: IKO_MECHANICS };
+const MECHANICS = {
+  znr: ZNR_MECHANICS, eld: ELD_MECHANICS, iko: IKO_MECHANICS, m21: M21_MECHANICS,
+};
 
 class Mechanics extends React.Component {
   static toggleCard(cardUri, cardTier, cardRank, visibility) {

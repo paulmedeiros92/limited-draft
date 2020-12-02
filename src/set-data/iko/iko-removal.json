@@ -1,0 +1,283 @@
+{
+  "R": {
+    "Common": [
+      {
+        "rank": 40,
+        "tier": "Great First Picks",
+        "name": "Fire Prophecy"
+      },
+      {
+        "rank": 2,
+        "tier": "Above Average Cards",
+        "name": "Rumbling Rockslide"
+      },
+      {
+        "rank": 31,
+        "tier": "Above Average Cards",
+        "name": "Go for Blood"
+      }
+    ],
+    "Uncommon": [
+      {
+        "rank": 28,
+        "tier": "Great First Picks",
+        "name": "Flame Spill"
+      },
+      {
+        "rank": 41,
+        "tier": "Above Average Cards",
+        "name": "Porcuparrot"
+      },
+      {
+        "rank": 13,
+        "tier": "Solid Playables",
+        "name": "Clash of Titans"
+      },
+      {
+        "rank": 34,
+        "tier": "Solid Playables",
+        "name": "Blitz of the Thunder-Raptor"
+      },
+      {
+        "rank": 26,
+        "tier": "Sometimes Playable",
+        "name": "Weaponize the Monsters"
+      }
+    ],
+    "Rare": [
+      {
+        "rank": 33,
+        "tier": "Great First Picks",
+        "name": "Mythos of Vadrok"
+      }
+    ]
+  },
+  "G": {
+    "Common": [
+      {
+        "rank": 1,
+        "tier": "Above Average Cards",
+        "name": "Ram Through"
+      }
+    ],
+    "Uncommon": [
+      {
+        "rank": 36,
+        "tier": "Above Average Cards",
+        "name": "Charge of the Forever-Beast"
+      }
+    ],
+    "Rare": [
+      {
+        "rank": 5,
+        "tier": "Incredible Bombs",
+        "name": "Kogla, the Titan Ape"
+      }
+    ]
+  },
+  "U": {
+    "Common": [
+      {
+        "rank": 32,
+        "tier": "Above Average Cards",
+        "name": "Capture Sphere"
+      },
+      {
+        "rank": 15,
+        "tier": "Solid Playables",
+        "name": "Essence Scatter"
+      }
+    ],
+    "Uncommon": [
+      {
+        "rank": 28,
+        "tier": "Solid Playables",
+        "name": "Mystic Subdual"
+      },
+      {
+        "rank": 46,
+        "tier": "Solid Playables",
+        "name": "Neutralize"
+      }
+    ],
+    "Rare": []
+  },
+  "B": {
+    "Common": [
+      {
+        "rank": 42,
+        "tier": "Great First Picks",
+        "name": "Blood Curdle"
+      },
+      {
+        "rank": 39,
+        "tier": "Above Average Cards",
+        "name": "Dead Weight"
+      },
+      {
+        "rank": 27,
+        "tier": "Solid Playables",
+        "name": "Mutual Destruction"
+      },
+      {
+        "rank": 47,
+        "tier": "Sometimes Playable",
+        "name": "Suffocating Fumes"
+      },
+      {
+        "rank": 49,
+        "tier": "Sometimes Playable",
+        "name": "Lurking Deadeye"
+      }
+    ],
+    "Uncommon": [
+      {
+        "rank": 32,
+        "tier": "Great First Picks",
+        "name": "Heartless Act"
+      },
+      {
+        "rank": 37,
+        "tier": "Above Average Cards",
+        "name": "Chittering Harvester"
+      },
+      {
+        "rank": 49,
+        "tier": "Above Average Cards",
+        "name": "Zagoth Mamba"
+      },
+      {
+        "rank": 20,
+        "tier": "Solid Playables",
+        "name": "Easy Prey"
+      }
+    ],
+    "Rare": [
+      {
+        "rank": 7,
+        "tier": "Incredible Bombs",
+        "name": "Dirge Bat"
+      },
+      {
+        "rank": 38,
+        "tier": "Great First Picks",
+        "name": "Mythos of Nethroi"
+      },
+      {
+        "rank": 14,
+        "tier": "Solid Playables",
+        "name": "Extinction Event"
+      }
+    ]
+  },
+  "W": {
+    "Common": [
+      {
+        "rank": 25,
+        "tier": "Above Average Cards",
+        "name": "Pacifism"
+      },
+      {
+        "rank": 40,
+        "tier": "Above Average Cards",
+        "name": "Divine Arrow"
+      },
+      {
+        "rank": 31,
+        "tier": "Solid Playables",
+        "name": "Blade Banish"
+      },
+      {
+        "rank": 31,
+        "tier": "Sometimes Playable",
+        "name": "Checkpoint Officer"
+      }
+    ],
+    "Uncommon": [
+      {
+        "rank": 45,
+        "tier": "Above Average Cards",
+        "name": "Swallow Whole"
+      }
+    ],
+    "Rare": []
+  },
+  "A": {
+    "Common": [],
+    "Uncommon": [
+      {
+        "rank": 9,
+        "tier": "Above Average Cards",
+        "name": "Savai Thundermane"
+      },
+      {
+        "rank": 12,
+        "tier": "Above Average Cards",
+        "name": "Back for More"
+      },
+      {
+        "rank": 15,
+        "tier": "Above Average Cards",
+        "name": "Dire Tactics"
+      },
+      {
+        "rank": 48,
+        "tier": "Above Average Cards",
+        "name": "Channeled Force"
+      },
+      {
+        "rank": 33,
+        "tier": "Solid Playables",
+        "name": "Zenith Flare"
+      }
+    ],
+    "Rare": [
+      {
+        "rank": 2,
+        "tier": "Incredible Bombs",
+        "name": "Inspired Ultimatum"
+      },
+      {
+        "rank": 4,
+        "tier": "Incredible Bombs",
+        "name": "Snapdax, Apex of the Hunt"
+      },
+      {
+        "rank": 2,
+        "tier": "Great First Picks",
+        "name": "Narset of the Ancient Way"
+      },
+      {
+        "rank": 8,
+        "tier": "Great First Picks",
+        "name": "Ruinous Ultimatum"
+      },
+      {
+        "rank": 27,
+        "tier": "Great First Picks",
+        "name": "General Kudro of Drannith"
+      },
+      {
+        "rank": 35,
+        "tier": "Great First Picks",
+        "name": "Mythos of Illuna"
+      },
+      {
+        "rank": 48,
+        "tier": "Solid Playables",
+        "name": "Mythos of Snapdax"
+      }
+    ]
+  },
+  "C": {
+    "Common": [
+      {
+        "rank": 39,
+        "tier": "Sometimes Playable",
+        "name": "Springjaw Trap"
+      }
+    ],
+    "Uncommon": [],
+    "Rare": []
+  }
+}

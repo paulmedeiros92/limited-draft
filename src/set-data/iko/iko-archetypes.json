@@ -52,7 +52,18 @@
           "Mutating seems gross I know, and sometimes it will be if you mutate a creature only to have it die to a single removal spell. The trick in this archetype will be determining when we have mutated too far and start to think \"should I\" instead of \"can I\".",
           "This mechanic is posed to be successful in limited. We want to be playing large threats and mutating our smaller creatures in this deck. I can see runaway games happening in this archetype from early mutations that don't get answered by the opponent. It's important to also be wary when mutating a creature; you may be making a valuable target for a removal spell your opponent has been sitting on."
         ],
-        "exampleCards": []
+        "exampleCards": [
+          {
+            "rank": 1,
+            "tier": "Above Average Cards",
+            "name": "Ram Through"
+          },
+          {
+            "rank": 32,
+            "tier": "Above Average Cards",
+            "name": "Capture Sphere"
+          }
+        ]
       },
       {
         "title": "Graveyard",

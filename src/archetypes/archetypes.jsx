@@ -8,11 +8,11 @@ import SymbolService from '../services/symbol-service';
 import CardService from '../services/cards-service';
 import DisplayCard from '../cards/display-card/display-card';
 import MtgCard from '../cards/mtg-card/mtg-card';
-import THB_ARCHETYPES from '../set-data/thb-archetypes.json';
+import ZNR_ARCHETYPES from '../set-data/znr-archetypes.json';
 import ELD_ARCHETYPES from '../set-data/eld-archetypes.json';
 import IKO_ARCHETYPES from '../set-data/iko-archetypes.json';
 
-const ARCHETYPES = { thb: THB_ARCHETYPES, eld: ELD_ARCHETYPES, iko: IKO_ARCHETYPES };
+const ARCHETYPES = { znr: ZNR_ARCHETYPES, eld: ELD_ARCHETYPES, iko: IKO_ARCHETYPES };
 
 class Archetypes extends React.Component {
   static buildMana(uris) {

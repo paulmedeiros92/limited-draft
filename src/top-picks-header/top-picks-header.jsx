@@ -22,13 +22,11 @@ function TopPicksHeader({ changeSet, selectedSet, sets }) {
   return (
     <div className="top-picks-header">
       <Navbar bg="light" variant="light" expand="lg" className="mr-auto">
-        <Navbar.Brand onClick={() => history.push('/')}>MTG Buddy</Navbar.Brand>
+        <Navbar.Brand onClick={() => history.push('/')}><Nav.Link>MTG Buddy</Nav.Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link onClick={() => history.push('/archetypes')}>Archetypes</Nav.Link>
             <Nav.Link onClick={() => history.push('/mechanics')}>Mechanics</Nav.Link>
-            <Nav.Link onClick={() => history.push('/removal')} disabled>Removal</Nav.Link>
           </Nav>
           <Nav>
             <Dropdown>

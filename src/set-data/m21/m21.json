@@ -1,0 +1,1407 @@
+[
+    {
+        "tier": "Incredible Bombs",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Incredible Bombs",
+                "name": "Ugin, the Spirit Dragon"
+            },
+            {
+                "rank": 2,
+                "tier": "Incredible Bombs",
+                "name": "Garruk, Unleashed"
+            },
+            {
+                "rank": 3,
+                "tier": "Incredible Bombs",
+                "name": "Massacre Wurm"
+            },
+            {
+                "rank": 4,
+                "tier": "Incredible Bombs",
+                "name": "Sublime Epiphany"
+            },
+            {
+                "rank": 5,
+                "tier": "Incredible Bombs",
+                "name": "Elder Gargaroth"
+            },
+            {
+                "rank": 6,
+                "tier": "Incredible Bombs",
+                "name": "Terror of the Peaks"
+            },
+            {
+                "rank": 7,
+                "tier": "Incredible Bombs",
+                "name": "Teferi, Master of Time"
+            },
+            {
+                "rank": 8,
+                "tier": "Incredible Bombs",
+                "name": "Baneslayer Angel"
+            },
+            {
+                "rank": 9,
+                "tier": "Incredible Bombs",
+                "name": "Chandra, Heart of Fire"
+            }
+        ]
+    },
+    {
+        "tier": "Great First Picks",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Great First Picks",
+                "name": "Brash Taunter"
+            },
+            {
+                "rank": 2,
+                "tier": "Great First Picks",
+                "name": "Basri Ket"
+            },
+            {
+                "rank": 3,
+                "tier": "Great First Picks",
+                "name": "Garruk's Harbinger"
+            },
+            {
+                "rank": 4,
+                "tier": "Great First Picks",
+                "name": "Basri's Lieutenant"
+            },
+            {
+                "rank": 5,
+                "tier": "Great First Picks",
+                "name": "Demonic Embrace"
+            },
+            {
+                "rank": 6,
+                "tier": "Great First Picks",
+                "name": "Vito, Thorn of the Dusk Rose"
+            },
+            {
+                "rank": 7,
+                "tier": "Great First Picks",
+                "name": "Liliana, Waker of the Dead"
+            },
+            {
+                "rank": 8,
+                "tier": "Great First Picks",
+                "name": "Radha, Heart of Keld"
+            },
+            {
+                "rank": 9,
+                "tier": "Great First Picks",
+                "name": "Jolrael, Mwonvuli Recluse"
+            },
+            {
+                "rank": 10,
+                "tier": "Great First Picks",
+                "name": "Solemn Simulacrum"
+            },
+            {
+                "rank": 11,
+                "tier": "Great First Picks",
+                "name": "Faith's Fetters"
+            },
+            {
+                "rank": 12,
+                "tier": "Great First Picks",
+                "name": "Pack Leader"
+            },
+            {
+                "rank": 13,
+                "tier": "Great First Picks",
+                "name": "Subira, Tulzidi Caravanner"
+            },
+            {
+                "rank": 14,
+                "tier": "Great First Picks",
+                "name": "Primal Might"
+            },
+            {
+                "rank": 15,
+                "tier": "Great First Picks",
+                "name": "Scavenging Ooze"
+            },
+            {
+                "rank": 16,
+                "tier": "Great First Picks",
+                "name": "Sporeweb Weaver"
+            },
+            {
+                "rank": 17,
+                "tier": "Great First Picks",
+                "name": "Glorious Anthem"
+            },
+            {
+                "rank": 18,
+                "tier": "Great First Picks",
+                "name": "Soul Sear"
+            },
+            {
+                "rank": 19,
+                "tier": "Great First Picks",
+                "name": "Pursued Whale"
+            },
+            {
+                "rank": 20,
+                "tier": "Great First Picks",
+                "name": "Volcanic Salvo"
+            },
+            {
+                "rank": 21,
+                "tier": "Great First Picks",
+                "name": "Stormwing Entity"
+            },
+            {
+                "rank": 22,
+                "tier": "Great First Picks",
+                "name": "Teferi's Tutelage"
+            },
+            {
+                "rank": 23,
+                "tier": "Great First Picks",
+                "name": "Mangara, the Diplomat"
+            },
+            {
+                "rank": 24,
+                "tier": "Great First Picks",
+                "name": "Liliana's Standard Bearer"
+            },
+            {
+                "rank": 25,
+                "tier": "Great First Picks",
+                "name": "Chandra's Incinerator"
+            },
+            {
+                "rank": 26,
+                "tier": "Great First Picks",
+                "name": "Ghostly Pilferer"
+            },
+            {
+                "rank": 27,
+                "tier": "Great First Picks",
+                "name": "Hooded Blightfang"
+            },
+            {
+                "rank": 28,
+                "tier": "Great First Picks",
+                "name": "Conclave Mentor"
+            },
+            {
+                "rank": 29,
+                "tier": "Great First Picks",
+                "name": "Goremand"
+            },
+            {
+                "rank": 30,
+                "tier": "Great First Picks",
+                "name": "Waker of Waves"
+            },
+            {
+                "rank": 31,
+                "tier": "Great First Picks",
+                "name": "Scorching Dragonfire"
+            },
+            {
+                "rank": 32,
+                "tier": "Great First Picks",
+                "name": "Experimental Overload"
+            },
+            {
+                "rank": 33,
+                "tier": "Great First Picks",
+                "name": "Tolarian Kraken"
+            },
+            {
+                "rank": 34,
+                "tier": "Great First Picks",
+                "name": "Liliana's Devotee"
+            },
+            {
+                "rank": 35,
+                "tier": "Great First Picks",
+                "name": "Alpine Houndmaster"
+            },
+            {
+                "rank": 36,
+                "tier": "Great First Picks",
+                "name": "Grasp of Darkness"
+            },
+            {
+                "rank": 37,
+                "tier": "Great First Picks",
+                "name": "Gadrak, the Crown-Scourge"
+            }
+        ]
+    },
+    {
+        "tier": "Above Average Cards",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Above Average Cards",
+                "name": "Shock"
+            },
+            {
+                "rank": 2,
+                "tier": "Above Average Cards",
+                "name": "Twinblade Assassins"
+            },
+            {
+                "rank": 3,
+                "tier": "Above Average Cards",
+                "name": "Barrin, Tolarian Archmage"
+            },
+            {
+                "rank": 4,
+                "tier": "Above Average Cards",
+                "name": "Watcher of the Spheres"
+            },
+            {
+                "rank": 5,
+                "tier": "Above Average Cards",
+                "name": "Leafkin Avenger"
+            },
+            {
+                "rank": 6,
+                "tier": "Above Average Cards",
+                "name": "Heartfire Immolator"
+            },
+            {
+                "rank": 7,
+                "tier": "Above Average Cards",
+                "name": "Obsessive Stitcher"
+            },
+            {
+                "rank": 8,
+                "tier": "Above Average Cards",
+                "name": "Lorescale Coatl"
+            },
+            {
+                "rank": 9,
+                "tier": "Above Average Cards",
+                "name": "Seasoned Hallowblade"
+            },
+            {
+                "rank": 10,
+                "tier": "Above Average Cards",
+                "name": "Llanowar Visionary"
+            },
+            {
+                "rank": 11,
+                "tier": "Above Average Cards",
+                "name": "Indulging Patrician"
+            },
+            {
+                "rank": 12,
+                "tier": "Above Average Cards",
+                "name": "Eliminate"
+            },
+            {
+                "rank": 13,
+                "tier": "Above Average Cards",
+                "name": "Roaming Ghostlight"
+            },
+            {
+                "rank": 14,
+                "tier": "Above Average Cards",
+                "name": "Fiery Emancipation"
+            },
+            {
+                "rank": 15,
+                "tier": "Above Average Cards",
+                "name": "Shipwreck Dowser"
+            },
+            {
+                "rank": 16,
+                "tier": "Above Average Cards",
+                "name": "Rain of Revelation"
+            },
+            {
+                "rank": 17,
+                "tier": "Above Average Cards",
+                "name": "Aven Gagglemaster"
+            },
+            {
+                "rank": 18,
+                "tier": "Above Average Cards",
+                "name": "Thrashing Brontodon"
+            },
+            {
+                "rank": 19,
+                "tier": "Above Average Cards",
+                "name": "Sanctum of Stone Fangs"
+            },
+            {
+                "rank": 20,
+                "tier": "Above Average Cards",
+                "name": "Mazemind Tome"
+            },
+            {
+                "rank": 21,
+                "tier": "Above Average Cards",
+                "name": "Malefic Scythe"
+            },
+            {
+                "rank": 22,
+                "tier": "Above Average Cards",
+                "name": "Hunter's Edge"
+            },
+            {
+                "rank": 23,
+                "tier": "Above Average Cards",
+                "name": "Chrome Replicator"
+            },
+            {
+                "rank": 24,
+                "tier": "Above Average Cards",
+                "name": "Finishing Blow"
+            },
+            {
+                "rank": 25,
+                "tier": "Above Average Cards",
+                "name": "Tempered Veteran"
+            },
+            {
+                "rank": 26,
+                "tier": "Above Average Cards",
+                "name": "Hellkite Punisher"
+            },
+            {
+                "rank": 27,
+                "tier": "Above Average Cards",
+                "name": "Riddleform"
+            },
+            {
+                "rank": 28,
+                "tier": "Above Average Cards",
+                "name": "Dire Fleet Warmonger"
+            },
+            {
+                "rank": 29,
+                "tier": "Above Average Cards",
+                "name": "Selfless Savior"
+            },
+            {
+                "rank": 30,
+                "tier": "Above Average Cards",
+                "name": "Angelic Ascension"
+            },
+            {
+                "rank": 31,
+                "tier": "Above Average Cards",
+                "name": "Kinetic Augur"
+            },
+            {
+                "rank": 32,
+                "tier": "Above Average Cards",
+                "name": "Basri's Acolyte"
+            },
+            {
+                "rank": 33,
+                "tier": "Above Average Cards",
+                "name": "Jeskai Elder"
+            },
+            {
+                "rank": 34,
+                "tier": "Above Average Cards",
+                "name": "Sparkhunter Masticore"
+            },
+            {
+                "rank": 35,
+                "tier": "Above Average Cards",
+                "name": "Double Vision"
+            }
+        ]
+    },
+    {
+        "tier": "Solid Playables",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Solid Playables",
+                "name": "Feat of Resistance"
+            },
+            {
+                "rank": 2,
+                "tier": "Solid Playables",
+                "name": "Capture Sphere"
+            },
+            {
+                "rank": 3,
+                "tier": "Solid Playables",
+                "name": "Witch's Cauldron"
+            },
+            {
+                "rank": 4,
+                "tier": "Solid Playables",
+                "name": "Spellgorger Weird"
+            },
+            {
+                "rank": 5,
+                "tier": "Solid Playables",
+                "name": "Turn to Slag"
+            },
+            {
+                "rank": 6,
+                "tier": "Solid Playables",
+                "name": "Volcanic Geyser"
+            },
+            {
+                "rank": 7,
+                "tier": "Solid Playables",
+                "name": "Kitesail Freebooter"
+            },
+            {
+                "rank": 8,
+                "tier": "Solid Playables",
+                "name": "Sanctum of Calm Waters"
+            },
+            {
+                "rank": 9,
+                "tier": "Solid Playables",
+                "name": "Rousing Read"
+            },
+            {
+                "rank": 10,
+                "tier": "Solid Playables",
+                "name": "Battle-Rattle Shaman"
+            },
+            {
+                "rank": 11,
+                "tier": "Solid Playables",
+                "name": "Enthralling Hold"
+            },
+            {
+                "rank": 12,
+                "tier": "Solid Playables",
+                "name": "Kaervek, the Spiteful"
+            },
+            {
+                "rank": 13,
+                "tier": "Solid Playables",
+                "name": "Drowsing Tyrannodon"
+            },
+            {
+                "rank": 14,
+                "tier": "Solid Playables",
+                "name": "Basri's Solidarity"
+            },
+            {
+                "rank": 15,
+                "tier": "Solid Playables",
+                "name": "Quirion Dryad"
+            },
+            {
+                "rank": 16,
+                "tier": "Solid Playables",
+                "name": "Swift Response"
+            },
+            {
+                "rank": 17,
+                "tier": "Solid Playables",
+                "name": "Opt"
+            },
+            {
+                "rank": 18,
+                "tier": "Solid Playables",
+                "name": "Deathbloom Thallid"
+            },
+            {
+                "rank": 19,
+                "tier": "Solid Playables",
+                "name": "Skyscanner"
+            },
+            {
+                "rank": 20,
+                "tier": "Solid Playables",
+                "name": "Silversmote Ghoul"
+            },
+            {
+                "rank": 21,
+                "tier": "Solid Playables",
+                "name": "Falconer Adept"
+            },
+            {
+                "rank": 22,
+                "tier": "Solid Playables",
+                "name": "Feline Sovereign"
+            },
+            {
+                "rank": 23,
+                "tier": "Solid Playables",
+                "name": "Burlfist Oak"
+            },
+            {
+                "rank": 24,
+                "tier": "Solid Playables",
+                "name": "Warden of the Woods"
+            },
+            {
+                "rank": 25,
+                "tier": "Solid Playables",
+                "name": "Garruk's Uprising"
+            },
+            {
+                "rank": 26,
+                "tier": "Solid Playables",
+                "name": "Carrion Grub"
+            },
+            {
+                "rank": 27,
+                "tier": "Solid Playables",
+                "name": "Fierce Empath"
+            },
+            {
+                "rank": 28,
+                "tier": "Solid Playables",
+                "name": "Havoc Jester"
+            },
+            {
+                "rank": 29,
+                "tier": "Solid Playables",
+                "name": "Gale Swooper"
+            },
+            {
+                "rank": 30,
+                "tier": "Solid Playables",
+                "name": "Rise Again"
+            },
+            {
+                "rank": 31,
+                "tier": "Solid Playables",
+                "name": "Crash Through"
+            },
+            {
+                "rank": 32,
+                "tier": "Solid Playables",
+                "name": "Goblin Wizardry"
+            },
+            {
+                "rank": 33,
+                "tier": "Solid Playables",
+                "name": "Pitchburn Devils"
+            },
+            {
+                "rank": 34,
+                "tier": "Solid Playables",
+                "name": "Mistral Singer"
+            },
+            {
+                "rank": 35,
+                "tier": "Solid Playables",
+                "name": "Shacklegeist"
+            },
+            {
+                "rank": 36,
+                "tier": "Solid Playables",
+                "name": "Palladium Myr"
+            },
+            {
+                "rank": 37,
+                "tier": "Solid Playables",
+                "name": "Animal Sanctuary"
+            },
+            {
+                "rank": 38,
+                "tier": "Solid Playables",
+                "name": "Griffin Aerie"
+            },
+            {
+                "rank": 39,
+                "tier": "Solid Playables",
+                "name": "Trufflesnout"
+            },
+            {
+                "rank": 40,
+                "tier": "Solid Playables",
+                "name": "Furious Rise"
+            },
+            {
+                "rank": 41,
+                "tier": "Solid Playables",
+                "name": "Temple of Triumph"
+            },
+            {
+                "rank": 42,
+                "tier": "Solid Playables",
+                "name": "Temple of Epiphany"
+            },
+            {
+                "rank": 43,
+                "tier": "Solid Playables",
+                "name": "Temple of Malady"
+            },
+            {
+                "rank": 44,
+                "tier": "Solid Playables",
+                "name": "Temple of Mystery"
+            },
+            {
+                "rank": 45,
+                "tier": "Solid Playables",
+                "name": "Temple of Silence"
+            },
+            {
+                "rank": 46,
+                "tier": "Solid Playables",
+                "name": "Pridemalkin"
+            },
+            {
+                "rank": 47,
+                "tier": "Solid Playables",
+                "name": "Siege Striker"
+            },
+            {
+                "rank": 48,
+                "tier": "Solid Playables",
+                "name": "Bolt Hound"
+            },
+            {
+                "rank": 49,
+                "tier": "Solid Playables",
+                "name": "Tide Skimmer"
+            },
+            {
+                "rank": 50,
+                "tier": "Solid Playables",
+                "name": "Fungal Rebirth"
+            },
+            {
+                "rank": 51,
+                "tier": "Solid Playables",
+                "name": "Teferi's Ageless Insight"
+            }
+        ]
+    },
+    {
+        "tier": "Sometimes Playable",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Sometimes Playable",
+                "name": "Daybreak Charger"
+            },
+            {
+                "rank": 2,
+                "tier": "Sometimes Playable",
+                "name": "Makeshift Battalion"
+            },
+            {
+                "rank": 3,
+                "tier": "Sometimes Playable",
+                "name": "Secure the Scene"
+            },
+            {
+                "rank": 4,
+                "tier": "Sometimes Playable",
+                "name": "Keen Glidemaster"
+            },
+            {
+                "rank": 5,
+                "tier": "Sometimes Playable",
+                "name": "Crypt Lurker"
+            },
+            {
+                "rank": 6,
+                "tier": "Sometimes Playable",
+                "name": "Fetid Imp"
+            },
+            {
+                "rank": 7,
+                "tier": "Sometimes Playable",
+                "name": "Tavern Swindler"
+            },
+            {
+                "rank": 8,
+                "tier": "Sometimes Playable",
+                "name": "Thrill of Possibility"
+            },
+            {
+                "rank": 9,
+                "tier": "Sometimes Playable",
+                "name": "Turret Ogre"
+            },
+            {
+                "rank": 10,
+                "tier": "Sometimes Playable",
+                "name": "Gnarled Sage"
+            },
+            {
+                "rank": 11,
+                "tier": "Sometimes Playable",
+                "name": "Speaker of the Heavens"
+            },
+            {
+                "rank": 12,
+                "tier": "Sometimes Playable",
+                "name": "Colossal Dreadmaw"
+            },
+            {
+                "rank": 13,
+                "tier": "Sometimes Playable",
+                "name": "Unsubstantiate"
+            },
+            {
+                "rank": 14,
+                "tier": "Sometimes Playable",
+                "name": "Niambi, Esteemed Speaker"
+            },
+            {
+                "rank": 15,
+                "tier": "Sometimes Playable",
+                "name": "Wildwood Scourge"
+            },
+            {
+                "rank": 16,
+                "tier": "Sometimes Playable",
+                "name": "Discontinuity"
+            },
+            {
+                "rank": 17,
+                "tier": "Sometimes Playable",
+                "name": "Alpine Watchdog"
+            },
+            {
+                "rank": 18,
+                "tier": "Sometimes Playable",
+                "name": "Valorous Steed"
+            },
+            {
+                "rank": 19,
+                "tier": "Sometimes Playable",
+                "name": "Fabled Passage"
+            },
+            {
+                "rank": 20,
+                "tier": "Sometimes Playable",
+                "name": "Invigorating Surge"
+            },
+            {
+                "rank": 21,
+                "tier": "Sometimes Playable",
+                "name": "Idol of Endurance"
+            },
+            {
+                "rank": 22,
+                "tier": "Sometimes Playable",
+                "name": "Chandra's Magmutt"
+            },
+            {
+                "rank": 23,
+                "tier": "Sometimes Playable",
+                "name": "Pestilent Haze"
+            },
+            {
+                "rank": 24,
+                "tier": "Sometimes Playable",
+                "name": "Chandra's Pyreling"
+            },
+            {
+                "rank": 25,
+                "tier": "Sometimes Playable",
+                "name": "Teferi's Protege"
+            },
+            {
+                "rank": 26,
+                "tier": "Sometimes Playable",
+                "name": "Containment Priest"
+            },
+            {
+                "rank": 27,
+                "tier": "Sometimes Playable",
+                "name": "Thornwood Falls"
+            },
+            {
+                "rank": 28,
+                "tier": "Sometimes Playable",
+                "name": "Blossoming Sands"
+            },
+            {
+                "rank": 29,
+                "tier": "Sometimes Playable",
+                "name": "Wind-Scarred Crag"
+            },
+            {
+                "rank": 30,
+                "tier": "Sometimes Playable",
+                "name": "Rugged Highlands"
+            },
+            {
+                "rank": 31,
+                "tier": "Sometimes Playable",
+                "name": "Jungle Hollow"
+            },
+            {
+                "rank": 32,
+                "tier": "Sometimes Playable",
+                "name": "Bloodfell Caves"
+            },
+            {
+                "rank": 33,
+                "tier": "Sometimes Playable",
+                "name": "Swiftwater Cliffs"
+            },
+            {
+                "rank": 34,
+                "tier": "Sometimes Playable",
+                "name": "Dismal Backwater"
+            },
+            {
+                "rank": 35,
+                "tier": "Sometimes Playable",
+                "name": "Scoured Barrens"
+            },
+            {
+                "rank": 36,
+                "tier": "Sometimes Playable",
+                "name": "Tranquil Cove"
+            },
+            {
+                "rank": 37,
+                "tier": "Sometimes Playable",
+                "name": "Anointed Chorister"
+            },
+            {
+                "rank": 38,
+                "tier": "Sometimes Playable",
+                "name": "Read the Tides"
+            },
+            {
+                "rank": 39,
+                "tier": "Sometimes Playable",
+                "name": "Vodalian Arcanist"
+            },
+            {
+                "rank": 40,
+                "tier": "Sometimes Playable",
+                "name": "Caged Zombie"
+            },
+            {
+                "rank": 41,
+                "tier": "Sometimes Playable",
+                "name": "Sanguine Indulgence"
+            },
+            {
+                "rank": 42,
+                "tier": "Sometimes Playable",
+                "name": "Skeleton Archer"
+            },
+            {
+                "rank": 43,
+                "tier": "Sometimes Playable",
+                "name": "Hobblefiend"
+            },
+            {
+                "rank": 44,
+                "tier": "Sometimes Playable",
+                "name": "Ornery Dilophosaur"
+            },
+            {
+                "rank": 45,
+                "tier": "Sometimes Playable",
+                "name": "Setessan Training"
+            },
+            {
+                "rank": 46,
+                "tier": "Sometimes Playable",
+                "name": "Sanctum of Fruitful Harvest"
+            },
+            {
+                "rank": 47,
+                "tier": "Sometimes Playable",
+                "name": "Library Larcenist"
+            },
+            {
+                "rank": 48,
+                "tier": "Sometimes Playable",
+                "name": "Sabertooth Mauler"
+            },
+            {
+                "rank": 49,
+                "tier": "Sometimes Playable",
+                "name": "Celestial Enforcer"
+            },
+            {
+                "rank": 50,
+                "tier": "Sometimes Playable",
+                "name": "Vryn Wingmare"
+            },
+            {
+                "rank": 51,
+                "tier": "Sometimes Playable",
+                "name": "Canopy Stalker"
+            },
+            {
+                "rank": 52,
+                "tier": "Sometimes Playable",
+                "name": "Igneous Cur"
+            },
+            {
+                "rank": 53,
+                "tier": "Sometimes Playable",
+                "name": "Meteorite"
+            },
+            {
+                "rank": 54,
+                "tier": "Sometimes Playable",
+                "name": "Spined Megalodon"
+            },
+            {
+                "rank": 55,
+                "tier": "Sometimes Playable",
+                "name": "Cultivate"
+            },
+            {
+                "rank": 56,
+                "tier": "Sometimes Playable",
+                "name": "Bad Deal"
+            },
+            {
+                "rank": 57,
+                "tier": "Sometimes Playable",
+                "name": "Peer into the Abyss"
+            },
+            {
+                "rank": 58,
+                "tier": "Sometimes Playable",
+                "name": "Runed Halo"
+            },
+            {
+                "rank": 59,
+                "tier": "Sometimes Playable",
+                "name": "Ranger's Guile"
+            },
+            {
+                "rank": 60,
+                "tier": "Sometimes Playable",
+                "name": "Concordia Pegasus"
+            },
+            {
+                "rank": 61,
+                "tier": "Sometimes Playable",
+                "name": "Blood Glutton"
+            },
+            {
+                "rank": 62,
+                "tier": "Sometimes Playable",
+                "name": "Sure Strike"
+            },
+            {
+                "rank": 63,
+                "tier": "Sometimes Playable",
+                "name": "Snarespinner"
+            },
+            {
+                "rank": 64,
+                "tier": "Sometimes Playable",
+                "name": "Titanic Growth"
+            },
+            {
+                "rank": 65,
+                "tier": "Sometimes Playable",
+                "name": "Short Sword"
+            },
+            {
+                "rank": 66,
+                "tier": "Sometimes Playable",
+                "name": "Sanctum of Shattered Heights"
+            },
+            {
+                "rank": 67,
+                "tier": "Sometimes Playable",
+                "name": "Liliana's Steward"
+            },
+            {
+                "rank": 68,
+                "tier": "Sometimes Playable",
+                "name": "Thieves' Guild Enforcer"
+            },
+            {
+                "rank": 69,
+                "tier": "Sometimes Playable",
+                "name": "Lofty Denial"
+            },
+            {
+                "rank": 70,
+                "tier": "Sometimes Playable",
+                "name": "Frantic Inventory"
+            },
+            {
+                "rank": 71,
+                "tier": "Sometimes Playable",
+                "name": "Archfiend's Vessel"
+            },
+            {
+                "rank": 72,
+                "tier": "Sometimes Playable",
+                "name": "Traitorous Greed"
+            },
+            {
+                "rank": 73,
+                "tier": "Sometimes Playable",
+                "name": "Village Rites"
+            }
+        ]
+    },
+    {
+        "tier": "Rarely Playable",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Rarely Playable",
+                "name": "Defiant Strike"
+            },
+            {
+                "rank": 2,
+                "tier": "Rarely Playable",
+                "name": "Legion's Judgment"
+            },
+            {
+                "rank": 3,
+                "tier": "Rarely Playable",
+                "name": "Staunch Shieldmate"
+            },
+            {
+                "rank": 4,
+                "tier": "Rarely Playable",
+                "name": "Warded Battlements"
+            },
+            {
+                "rank": 5,
+                "tier": "Rarely Playable",
+                "name": "Cancel"
+            },
+            {
+                "rank": 6,
+                "tier": "Rarely Playable",
+                "name": "Frost Breath"
+            },
+            {
+                "rank": 7,
+                "tier": "Rarely Playable",
+                "name": "Tome Anima"
+            },
+            {
+                "rank": 8,
+                "tier": "Rarely Playable",
+                "name": "Wall of Runes"
+            },
+            {
+                "rank": 9,
+                "tier": "Rarely Playable",
+                "name": "Wishcoin Crab"
+            },
+            {
+                "rank": 10,
+                "tier": "Rarely Playable",
+                "name": "Alchemist's Gift"
+            },
+            {
+                "rank": 11,
+                "tier": "Rarely Playable",
+                "name": "Gloom Sower"
+            },
+            {
+                "rank": 12,
+                "tier": "Rarely Playable",
+                "name": "Masked Blackguard"
+            },
+            {
+                "rank": 13,
+                "tier": "Rarely Playable",
+                "name": "Mind Rot"
+            },
+            {
+                "rank": 14,
+                "tier": "Rarely Playable",
+                "name": "Onakke Ogre"
+            },
+            {
+                "rank": 15,
+                "tier": "Rarely Playable",
+                "name": "Portcullis Vine"
+            },
+            {
+                "rank": 16,
+                "tier": "Rarely Playable",
+                "name": "Track Down"
+            },
+            {
+                "rank": 17,
+                "tier": "Rarely Playable",
+                "name": "Epitaph Golem"
+            },
+            {
+                "rank": 18,
+                "tier": "Rarely Playable",
+                "name": "Forgotten Sentinel"
+            },
+            {
+                "rank": 19,
+                "tier": "Rarely Playable",
+                "name": "Sanctum of Tranquil Light"
+            },
+            {
+                "rank": 20,
+                "tier": "Rarely Playable",
+                "name": "Heroic Intervention"
+            },
+            {
+                "rank": 21,
+                "tier": "Rarely Playable",
+                "name": "Revitalize"
+            },
+            {
+                "rank": 22,
+                "tier": "Rarely Playable",
+                "name": "See the Truth"
+            },
+            {
+                "rank": 23,
+                "tier": "Rarely Playable",
+                "name": "Rewind"
+            },
+            {
+                "rank": 24,
+                "tier": "Rarely Playable",
+                "name": "Azusa, Lost but Seeking"
+            },
+            {
+                "rank": 25,
+                "tier": "Rarely Playable",
+                "name": "Grim Tutor"
+            },
+            {
+                "rank": 26,
+                "tier": "Rarely Playable",
+                "name": "Unleash Fury"
+            },
+            {
+                "rank": 27,
+                "tier": "Rarely Playable",
+                "name": "Dub"
+            },
+            {
+                "rank": 28,
+                "tier": "Rarely Playable",
+                "name": "Rookie Mistake"
+            },
+            {
+                "rank": 29,
+                "tier": "Rarely Playable",
+                "name": "Duress"
+            },
+            {
+                "rank": 30,
+                "tier": "Rarely Playable",
+                "name": "Bone Pit Brute"
+            },
+            {
+                "rank": 31,
+                "tier": "Rarely Playable",
+                "name": "Furor of the Bitten"
+            },
+            {
+                "rank": 32,
+                "tier": "Rarely Playable",
+                "name": "Return to Nature"
+            },
+            {
+                "rank": 33,
+                "tier": "Rarely Playable",
+                "name": "Skyway Sniper"
+            },
+            {
+                "rank": 34,
+                "tier": "Rarely Playable",
+                "name": "Prismite"
+            },
+            {
+                "rank": 35,
+                "tier": "Rarely Playable",
+                "name": "Miscast"
+            },
+            {
+                "rank": 36,
+                "tier": "Rarely Playable",
+                "name": "Goblin Arsonist"
+            },
+            {
+                "rank": 37,
+                "tier": "Rarely Playable",
+                "name": "Garruk's Gorehorn"
+            },
+            {
+                "rank": 38,
+                "tier": "Rarely Playable",
+                "name": "Rambunctious Mutt"
+            },
+            {
+                "rank": 39,
+                "tier": "Rarely Playable",
+                "name": "Light of Promise"
+            },
+            {
+                "rank": 40,
+                "tier": "Rarely Playable",
+                "name": "Walking Corpse"
+            },
+            {
+                "rank": 41,
+                "tier": "Rarely Playable",
+                "name": "Burn Bright"
+            },
+            {
+                "rank": 42,
+                "tier": "Rarely Playable",
+                "name": "Destructive Tampering"
+            },
+            {
+                "rank": 43,
+                "tier": "Rarely Playable",
+                "name": "Silent Dart"
+            },
+            {
+                "rank": 44,
+                "tier": "Rarely Playable",
+                "name": "Nine Lives"
+            },
+            {
+                "rank": 45,
+                "tier": "Rarely Playable",
+                "name": "Conspicuous Snoop"
+            },
+            {
+                "rank": 46,
+                "tier": "Rarely Playable",
+                "name": "Radiant Fountain"
+            },
+            {
+                "rank": 47,
+                "tier": "Rarely Playable",
+                "name": "Chromatic Orrery"
+            }
+        ]
+    },
+    {
+        "tier": "Basically Unplayable",
+        "cards": [
+            {
+                "rank": 1,
+                "tier": "Basically Unplayable",
+                "name": "Infernal Scarring"
+            },
+            {
+                "rank": 2,
+                "tier": "Basically Unplayable",
+                "name": "Run Afoul"
+            },
+            {
+                "rank": 3,
+                "tier": "Basically Unplayable",
+                "name": "Tormod's Crypt"
+            },
+            {
+                "rank": 4,
+                "tier": "Basically Unplayable",
+                "name": "Transmogrify"
+            },
+            {
+                "rank": 5,
+                "tier": "Basically Unplayable",
+                "name": "Sanctum of All"
+            },
+            {
+                "rank": 6,
+                "tier": "Basically Unplayable",
+                "name": "Life Goes On"
+            },
+            {
+                "rank": 7,
+                "tier": "Basically Unplayable",
+                "name": "Necromentia"
+            },
+            {
+                "rank": 8,
+                "tier": "Basically Unplayable",
+                "name": "Forest 3"
+            },
+            {
+                "rank": 9,
+                "tier": "Basically Unplayable",
+                "name": "Forest 2"
+            },
+            {
+                "rank": 10,
+                "tier": "Basically Unplayable",
+                "name": "Forest 1"
+            },
+            {
+                "rank": 11,
+                "tier": "Basically Unplayable",
+                "name": "Mountain 3"
+            },
+            {
+                "rank": 12,
+                "tier": "Basically Unplayable",
+                "name": "Mountain 2"
+            },
+            {
+                "rank": 13,
+                "tier": "Basically Unplayable",
+                "name": "Mountain 1"
+            },
+            {
+                "rank": 14,
+                "tier": "Basically Unplayable",
+                "name": "Swamp 3"
+            },
+            {
+                "rank": 15,
+                "tier": "Basically Unplayable",
+                "name": "Swamp 2"
+            },
+            {
+                "rank": 16,
+                "tier": "Basically Unplayable",
+                "name": "Swamp 1"
+            },
+            {
+                "rank": 17,
+                "tier": "Basically Unplayable",
+                "name": "Island 3"
+            },
+            {
+                "rank": 18,
+                "tier": "Basically Unplayable",
+                "name": "Island 2"
+            },
+            {
+                "rank": 19,
+                "tier": "Basically Unplayable",
+                "name": "Island 1"
+            },
+            {
+                "rank": 20,
+                "tier": "Basically Unplayable",
+                "name": "Plains 3"
+            },
+            {
+                "rank": 21,
+                "tier": "Basically Unplayable",
+                "name": "Plains 2"
+            },
+            {
+                "rank": 22,
+                "tier": "Basically Unplayable",
+                "name": "Plains 1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Phasing",
+    "description": "Before the active player untaps, all \"phased in\" permanents that player controls \"phase out\" and vice versa.",
+    "citation": "https://mtg.fandom.com/wiki/Phasing",
+    "exampleCards": [
+      {
+        "rank": 7,
+        "tier": "Incredible Bombs",
+        "name": "Teferi, Master of Time"
+      }
+    ]
+  },
+  {
+    "title": "Prowess",
+    "description": "Creatures with prowess get +1/+1 until the end of the turn whenever a non-creature spell is played.",
+    "citation": "https://mtg.fandom.com/wiki/Prowess",
+    "exampleCards": [
+      {
+        "rank": 21,
+        "tier": "Great First Picks",
+        "name": "Stormwing Entity"
+      },
+      {
+        "rank": 6,
+        "tier": "Above Average Cards",
+        "name": "Heartfire Immolator"
+      },
+      {
+        "rank": 15,
+        "tier": "Above Average Cards",
+        "name": "Shipwreck Dowser"
+      }
+    ]
+  },
+  {
+    "title": "Creature Type: Dog",
+    "description": "A new cute and cuddly creature type. Woof!",
+    "citation": "https://mtg.gamepedia.com/Kicker",
+    "exampleCards": [
+      {
+        "rank": 12,
+        "tier": "Great First Picks",
+        "name": "Pack Leader"
+      },
+      {
+        "rank": 29,
+        "tier": "Above Average Cards",
+        "name": "Selfless Savior"
+      },
+      {
+        "rank": 17,
+        "tier": "Sometimes Playable",
+        "name": "Alpine Watchdog"
+      }
+    ]
+  }
+]

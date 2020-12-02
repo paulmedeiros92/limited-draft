@@ -14,8 +14,8 @@ const SetService = {
         .then(result => resolve(result), error => reject(error));
     });
   },
-  fetchAvailableSets() {
-    return Promise.all(['eld', 'thb', 'iko'].map(fileName => this.fetchSet(fileName)));
+  fetchAvailableSets(arrayOfSets) {
+    return Promise.all(arrayOfSets.map(fileName => this.fetchSet(fileName))); // TODO: consolidate this set list
   },
 };
 

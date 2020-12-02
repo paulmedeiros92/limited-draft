@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './selector.css';
 import { ButtonToolbar } from 'react-bootstrap';
 import Link from './link/link';
-import pickData from '../../set-data/thb.json';
+import pickData from '../../set-data/thb/thb.json';
 import Search from './search/search';
 
 function makeLinks(showTier, tiers, selectedTier, loadToggle, setPicks) {
@@ -45,7 +45,7 @@ Selector.propTypes = {
   search: PropTypes.func.isRequired,
   displaySearchFilter: PropTypes.shape({
     visibility: PropTypes.bool.isRequired,
-    toggleFunc: PropTypes.func.isRequired,
+    filter: PropTypes.string.isRequired,
   }).isRequired,
   toggleSearchFilter: PropTypes.func.isRequired,
   cardTiers: PropTypes.arrayOf(

@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Modal Double-Faced Cards",
+    "description": "A double faced card that gives the caster a choice of which card face to play.",
+    "citation": "https://mtg.gamepedia.com/Double-faced_card#Modal_double-faced_cards",
+    "exampleCards": [
+      {
+        "rank": 2,
+        "tier": "Incredible Bombs",
+        "name": "Emeria's Call"
+      },
+      {
+        "rank": 1,
+        "tier": "Great First Picks",
+        "name": "Kazandu Mammoth"
+      },
+      {
+        "rank": 2,
+        "tier": "Great First Picks",
+        "name": "Hagra Mauling"
+      }
+    ]
+  },
+  {
+    "title": "Party",
+    "description": "The Party mechanic counts up to one of each of the following creature types: Cleric Roque, Warrior, and Wizard. Each creature in a players party can only fill one role and most abilities that care about the number of creatures in a players part simply look for a number between 0 and 4.",
+    "citation": "https://mtg.gamepedia.com/Party",
+    "exampleCards": [
+      {
+        "rank": 33,
+        "tier": "Great First Picks",
+        "name": "Squad Commander"
+      },
+      {
+        "rank": 58,
+        "tier": "Great First Picks",
+        "name": "Spoils of Adventure"
+      },
+      {
+        "rank": 8,
+        "tier": "Above Average Cards",
+        "name": "Archpriest of Iona"
+      }
+    ]
+  },
+  {
+    "title": "Kicker",
+    "description": "A keyword ability that allows the player to pay an optional cost when casting to achieve an additional effect.",
+    "citation": "https://mtg.gamepedia.com/Kicker",
+    "exampleCards": [
+      {
+        "rank": 8,
+        "tier": "Incredible Bombs",
+        "name": "Nullpriest of Oblivion"
+      },
+      {
+        "rank": 12,
+        "tier": "Great First Picks",
+        "name": "Shatterskull Charger"
+      },
+      {
+        "rank": 10,
+        "tier": "Great First Picks",
+        "name": "Inscription of Abundance"
+      }
+    ]
+  },
+  {
+    "title": "Landfall",
+    "description": "A Triggered ability that responds to a land entering the battlefield under the control of the player with Landfall",
+    "citation": "https://mtg.gamepedia.com/Landfall",
+    "exampleCards": [
+      {
+        "rank": 1,
+        "tier": "Incredible Bombs",
+        "name": "Phylath, World Sculptor"
+      },
+      {
+        "rank": 5,
+        "tier": "Incredible Bombs",
+        "name": "Felidar Retreat"
+      },
+      {
+        "rank": 1,
+        "tier": "Great First Picks",
+        "name": "Kazandu Mammoth"
+      }
+    ]
+  }
+]
