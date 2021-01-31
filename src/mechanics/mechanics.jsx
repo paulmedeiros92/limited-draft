@@ -11,9 +11,14 @@ import ZNR_MECHANICS from '../set-data/znr/znr-mechanics.json';
 import ELD_MECHANICS from '../set-data/eld/eld-mechanics.json';
 import IKO_MECHANICS from '../set-data/iko/iko-mechanics.json';
 import M21_MECHANICS from '../set-data/m21/m21-mechanics.json';
+import KHM_MECHANICS from '../set-data/khm/khm-mechanics.json';
 
 const MECHANICS = {
-  znr: ZNR_MECHANICS, eld: ELD_MECHANICS, iko: IKO_MECHANICS, m21: M21_MECHANICS,
+  znr: ZNR_MECHANICS,
+  eld: ELD_MECHANICS,
+  iko: IKO_MECHANICS,
+  m21: M21_MECHANICS,
+  khm: KHM_MECHANICS,
 };
 
 class Mechanics extends React.Component {
@@ -23,6 +28,16 @@ class Mechanics extends React.Component {
         cardUri, cardTier, cardRank, visibility: !visibility, target: { x: 0, y: 0 },
       },
     });
+  }
+
+  static cardFinder(exampleCardNames, cardName) {
+    let isFound = false;
+    if (cardName.includes('//')) {
+      isFound = exampleCardNames.find(example => cardName.includes(example.name)) !== undefined;
+    } else {
+      isFound = exampleCardNames.find(example => example.name === cardName) !== undefined;
+    }
+    return isFound;
   }
 
   constructor(props) {
@@ -40,14 +55,14 @@ class Mechanics extends React.Component {
     };
 
     this.toggleCard = Mechanics.toggleCard.bind(this);
+    this.cardFinder = Mechanics.cardFinder.bind(this);
 
     CardService.fetchCards(
       { tier: 'Mechanics Examples', cards: MECHANICS[props.selectedSet.code].map(mechanic => mechanic.exampleCards).flat() },
     ).then((result) => {
       const cardMap = {};
       MECHANICS[props.selectedSet.code].forEach((mechanic) => {
-        cardMap[mechanic.title] = result.cards.filter(card => mechanic.exampleCards
-          .find(example => example.name === card.name) !== undefined);
+        cardMap[mechanic.title] = result.cards.filter(card => this.cardFinder(mechanic.exampleCards, card.name));
       });
       this.setState({ exampleCards: cardMap, loading: false });
     });

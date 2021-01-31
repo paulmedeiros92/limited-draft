@@ -2,10 +2,12 @@ const baseUrl = 'https://api.scryfall.com';
 
 function handleResult(result, tier) {
   const cardInfo = result.data.map((cardResult) => {
-    const found = tier.cards.find(card => cardResult.name.replace(/\W/gi, '').includes(card.name.replace(/\W/gi, '')));
+    const found = tier.cards.find(card => cardResult.name.toLowerCase().replace(/\W/gi, '').includes(card.name.toLowerCase().replace(/\W/gi, '')));
     return {
       name: cardResult.name,
-      image: cardResult.card_faces !== undefined ? cardResult.card_faces[0].image_uris.normal : cardResult.image_uris.normal,
+      image: cardResult.card_faces !== undefined
+        && cardResult.card_faces[0].image_uris !== undefined
+        ? cardResult.card_faces[0].image_uris.normal : cardResult.image_uris.normal,
       tier: found.tier,
       rank: found.rank,
     };

@@ -10,9 +10,10 @@ import ELD from './set-data/eld/eld.json';
 import IKO from './set-data/iko/iko.json';
 import ZNR from './set-data/znr/znr.json';
 import M21 from './set-data/m21/m21.json';
+import KHM from './set-data/khm/khm.json';
 
 const ALL_SETS = {
-  znr: ZNR, m21: M21, iko: IKO, eld: ELD,
+  znr: ZNR, m21: M21, iko: IKO, eld: ELD, khm: KHM,
 };
 
 class App extends React.Component {
@@ -24,9 +25,9 @@ class App extends React.Component {
     super();
     this.state = {
       selectedSet: {
-        name: 'Zendikar Rising',
+        name: 'Kaldheim',
         uri: '',
-        code: 'znr',
+        code: 'khm',
       },
       sets: [],
       setPicks: [],

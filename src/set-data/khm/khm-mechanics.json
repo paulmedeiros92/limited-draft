@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Fortell",
+    "description": "During your turn, you may pay 2 mana and exile a card with fortell from your hand. Then you may cast it later for the printed fortell cost.",
+    "citation": "https://mtg.fandom.com/wiki/Foretell",
+    "exampleCards": [
+      {
+        "rank": 1,
+        "tier": "Incredible Bombs",
+        "name": "Starnheim Unleashed"
+      },
+      {
+        "rank": 5,
+        "tier": "Incredible Bombs",
+        "name": "Quakebringer"
+      },
+      {
+        "rank": 8,
+        "tier": "Incredible Bombs",
+        "name": "Battle Mammoth"
+      }
+    ]
+  },
+  {
+    "title": "Boast",
+    "description": "Boast is an activated ability with a drawback, being the creature needs to have been declared an attacker before the player can activate the boast ability and it can only be activated once per turn.",
+    "citation": "https://mtg.fandom.com/wiki/Boast",
+    "exampleCards": [
+      {
+        "rank": 9,
+        "tier": "Great First Picks",
+        "name": "Dragonkin Berserker"
+      },
+      {
+        "rank": 46,
+        "tier": "Great First Picks",
+        "name": "Arni Brokenbrow"
+      },
+      {
+        "rank": 34,
+        "tier": "Above Average Cards",
+        "name": "Usher of the Fallen"
+      }
+    ]
+  },
+  {
+    "title": "Double Faced Cards",
+    "description": "A slight twist on the traditional double faced card. In this instance either side of the card may be played instead of the traditional transform mechanic.",
+    "citation": "https://mtg.fandom.com/wiki/Double-faced_card#Modal_double-faced_cards",
+    "exampleCards": [
+      {
+        "rank": 2,
+        "tier": "Incredible Bombs",
+        "name": "Valki, God of Lies"
+      },
+      {
+        "rank": 3,
+        "tier": "Incredible Bombs",
+        "name": "Halvar, God of Battle"
+      },
+      {
+        "rank": 4,
+        "tier": "Incredible Bombs",
+        "name": "Toralf, God of Fury"
+      }
+    ]
+  }
+]

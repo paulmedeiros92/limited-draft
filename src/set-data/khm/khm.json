@@ -1,0 +1,1357 @@
+[
+  {
+      "tier": "Incredible Bombs",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Incredible Bombs",
+              "name": "Starnheim Unleashed"
+          },
+          {
+              "rank": 2,
+              "tier": "Incredible Bombs",
+              "name": "Valki, God of Lies"
+          },
+          {
+              "rank": 3,
+              "tier": "Incredible Bombs",
+              "name": "Halvar, God of Battle"
+          },
+          {
+              "rank": 4,
+              "tier": "Incredible Bombs",
+              "name": "Toralf, God of Fury"
+          },
+          {
+              "rank": 5,
+              "tier": "Incredible Bombs",
+              "name": "Quakebringer"
+          },
+          {
+              "rank": 6,
+              "tier": "Incredible Bombs",
+              "name": "Burning-Rune Demon"
+          },
+          {
+              "rank": 7,
+              "tier": "Incredible Bombs",
+              "name": "Tyvar Kell"
+          },
+          {
+              "rank": 8,
+              "tier": "Incredible Bombs",
+              "name": "Battle Mammoth"
+          },
+          {
+              "rank": 9,
+              "tier": "Incredible Bombs",
+              "name": "Eradicator Valkyrie"
+          },
+          {
+              "rank": 10,
+              "tier": "Incredible Bombs",
+              "name": "Vorinclex, Monstrous Raider"
+          },
+          {
+              "rank": 11,
+              "tier": "Incredible Bombs",
+              "name": "Koma, Cosmos Serpent"
+          },
+          {
+              "rank": 12,
+              "tier": "Incredible Bombs",
+              "name": "Kaya the Inexorable"
+          },
+          {
+              "rank": 13,
+              "tier": "Incredible Bombs",
+              "name": "Glorious Protector"
+          },
+          {
+              "rank": 14,
+              "tier": "Incredible Bombs",
+              "name": "Firja's Retribution"
+          }
+      ]
+  },
+  {
+      "tier": "Great First Picks",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Great First Picks",
+              "name": "Resplendent Marshal"
+          },
+          {
+              "rank": 2,
+              "tier": "Great First Picks",
+              "name": "Birgi, God of Storytelling"
+          },
+          {
+              "rank": 3,
+              "tier": "Great First Picks",
+              "name": "Immersturm Predator"
+          },
+          {
+              "rank": 4,
+              "tier": "Great First Picks",
+              "name": "Niko Aris"
+          },
+          {
+              "rank": 5,
+              "tier": "Great First Picks",
+              "name": "Esika's Chariot"
+          },
+          {
+              "rank": 6,
+              "tier": "Great First Picks",
+              "name": "Draugr Necromancer"
+          },
+          {
+              "rank": 7,
+              "tier": "Great First Picks",
+              "name": "Alrund, God of the Cosmos"
+          },
+          {
+              "rank": 8,
+              "tier": "Great First Picks",
+              "name": "Alrund's Epiphany"
+          },
+          {
+              "rank": 9,
+              "tier": "Great First Picks",
+              "name": "Dragonkin Berserker"
+          },
+          {
+              "rank": 10,
+              "tier": "Great First Picks",
+              "name": "Cosima, God of the Voyage"
+          },
+          {
+              "rank": 11,
+              "tier": "Great First Picks",
+              "name": "Sarulf, Realm Eater"
+          },
+          {
+              "rank": 12,
+              "tier": "Great First Picks",
+              "name": "Elvish Warmaster"
+          },
+          {
+              "rank": 13,
+              "tier": "Great First Picks",
+              "name": "Tergrid, God of Fright"
+          },
+          {
+              "rank": 14,
+              "tier": "Great First Picks",
+              "name": "Righteous Valkyrie"
+          },
+          {
+              "rank": 15,
+              "tier": "Great First Picks",
+              "name": "Orvar, the All-Form"
+          },
+          {
+              "rank": 16,
+              "tier": "Great First Picks",
+              "name": "Battle for Bretagard"
+          },
+          {
+              "rank": 17,
+              "tier": "Great First Picks",
+              "name": "Old-Growth Troll"
+          },
+          {
+              "rank": 18,
+              "tier": "Great First Picks",
+              "name": "Binding the Old Gods"
+          },
+          {
+              "rank": 19,
+              "tier": "Great First Picks",
+              "name": "Varragoth, Bloodsky Sire"
+          },
+          {
+              "rank": 20,
+              "tier": "Great First Picks",
+              "name": "Goldspan Dragon"
+          },
+          {
+              "rank": 21,
+              "tier": "Great First Picks",
+              "name": "Icebreaker Kraken"
+          },
+          {
+              "rank": 22,
+              "tier": "Great First Picks",
+              "name": "Doomskar"
+          },
+          {
+              "rank": 23,
+              "tier": "Great First Picks",
+              "name": "Poison the Cup"
+          },
+          {
+              "rank": 24,
+              "tier": "Great First Picks",
+              "name": "Sigrid, God-Favored"
+          },
+          {
+              "rank": 25,
+              "tier": "Great First Picks",
+              "name": "Cosmos Charger"
+          },
+          {
+              "rank": 26,
+              "tier": "Great First Picks",
+              "name": "Tundra Fumarole"
+          },
+          {
+              "rank": 27,
+              "tier": "Great First Picks",
+              "name": "The Bears of Littjara"
+          },
+          {
+              "rank": 28,
+              "tier": "Great First Picks",
+              "name": "Egon, God of Death"
+          },
+          {
+              "rank": 29,
+              "tier": "Great First Picks",
+              "name": "Crippling Fear"
+          },
+          {
+              "rank": 30,
+              "tier": "Great First Picks",
+              "name": "Ascendant Spirit"
+          },
+          {
+              "rank": 31,
+              "tier": "Great First Picks",
+              "name": "Skemfar Avenger"
+          },
+          {
+              "rank": 32,
+              "tier": "Great First Picks",
+              "name": "Jorn, God of Winter"
+          },
+          {
+              "rank": 33,
+              "tier": "Great First Picks",
+              "name": "Realmwalker"
+          },
+          {
+              "rank": 34,
+              "tier": "Great First Picks",
+              "name": "Calamity Bearer"
+          },
+          {
+              "rank": 35,
+              "tier": "Great First Picks",
+              "name": "Kolvori, God of Kinship"
+          },
+          {
+              "rank": 36,
+              "tier": "Great First Picks",
+              "name": "Icebind Pillar"
+          },
+          {
+              "rank": 37,
+              "tier": "Great First Picks",
+              "name": "Cosmos Elixir"
+          },
+          {
+              "rank": 38,
+              "tier": "Great First Picks",
+              "name": "Showdown of the Skalds"
+          },
+          {
+              "rank": 39,
+              "tier": "Great First Picks",
+              "name": "Toski, Bearer of Secrets"
+          },
+          {
+              "rank": 40,
+              "tier": "Great First Picks",
+              "name": "Battle of Frost and Fire"
+          },
+          {
+              "rank": 41,
+              "tier": "Great First Picks",
+              "name": "Narfi, Betrayer King"
+          },
+          {
+              "rank": 42,
+              "tier": "Great First Picks",
+              "name": "Harald, King of Skemfar"
+          },
+          {
+              "rank": 43,
+              "tier": "Great First Picks",
+              "name": "In Search of Greatness"
+          },
+          {
+              "rank": 44,
+              "tier": "Great First Picks",
+              "name": "The Bloodsky Massacre"
+          },
+          {
+              "rank": 45,
+              "tier": "Great First Picks",
+              "name": "Blood on the Snow"
+          },
+          {
+              "rank": 46,
+              "tier": "Great First Picks",
+              "name": "Arni Brokenbrow"
+          },
+          {
+              "rank": 47,
+              "tier": "Great First Picks",
+              "name": "Arni Slays the Troll"
+          },
+          {
+              "rank": 48,
+              "tier": "Great First Picks",
+              "name": "Reidane, God of the Worthy"
+          },
+          {
+              "rank": 49,
+              "tier": "Great First Picks",
+              "name": "Kardur, Doomscourge"
+          },
+          {
+              "rank": 50,
+              "tier": "Great First Picks",
+              "name": "Fall of the Impostor"
+          },
+          {
+              "rank": 51,
+              "tier": "Great First Picks",
+              "name": "Feed the Serpent"
+          },
+          {
+              "rank": 52,
+              "tier": "Great First Picks",
+              "name": "Magda, Brazen Outlaw"
+          }
+      ]
+  },
+  {
+      "tier": "Above Average Cards",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Above Average Cards",
+              "name": "Dream Devourer"
+          },
+          {
+              "rank": 2,
+              "tier": "Above Average Cards",
+              "name": "Svella, Ice Shaper"
+          },
+          {
+              "rank": 3,
+              "tier": "Above Average Cards",
+              "name": "Maja, Bretagard Protector"
+          },
+          {
+              "rank": 4,
+              "tier": "Above Average Cards",
+              "name": "The Raven's Warning"
+          },
+          {
+              "rank": 5,
+              "tier": "Above Average Cards",
+              "name": "Demon Bolt"
+          },
+          {
+              "rank": 6,
+              "tier": "Above Average Cards",
+              "name": "Harald Unites the Elves"
+          },
+          {
+              "rank": 7,
+              "tier": "Above Average Cards",
+              "name": "Invasion of the Giants"
+          },
+          {
+              "rank": 8,
+              "tier": "Above Average Cards",
+              "name": "Koll, the Forgemaster"
+          },
+          {
+              "rank": 9,
+              "tier": "Above Average Cards",
+              "name": "Firja, Judge of Valor"
+          },
+          {
+              "rank": 10,
+              "tier": "Above Average Cards",
+              "name": "Cyclone Summoner"
+          },
+          {
+              "rank": 11,
+              "tier": "Above Average Cards",
+              "name": "Clarion Spirit"
+          },
+          {
+              "rank": 12,
+              "tier": "Above Average Cards",
+              "name": "Basalt Ravager"
+          },
+          {
+              "rank": 13,
+              "tier": "Above Average Cards",
+              "name": "Vega, the Watcher"
+          },
+          {
+              "rank": 14,
+              "tier": "Above Average Cards",
+              "name": "Maskwood Nexus"
+          },
+          {
+              "rank": 15,
+              "tier": "Above Average Cards",
+              "name": "Moritte of the Frost"
+          },
+          {
+              "rank": 16,
+              "tier": "Above Average Cards",
+              "name": "Vengeful Reaper"
+          },
+          {
+              "rank": 17,
+              "tier": "Above Average Cards",
+              "name": "Haunting Voyage"
+          },
+          {
+              "rank": 18,
+              "tier": "Above Average Cards",
+              "name": "Fynn, the Fangbearer"
+          },
+          {
+              "rank": 19,
+              "tier": "Above Average Cards",
+              "name": "Aegar, the Freezing Flame"
+          },
+          {
+              "rank": 20,
+              "tier": "Above Average Cards",
+              "name": "Boreal Outrider"
+          },
+          {
+              "rank": 21,
+              "tier": "Above Average Cards",
+              "name": "Frost Bite"
+          },
+          {
+              "rank": 22,
+              "tier": "Above Average Cards",
+              "name": "Sarulf's Packmate"
+          },
+          {
+              "rank": 23,
+              "tier": "Above Average Cards",
+              "name": "Reflections of Littjara"
+          },
+          {
+              "rank": 24,
+              "tier": "Above Average Cards",
+              "name": "Spirit of the Aldergard"
+          },
+          {
+              "rank": 25,
+              "tier": "Above Average Cards",
+              "name": "Bloodsky Berserker"
+          },
+          {
+              "rank": 26,
+              "tier": "Above Average Cards",
+              "name": "Struggle for Skemfar"
+          },
+          {
+              "rank": 27,
+              "tier": "Above Average Cards",
+              "name": "Elven Bow"
+          },
+          {
+              "rank": 28,
+              "tier": "Above Average Cards",
+              "name": "Runeforge Champion"
+          },
+          {
+              "rank": 29,
+              "tier": "Above Average Cards",
+              "name": "The Three Seasons"
+          },
+          {
+              "rank": 30,
+              "tier": "Above Average Cards",
+              "name": "King Narfi's Betrayal"
+          },
+          {
+              "rank": 31,
+              "tier": "Above Average Cards",
+              "name": "Blessing of Frost"
+          },
+          {
+              "rank": 32,
+              "tier": "Above Average Cards",
+              "name": "Graven Lore"
+          },
+          {
+              "rank": 33,
+              "tier": "Above Average Cards",
+              "name": "Doomskar Titan"
+          },
+          {
+              "rank": 34,
+              "tier": "Above Average Cards",
+              "name": "Usher of the Fallen"
+          },
+          {
+              "rank": 35,
+              "tier": "Above Average Cards",
+              "name": "Niko Defies Destiny"
+          },
+          {
+              "rank": 36,
+              "tier": "Above Average Cards",
+              "name": "Avalanche Caller"
+          },
+          {
+              "rank": 37,
+              "tier": "Above Average Cards",
+              "name": "Draugr's Helm"
+          },
+          {
+              "rank": 38,
+              "tier": "Above Average Cards",
+              "name": "Bound in Gold"
+          },
+          {
+              "rank": 39,
+              "tier": "Above Average Cards",
+              "name": "Giant's Amulet"
+          },
+          {
+              "rank": 40,
+              "tier": "Above Average Cards",
+              "name": "Iron Verdict"
+          },
+          {
+              "rank": 41,
+              "tier": "Above Average Cards",
+              "name": "Skemfar Shadowsage"
+          }
+      ]
+  },
+  {
+      "tier": "Solid Playables",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Solid Playables",
+              "name": "Bind the Monster"
+          },
+          {
+              "rank": 2,
+              "tier": "Solid Playables",
+              "name": "Frenzied Raider"
+          },
+          {
+              "rank": 3,
+              "tier": "Solid Playables",
+              "name": "Dwarven Hammer"
+          },
+          {
+              "rank": 4,
+              "tier": "Solid Playables",
+              "name": "Battershield Warrior"
+          },
+          {
+              "rank": 5,
+              "tier": "Solid Playables",
+              "name": "Valkyrie's Sword"
+          },
+          {
+              "rank": 6,
+              "tier": "Solid Playables",
+              "name": "Fearless Liberator"
+          },
+          {
+              "rank": 7,
+              "tier": "Solid Playables",
+              "name": "Gates of Istfell"
+          },
+          {
+              "rank": 8,
+              "tier": "Solid Playables",
+              "name": "Pyre of Heroes"
+          },
+          {
+              "rank": 9,
+              "tier": "Solid Playables",
+              "name": "Augury Raven"
+          },
+          {
+              "rank": 10,
+              "tier": "Solid Playables",
+              "name": "Blizzard Brawl"
+          },
+          {
+              "rank": 11,
+              "tier": "Solid Playables",
+              "name": "Provoke the Trolls"
+          },
+          {
+              "rank": 12,
+              "tier": "Solid Playables",
+              "name": "Littjara Glade-Warden"
+          },
+          {
+              "rank": 13,
+              "tier": "Solid Playables",
+              "name": "Rootless Yew"
+          },
+          {
+              "rank": 14,
+              "tier": "Solid Playables",
+              "name": "Skemfar Elderhall"
+          },
+          {
+              "rank": 15,
+              "tier": "Solid Playables",
+              "name": "Stalwart Valkyrie"
+          },
+          {
+              "rank": 16,
+              "tier": "Solid Playables",
+              "name": "Axgard Armory"
+          },
+          {
+              "rank": 17,
+              "tier": "Solid Playables",
+              "name": "Squash"
+          },
+          {
+              "rank": 18,
+              "tier": "Solid Playables",
+              "name": "Shepherd of the Cosmos"
+          },
+          {
+              "rank": 19,
+              "tier": "Solid Playables",
+              "name": "Elderleaf Mentor"
+          },
+          {
+              "rank": 20,
+              "tier": "Solid Playables",
+              "name": "Tergrid's Shadow"
+          },
+          {
+              "rank": 21,
+              "tier": "Solid Playables",
+              "name": "Elderfang Disciple"
+          },
+          {
+              "rank": 22,
+              "tier": "Solid Playables",
+              "name": "Behold the Multiverse"
+          },
+          {
+              "rank": 23,
+              "tier": "Solid Playables",
+              "name": "Hailstorm Valkyrie"
+          },
+          {
+              "rank": 24,
+              "tier": "Solid Playables",
+              "name": "Sculptor of Winter"
+          },
+          {
+              "rank": 25,
+              "tier": "Solid Playables",
+              "name": "Doomskar Oracle"
+          },
+          {
+              "rank": 26,
+              "tier": "Solid Playables",
+              "name": "Waking the Trolls"
+          },
+          {
+              "rank": 27,
+              "tier": "Solid Playables",
+              "name": "Reckless Crew"
+          },
+          {
+              "rank": 28,
+              "tier": "Solid Playables",
+              "name": "Rise of the Dread Marn"
+          },
+          {
+              "rank": 29,
+              "tier": "Solid Playables",
+              "name": "Rally the Ranks"
+          },
+          {
+              "rank": 30,
+              "tier": "Solid Playables",
+              "name": "Rimewood Falls"
+          },
+          {
+              "rank": 31,
+              "tier": "Solid Playables",
+              "name": "Snow-Covered Forest 2"
+          },
+          {
+              "rank": 32,
+              "tier": "Solid Playables",
+              "name": "Snow-Covered Forest 1"
+          },
+          {
+              "rank": 33,
+              "tier": "Solid Playables",
+              "name": "Snow-Covered Island 2"
+          },
+          {
+              "rank": 34,
+              "tier": "Solid Playables",
+              "name": "Snow-Covered Island 1"
+          },
+          {
+              "rank": 35,
+              "tier": "Solid Playables",
+              "name": "Depart the Realm"
+          },
+          {
+              "rank": 36,
+              "tier": "Solid Playables",
+              "name": "Mistwalker"
+          },
+          {
+              "rank": 37,
+              "tier": "Solid Playables",
+              "name": "Weigh Down"
+          },
+          {
+              "rank": 38,
+              "tier": "Solid Playables",
+              "name": "Great Hall of Starnheim"
+          },
+          {
+              "rank": 39,
+              "tier": "Solid Playables",
+              "name": "Port of Karfell"
+          },
+          {
+              "rank": 40,
+              "tier": "Solid Playables",
+              "name": "Immersturm Raider"
+          },
+          {
+              "rank": 41,
+              "tier": "Solid Playables",
+              "name": "Shimmerdrift Vale"
+          },
+          {
+              "rank": 42,
+              "tier": "Solid Playables",
+              "name": "Littjara Mirrorlake"
+          },
+          {
+              "rank": 43,
+              "tier": "Solid Playables",
+              "name": "Frost Augur"
+          },
+          {
+              "rank": 44,
+              "tier": "Solid Playables",
+              "name": "Dwarven Reinforcements"
+          },
+          {
+              "rank": 45,
+              "tier": "Solid Playables",
+              "name": "Gnottvold Slumbermound"
+          },
+          {
+              "rank": 46,
+              "tier": "Solid Playables",
+              "name": "Surtland Frostpyre"
+          },
+          {
+              "rank": 47,
+              "tier": "Solid Playables",
+              "name": "Berg Strider"
+          },
+          {
+              "rank": 48,
+              "tier": "Solid Playables",
+              "name": "Frostpyre Arcanist"
+          },
+          {
+              "rank": 49,
+              "tier": "Solid Playables",
+              "name": "Kardur's Vicious Return"
+          },
+          {
+              "rank": 50,
+              "tier": "Solid Playables",
+              "name": "Axgard Cavalry"
+          },
+          {
+              "rank": 51,
+              "tier": "Solid Playables",
+              "name": "Inga Rune-Eyes"
+          },
+          {
+              "rank": 52,
+              "tier": "Solid Playables",
+              "name": "Forging the Tyrite Sword"
+          },
+          {
+              "rank": 53,
+              "tier": "Solid Playables",
+              "name": "Bretagard Stronghold"
+          },
+          {
+              "rank": 54,
+              "tier": "Solid Playables",
+              "name": "The Trickster-God's Heist"
+          },
+          {
+              "rank": 55,
+              "tier": "Solid Playables",
+              "name": "Esika, God of the Tree"
+          },
+          {
+              "rank": 56,
+              "tier": "Solid Playables",
+              "name": "The World Tree"
+          },
+          {
+              "rank": 57,
+              "tier": "Solid Playables",
+              "name": "Kaya's Onslaught"
+          },
+          {
+              "rank": 58,
+              "tier": "Solid Playables",
+              "name": "Guardian Gladewalker"
+          }
+      ]
+  },
+  {
+      "tier": "Sometimes Playable",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Sometimes Playable",
+              "name": "Arctic Treeline"
+          },
+          {
+              "rank": 2,
+              "tier": "Sometimes Playable",
+              "name": "Glacial Floodplain"
+          },
+          {
+              "rank": 3,
+              "tier": "Sometimes Playable",
+              "name": "Alpine Meadow"
+          },
+          {
+              "rank": 4,
+              "tier": "Sometimes Playable",
+              "name": "Highland Forest"
+          },
+          {
+              "rank": 5,
+              "tier": "Sometimes Playable",
+              "name": "Ice Tunnel"
+          },
+          {
+              "rank": 6,
+              "tier": "Sometimes Playable",
+              "name": "Snowfield Sinkhole"
+          },
+          {
+              "rank": 7,
+              "tier": "Sometimes Playable",
+              "name": "Sulfurous Mire"
+          },
+          {
+              "rank": 8,
+              "tier": "Sometimes Playable",
+              "name": "Volatile Fjord"
+          },
+          {
+              "rank": 9,
+              "tier": "Sometimes Playable",
+              "name": "Woodland Chasm"
+          },
+          {
+              "rank": 10,
+              "tier": "Sometimes Playable",
+              "name": "Snow-Covered Swamp 2"
+          },
+          {
+              "rank": 11,
+              "tier": "Sometimes Playable",
+              "name": "Snow-Covered Swamp 1"
+          },
+          {
+              "rank": 12,
+              "tier": "Sometimes Playable",
+              "name": "Draugr Recruiter"
+          },
+          {
+              "rank": 13,
+              "tier": "Sometimes Playable",
+              "name": "Rune Of Sustenance"
+          },
+          {
+              "rank": 14,
+              "tier": "Sometimes Playable",
+              "name": "Rune of Mortality"
+          },
+          {
+              "rank": 15,
+              "tier": "Sometimes Playable",
+              "name": "Mists of Littjara"
+          },
+          {
+              "rank": 16,
+              "tier": "Sometimes Playable",
+              "name": "Rune of Speed"
+          },
+          {
+              "rank": 17,
+              "tier": "Sometimes Playable",
+              "name": "Rune of Might"
+          },
+          {
+              "rank": 18,
+              "tier": "Sometimes Playable",
+              "name": "Craven Hulk"
+          },
+          {
+              "rank": 19,
+              "tier": "Sometimes Playable",
+              "name": "Starnheim Courser"
+          },
+          {
+              "rank": 20,
+              "tier": "Sometimes Playable",
+              "name": "Immersturm Skullcairn"
+          },
+          {
+              "rank": 21,
+              "tier": "Sometimes Playable",
+              "name": "Priest of the Haunted Edge"
+          },
+          {
+              "rank": 22,
+              "tier": "Sometimes Playable",
+              "name": "Horizon Seeker"
+          },
+          {
+              "rank": 23,
+              "tier": "Sometimes Playable",
+              "name": "Tyrite Sanctum"
+          },
+          {
+              "rank": 24,
+              "tier": "Sometimes Playable",
+              "name": "Draugr Thought-Thief"
+          },
+          {
+              "rank": 25,
+              "tier": "Sometimes Playable",
+              "name": "Icehide Troll"
+          },
+          {
+              "rank": 26,
+              "tier": "Sometimes Playable",
+              "name": "Return Upon the Tide"
+          },
+          {
+              "rank": 27,
+              "tier": "Sometimes Playable",
+              "name": "Ravenous Lindwurm"
+          },
+          {
+              "rank": 28,
+              "tier": "Sometimes Playable",
+              "name": "Ascent of the Worthy"
+          },
+          {
+              "rank": 29,
+              "tier": "Sometimes Playable",
+              "name": "Goldmaw Champion"
+          },
+          {
+              "rank": 30,
+              "tier": "Sometimes Playable",
+              "name": "Axgard Braggart"
+          },
+          {
+              "rank": 31,
+              "tier": "Sometimes Playable",
+              "name": "Beskir Shieldmate"
+          },
+          {
+              "rank": 32,
+              "tier": "Sometimes Playable",
+              "name": "Tuskeri Firewalker"
+          },
+          {
+              "rank": 33,
+              "tier": "Sometimes Playable",
+              "name": "Breakneck Berserker"
+          },
+          {
+              "rank": 34,
+              "tier": "Sometimes Playable",
+              "name": "Funeral Longboat"
+          },
+          {
+              "rank": 35,
+              "tier": "Sometimes Playable",
+              "name": "Mystic Reflection"
+          },
+          {
+              "rank": 36,
+              "tier": "Sometimes Playable",
+              "name": "Runed Crown"
+          },
+          {
+              "rank": 37,
+              "tier": "Sometimes Playable",
+              "name": "Crush the Weak"
+          },
+          {
+              "rank": 38,
+              "tier": "Sometimes Playable",
+              "name": "Dual Strike"
+          },
+          {
+              "rank": 39,
+              "tier": "Sometimes Playable",
+              "name": "Infernal Pet"
+          },
+          {
+              "rank": 40,
+              "tier": "Sometimes Playable",
+              "name": "Rune of Flight"
+          },
+          {
+              "rank": 41,
+              "tier": "Sometimes Playable",
+              "name": "Divine Gambit"
+          },
+          {
+              "rank": 42,
+              "tier": "Sometimes Playable",
+              "name": "Raiders' Karve"
+          },
+          {
+              "rank": 43,
+              "tier": "Sometimes Playable",
+              "name": "Darkbore Pathway"
+          },
+          {
+              "rank": 44,
+              "tier": "Sometimes Playable",
+              "name": "Blightstep Pathway"
+          },
+          {
+              "rank": 45,
+              "tier": "Sometimes Playable",
+              "name": "Hengegate Pathway"
+          },
+          {
+              "rank": 46,
+              "tier": "Sometimes Playable",
+              "name": "Barkchannel Pathway"
+          },
+          {
+              "rank": 47,
+              "tier": "Sometimes Playable",
+              "name": "Ravenform"
+          },
+          {
+              "rank": 48,
+              "tier": "Sometimes Playable",
+              "name": "Path to the World Tree"
+          },
+          {
+              "rank": 49,
+              "tier": "Sometimes Playable",
+              "name": "Saw It Coming"
+          },
+          {
+              "rank": 50,
+              "tier": "Sometimes Playable",
+              "name": "Spectral Steel"
+          },
+          {
+              "rank": 51,
+              "tier": "Sometimes Playable",
+              "name": "Grim Draugr"
+          },
+          {
+              "rank": 52,
+              "tier": "Sometimes Playable",
+              "name": "Faceless Haven"
+          },
+          {
+              "rank": 53,
+              "tier": "Sometimes Playable",
+              "name": "Bloodline Pretender"
+          },
+          {
+              "rank": 54,
+              "tier": "Sometimes Playable",
+              "name": "Littjara Kinseekers"
+          },
+          {
+              "rank": 55,
+              "tier": "Sometimes Playable",
+              "name": "Brinebarrow Intruder"
+          },
+          {
+              "rank": 56,
+              "tier": "Sometimes Playable",
+              "name": "Skull Raid"
+          },
+          {
+              "rank": 57,
+              "tier": "Sometimes Playable",
+              "name": "Grizzled Outrider"
+          },
+          {
+              "rank": 58,
+              "tier": "Sometimes Playable",
+              "name": "Disdainful Stroke"
+          },
+          {
+              "rank": 59,
+              "tier": "Sometimes Playable",
+              "name": "Colossal Plow"
+          },
+          {
+              "rank": 60,
+              "tier": "Sometimes Playable",
+              "name": "Battlefield Raptor"
+          },
+          {
+              "rank": 61,
+              "tier": "Sometimes Playable",
+              "name": "Story Seeker"
+          },
+          {
+              "rank": 62,
+              "tier": "Sometimes Playable",
+              "name": "Karfell Harbinger"
+          },
+          {
+              "rank": 63,
+              "tier": "Sometimes Playable",
+              "name": "Gnottvold Recluse"
+          },
+          {
+              "rank": 64,
+              "tier": "Sometimes Playable",
+              "name": "Karfell Kennel-Master"
+          },
+          {
+              "rank": 65,
+              "tier": "Sometimes Playable",
+              "name": "Run Amok"
+          },
+          {
+              "rank": 66,
+              "tier": "Sometimes Playable",
+              "name": "Jaspera Sentinel"
+          },
+          {
+              "rank": 67,
+              "tier": "Sometimes Playable",
+              "name": "Search for Glory"
+          },
+          {
+              "rank": 68,
+              "tier": "Sometimes Playable",
+              "name": "Raise the Draugr"
+          },
+          {
+              "rank": 69,
+              "tier": "Sometimes Playable",
+              "name": "Tormentor's Helm"
+          },
+          {
+              "rank": 70,
+              "tier": "Sometimes Playable",
+              "name": "Withercrown"
+          },
+          {
+              "rank": 71,
+              "tier": "Sometimes Playable",
+              "name": "Glimpse the Cosmos"
+          },
+          {
+              "rank": 72,
+              "tier": "Sometimes Playable",
+              "name": "Glittering Frost"
+          },
+          {
+              "rank": 73,
+              "tier": "Sometimes Playable",
+              "name": "Koma's Faithful"
+          },
+          {
+              "rank": 74,
+              "tier": "Sometimes Playable",
+              "name": "Gods' Hall Guardian"
+          },
+          {
+              "rank": 75,
+              "tier": "Sometimes Playable",
+              "name": "Snakeskin Veil"
+          }
+      ]
+  },
+  {
+      "tier": "Rarely Playable",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Rarely Playable",
+              "name": "Shackles of Treachery"
+          },
+          {
+              "rank": 2,
+              "tier": "Rarely Playable",
+              "name": "Demonic Gifts"
+          },
+          {
+              "rank": 3,
+              "tier": "Rarely Playable",
+              "name": "Master Skald"
+          },
+          {
+              "rank": 4,
+              "tier": "Rarely Playable",
+              "name": "Arachnoform"
+          },
+          {
+              "rank": 5,
+              "tier": "Rarely Playable",
+              "name": "Warhorn Blast"
+          },
+          {
+              "rank": 6,
+              "tier": "Rarely Playable",
+              "name": "Strategic Planning"
+          },
+          {
+              "rank": 7,
+              "tier": "Rarely Playable",
+              "name": "Revitalize"
+          },
+          {
+              "rank": 8,
+              "tier": "Rarely Playable",
+              "name": "Vault Robber"
+          },
+          {
+              "rank": 9,
+              "tier": "Rarely Playable",
+              "name": "King Harald's Revenge"
+          },
+          {
+              "rank": 10,
+              "tier": "Rarely Playable",
+              "name": "Goldvein Pick"
+          },
+          {
+              "rank": 11,
+              "tier": "Rarely Playable",
+              "name": "Codespell Cleric"
+          },
+          {
+              "rank": 12,
+              "tier": "Rarely Playable",
+              "name": "Dread Rider"
+          },
+          {
+              "rank": 13,
+              "tier": "Rarely Playable",
+              "name": "Open the Omenpaths"
+          },
+          {
+              "rank": 14,
+              "tier": "Rarely Playable",
+              "name": "Dogged Pursuit"
+          },
+          {
+              "rank": 15,
+              "tier": "Rarely Playable",
+              "name": "Roots of Wisdom"
+          },
+          {
+              "rank": 16,
+              "tier": "Rarely Playable",
+              "name": "Masked Vandal"
+          },
+          {
+              "rank": 17,
+              "tier": "Rarely Playable",
+              "name": "Seize the Spoils"
+          },
+          {
+              "rank": 18,
+              "tier": "Rarely Playable",
+              "name": "Undersea Invader"
+          },
+          {
+              "rank": 19,
+              "tier": "Rarely Playable",
+              "name": "Invoke the Divine"
+          },
+          {
+              "rank": 20,
+              "tier": "Rarely Playable",
+              "name": "Smashing Success"
+          },
+          {
+              "rank": 21,
+              "tier": "Rarely Playable",
+              "name": "Broken Wings"
+          },
+          {
+              "rank": 22,
+              "tier": "Rarely Playable",
+              "name": "Weathered Runestone"
+          },
+          {
+              "rank": 23,
+              "tier": "Rarely Playable",
+              "name": "Annul"
+          }
+      ]
+  },
+  {
+      "tier": "Basically Unplayable",
+      "cards": [
+          {
+              "rank": 1,
+              "tier": "Basically Unplayable",
+              "name": "Tibalt's Trickery"
+          }
+      ]
+  }
+]
