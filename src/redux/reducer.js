@@ -1,5 +1,5 @@
-import { CHANGE_SET, SET_DECREMENT, REQUEST_LOADING,
-  FETCH_CARDS_SUCCESS, REQUEST_FAIL, FETCH_CARD_SETS_SUCCESS} from "./types";
+import { CHANGE_SET, REQUEST_LOADING, FETCH_CARDS_SUCCESS,
+  REQUEST_FAIL, FETCH_CARD_SETS_SUCCESS} from "./types";
   import ELD from '../set-data/eld/eld.json';
   import IKO from '../set-data/iko/iko.json';
   import ZNR from '../set-data/znr/znr.json';
@@ -19,9 +19,7 @@ const initialState = {
   },
   cardSets: {},
   setPicks: [],
-  counter: 0,
   isRequesting: false,
-  quote: 'Nothing to see Here!',
   error: null
 };
 
@@ -40,8 +38,6 @@ export const counterReducer = (state = initialState, action) => {
       }
     case CHANGE_SET:
       return { ...state, currentSet: action.payload};
-    case SET_DECREMENT:
-      return { ...state, counter: state.counter - 1};
     case REQUEST_LOADING:
       return { ...state, isRequesting: true};
     case FETCH_CARDS_SUCCESS:

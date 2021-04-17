@@ -1,14 +1,10 @@
 import SetService from '../services/set-service';
-import {CHANGE_SET, SET_DECREMENT, REQUEST_LOADING,
+import {CHANGE_SET, REQUEST_LOADING,
   FETCH_CARDS_SUCCESS, REQUEST_FAIL, FETCH_CARD_SETS_SUCCESS } from "./types"
 
 export const changeSet = (set) => ({
   type: CHANGE_SET,
   payload: set,
-});
-
-export const setDecrement = () => ({
-  type: SET_DECREMENT,
 });
 
 export const loadCardSets = (setArray) => (dispatch) => {
