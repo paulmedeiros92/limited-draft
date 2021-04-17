@@ -5,18 +5,23 @@ import { useHistory } from 'react-router-dom';
 import {
   Navbar, Nav, Dropdown,
 } from 'react-bootstrap';
+import { useDispatch, useSelector } from "react-redux"
+import { changeSet } from "../redux/actions"
 
-function createItems(sets, changeSet) {
+function createItems(sets, dispatch) {
   return sets.map(set => (
-    <Dropdown.Item key={set.name} onClick={() => changeSet(set)}>
+    <Dropdown.Item key={set.name} onClick={() => dispatch(changeSet(set))}>
       <img src={set.icon_svg_uri} alt="no-set-icon" className="icon" />
       {set.name}
     </Dropdown.Item>
   ));
 }
 
-function TopPicksHeader({ changeSet, selectedSet, sets }) {
-  const items = createItems(sets, changeSet);
+function TopPicksHeader() {
+  const dispatch = useDispatch();
+  const currentSet = useSelector((state) => state.currentSet);
+  const cardSets = useSelector((state) => state.cardSets);
+  const items = createItems(Object.values(cardSets), dispatch);
   const history = useHistory();
 
   return (
@@ -31,8 +36,8 @@ function TopPicksHeader({ changeSet, selectedSet, sets }) {
           <Nav>
             <Dropdown>
               <Dropdown.Toggle variant="outline-primary">
-                <img src={selectedSet.icon_svg_uri} alt="no-set-icon" className="icon" />
-                {selectedSet.name}
+                <img src={currentSet.icon_svg_uri} alt="no-set-icon" className="icon" />
+                {currentSet.name}
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 {items}
@@ -46,11 +51,6 @@ function TopPicksHeader({ changeSet, selectedSet, sets }) {
 }
 
 TopPicksHeader.propTypes = {
-  changeSet: PropTypes.func.isRequired,
-  selectedSet: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    icon_svg_uri: PropTypes.string,
-  }).isRequired,
   sets: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
