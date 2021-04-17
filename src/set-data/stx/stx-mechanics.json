@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Learn",
+    "description": "You have two choices: You can discard a card and then draw a card or reveal a lesson card from outside the game and put it in your hand. A lesson card is a spell type see on instants and sorceries.",
+    "citation": "https://mtg.fandom.com/wiki/Learn",
+    "exampleCards": [
+      {
+        "rank": 26,
+        "tier": "Above Average Cards",
+        "name": "Divide by Zero"
+      },
+      {
+        "rank": 46,
+        "tier": "Sometimes Playable",
+        "name": "Pop Quiz"
+      }
+    ]
+  },
+  {
+    "title": "Magecraft",
+    "description": "Magecraft causes an effect whenever you cast or copy and instant or sorcery spell.",
+    "citation": "https://mtg.fandom.com/wiki/Magecraft",
+    "exampleCards": [
+      {
+        "rank": 4,
+        "tier": "Incredible Bombs",
+        "name": "Extus, Oriq Overlord"
+      },
+      {
+        "rank": 9,
+        "tier": "Great First Picks",
+        "name": "Sedgemoor Witch"
+      },
+      {
+        "rank": 31,
+        "tier": "Great First Picks",
+        "name": "Dragonsguard Elite"
+      }
+    ]
+  },
+  {
+    "title": "Ward",
+    "description": "Whenever a permanent with ward becomes the target of a spell or ability an opponent controls, counter it unless that player pays an additional cost.",
+    "citation": "https://mtg.fandom.com/wiki/Ward",
+    "exampleCards": [
+      {
+        "rank": 6,
+        "tier": "Great First Picks",
+        "name": "Torrent Sculptor"
+      },
+      {
+        "rank": 42,
+        "tier": "Solid Playables",
+        "name": "Owlin Shieldmage"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1552 @@
+[
+  {
+    "tier": "Incredible Bombs",
+    "cards": [
+      {
+        "rank": 1,
+        "tier": "Incredible Bombs",
+        "name": "Hofri Ghostforge"
+      },
+      {
+        "rank": 2,
+        "tier": "Incredible Bombs",
+        "name": "Tanazir Quandrix"
+      },
+      {
+        "rank": 3,
+        "tier": "Incredible Bombs",
+        "name": "Professor Onyx"
+      },
+      {
+        "rank": 4,
+        "tier": "Incredible Bombs",
+        "name": "Extus, Oriq Overlord"
+      },
+      {
+        "rank": 5,
+        "tier": "Incredible Bombs",
+        "name": "Velomachus Lorehold"
+      },
+      {
+        "rank": 6,
+        "tier": "Incredible Bombs",
+        "name": "Multiple Choice"
+      },
+      {
+        "rank": 7,
+        "tier": "Incredible Bombs",
+        "name": "Beledros Witherbloom"
+      },
+      {
+        "rank": 8,
+        "tier": "Incredible Bombs",
+        "name": "Blot Out the Sky"
+      },
+      {
+        "rank": 9,
+        "tier": "Incredible Bombs",
+        "name": "Galazeth Prismari"
+      },
+      {
+        "rank": 10,
+        "tier": "Incredible Bombs",
+        "name": "Rowan, Scholar of Sparks"
+      }
+    ]
+  },
+  {
+    "tier": "Great First Picks",
+    "cards": [
+      {
+        "rank": 1,
+        "tier": "Great First Picks",
+        "name": "Mascot Exhibition"
+      },
+      {
+        "rank": 2,
+        "tier": "Great First Picks",
+        "name": "Venerable Warsinger"
+      },
+      {
+        "rank": 3,
+        "tier": "Great First Picks",
+        "name": "Augmenter Pugilist"
+      },
+      {
+        "rank": 4,
+        "tier": "Great First Picks",
+        "name": "Shadrix Silverquill"
+      },
+      {
+        "rank": 5,
+        "tier": "Great First Picks",
+        "name": "Valentin, Dean of the Vein"
+      },
+      {
+        "rank": 6,
+        "tier": "Great First Picks",
+        "name": "Torrent Sculptor"
+      },
+      {
+        "rank": 7,
+        "tier": "Great First Picks",
+        "name": "Shaile, Dean of Radiance"
+      },
+      {
+        "rank": 8,
+        "tier": "Great First Picks",
+        "name": "Lorehold Command"
+      },
+      {
+        "rank": 9,
+        "tier": "Great First Picks",
+        "name": "Sedgemoor Witch"
+      },
+      {
+        "rank": 10,
+        "tier": "Great First Picks",
+        "name": "Mila, Crafty Companion"
+      },
+      {
+        "rank": 11,
+        "tier": "Great First Picks",
+        "name": "Gnarled Professor"
+      },
+      {
+        "rank": 12,
+        "tier": "Great First Picks",
+        "name": "Plargg, Dean of Chaos"
+      },
+      {
+        "rank": 13,
+        "tier": "Great First Picks",
+        "name": "Silverquill Command"
+      },
+      {
+        "rank": 14,
+        "tier": "Great First Picks",
+        "name": "Primal Command"
+      },
+      {
+        "rank": 15,
+        "tier": "Great First Picks",
+        "name": "Day of Judgment"
+      },
+      {
+        "rank": 16,
+        "tier": "Great First Picks",
+        "name": "Selfless Glyphweaver"
+      },
+      {
+        "rank": 17,
+        "tier": "Great First Picks",
+        "name": "Baleful Mastery"
+      },
+      {
+        "rank": 18,
+        "tier": "Great First Picks",
+        "name": "Uvilda, Dean of Perfection"
+      },
+      {
+        "rank": 19,
+        "tier": "Great First Picks",
+        "name": "Swords to Plowshares"
+      },
+      {
+        "rank": 20,
+        "tier": "Great First Picks",
+        "name": "Magma Opus"
+      },
+      {
+        "rank": 21,
+        "tier": "Great First Picks",
+        "name": "Prismari Command"
+      },
+      {
+        "rank": 22,
+        "tier": "Great First Picks",
+        "name": "Kasmina, Enigma Sage"
+      },
+      {
+        "rank": 23,
+        "tier": "Great First Picks",
+        "name": "Lightning Bolt"
+      },
+      {
+        "rank": 24,
+        "tier": "Great First Picks",
+        "name": "Mortality Spear"
+      },
+      {
+        "rank": 25,
+        "tier": "Great First Picks",
+        "name": "Blex, Vexing Pest"
+      },
+      {
+        "rank": 26,
+        "tier": "Great First Picks",
+        "name": "Retriever Phoenix"
+      },
+      {
+        "rank": 27,
+        "tier": "Great First Picks",
+        "name": "Mavinda, Students' Advocate"
+      },
+      {
+        "rank": 28,
+        "tier": "Great First Picks",
+        "name": "Closing Statement"
+      },
+      {
+        "rank": 29,
+        "tier": "Great First Picks",
+        "name": "Kianne, Dean of Substance"
+      },
+      {
+        "rank": 30,
+        "tier": "Great First Picks",
+        "name": "Quandrix Command"
+      },
+      {
+        "rank": 31,
+        "tier": "Great First Picks",
+        "name": "Dragonsguard Elite"
+      },
+      {
+        "rank": 32,
+        "tier": "Great First Picks",
+        "name": "Putrefy"
+      },
+      {
+        "rank": 33,
+        "tier": "Great First Picks",
+        "name": "Doom Blade"
+      },
+      {
+        "rank": 34,
+        "tier": "Great First Picks",
+        "name": "Time Warp"
+      },
+      {
+        "rank": 35,
+        "tier": "Great First Picks",
+        "name": "Igneous Inspiration"
+      },
+      {
+        "rank": 36,
+        "tier": "Great First Picks",
+        "name": "Sparring Regimen"
+      },
+      {
+        "rank": 37,
+        "tier": "Great First Picks",
+        "name": "Blade Historian"
+      },
+      {
+        "rank": 38,
+        "tier": "Great First Picks",
+        "name": "Elemental Expressionist"
+      },
+      {
+        "rank": 39,
+        "tier": "Great First Picks",
+        "name": "Poet's Quill"
+      },
+      {
+        "rank": 40,
+        "tier": "Great First Picks",
+        "name": "Leonin Lightscribe"
+      },
+      {
+        "rank": 41,
+        "tier": "Great First Picks",
+        "name": "Dream Strix"
+      },
+      {
+        "rank": 42,
+        "tier": "Great First Picks",
+        "name": "Conspiracy Theorist"
+      },
+      {
+        "rank": 43,
+        "tier": "Great First Picks",
+        "name": "Draconic Intervention"
+      },
+      {
+        "rank": 44,
+        "tier": "Great First Picks",
+        "name": "Illuminate History"
+      },
+      {
+        "rank": 45,
+        "tier": "Great First Picks",
+        "name": "Lightning Helix"
+      },
+      {
+        "rank": 46,
+        "tier": "Great First Picks",
+        "name": "Crux of Fate"
+      },
+      {
+        "rank": 47,
+        "tier": "Great First Picks",
+        "name": "Tempted by the Oriq"
+      },
+      {
+        "rank": 48,
+        "tier": "Great First Picks",
+        "name": "Flunk"
+      },
+      {
+        "rank": 49,
+        "tier": "Great First Picks",
+        "name": "Manifestation Sage"
+      },
+      {
+        "rank": 50,
+        "tier": "Great First Picks",
+        "name": "Elite Spellbinder"
+      },
+      {
+        "rank": 51,
+        "tier": "Great First Picks",
+        "name": "Flamescroll Celebrant"
+      },
+      {
+        "rank": 52,
+        "tier": "Great First Picks",
+        "name": "Mizzix's Mastery"
+      },
+      {
+        "rank": 53,
+        "tier": "Great First Picks",
+        "name": "Rip Apart"
+      },
+      {
+        "rank": 54,
+        "tier": "Great First Picks",
+        "name": "Dina, Soul Steeper"
+      },
+      {
+        "rank": 55,
+        "tier": "Great First Picks",
+        "name": "Pestilent Cauldron"
+      },
+      {
+        "rank": 56,
+        "tier": "Great First Picks",
+        "name": "Dramatic Finale"
+      },
+      {
+        "rank": 57,
+        "tier": "Great First Picks",
+        "name": "Maelstrom Muse"
+      },
+      {
+        "rank": 58,
+        "tier": "Great First Picks",
+        "name": "Archmage Emeritus"
+      },
+      {
+        "rank": 59,
+        "tier": "Great First Picks",
+        "name": "Electrolyze"
+      },
+      {
+        "rank": 60,
+        "tier": "Great First Picks",
+        "name": "Devastating Mastery"
+      },
+      {
+        "rank": 61,
+        "tier": "Great First Picks",
+        "name": "Callous Bloodmage"
+      },
+      {
+        "rank": 62,
+        "tier": "Great First Picks",
+        "name": "Daemogoth Woe-Eater"
+      },
+      {
+        "rank": 63,
+        "tier": "Great First Picks",
+        "name": "Zimone, Quandrix Prodigy"
+      },
+      {
+        "rank": 64,
+        "tier": "Great First Picks",
+        "name": "Quandrix Cultivator"
+      },
+      {
+        "rank": 65,
+        "tier": "Great First Picks",
+        "name": "Crackle with Power"
+      },
+      {
+        "rank": 66,
+        "tier": "Great First Picks",
+        "name": "Rootha, Mercurial Artist"
+      },
+      {
+        "rank": 67,
+        "tier": "Great First Picks",
+        "name": "Quandrix Apprentice"
+      }
+    ]
+  },
+  {
+    "tier": "Above Average Cards",
+    "cards": [
+      {
+        "rank": 1,
+        "tier": "Above Average Cards",
+        "name": "Teachings of the Archaics"
+      },
+      {
+        "rank": 2,
+        "tier": "Above Average Cards",
+        "name": "Harmonize"
+      },
+      {
+        "rank": 3,
+        "tier": "Above Average Cards",
+        "name": "Demonic Tutor"
+      },
+      {
+        "rank": 4,
+        "tier": "Above Average Cards",
+        "name": "Blue Sun's Zenith"
+      },
+      {
+        "rank": 5,
+        "tier": "Above Average Cards",
+        "name": "Approach of the Second Sun"
+      },
+      {
+        "rank": 6,
+        "tier": "Above Average Cards",
+        "name": "Mage Hunters' Onslaught"
+      },
+      {
+        "rank": 7,
+        "tier": "Above Average Cards",
+        "name": "Devouring Tendrils"
+      },
+      {
+        "rank": 8,
+        "tier": "Above Average Cards",
+        "name": "Killian, Ink Duelist"
+      },
+      {
+        "rank": 9,
+        "tier": "Above Average Cards",
+        "name": "Returned Pastcaller"
+      },
+      {
+        "rank": 10,
+        "tier": "Above Average Cards",
+        "name": "Master Symmetrist"
+      },
+      {
+        "rank": 11,
+        "tier": "Above Average Cards",
+        "name": "Heated Debate"
+      },
+      {
+        "rank": 12,
+        "tier": "Above Average Cards",
+        "name": "Witherbloom Command"
+      },
+      {
+        "rank": 13,
+        "tier": "Above Average Cards",
+        "name": "Professor of Symbology"
+      },
+      {
+        "rank": 14,
+        "tier": "Above Average Cards",
+        "name": "Despark"
+      },
+      {
+        "rank": 15,
+        "tier": "Above Average Cards",
+        "name": "Jadzi, Oracle of Arcavios"
+      },
+      {
+        "rank": 16,
+        "tier": "Above Average Cards",
+        "name": "Daemogoth Titan"
+      },
+      {
+        "rank": 17,
+        "tier": "Above Average Cards",
+        "name": "Body of Research"
+      },
+      {
+        "rank": 18,
+        "tier": "Above Average Cards",
+        "name": "Decisive Denial"
+      },
+      {
+        "rank": 19,
+        "tier": "Above Average Cards",
+        "name": "Frost Trickster"
+      },
+      {
+        "rank": 20,
+        "tier": "Above Average Cards",
+        "name": "Radiant Scrollwielder"
+      },
+      {
+        "rank": 21,
+        "tier": "Above Average Cards",
+        "name": "Quintorius, Field Historian"
+      },
+      {
+        "rank": 22,
+        "tier": "Above Average Cards",
+        "name": "Witherbloom Apprentice"
+      },
+      {
+        "rank": 23,
+        "tier": "Above Average Cards",
+        "name": "Shock"
+      },
+      {
+        "rank": 24,
+        "tier": "Above Average Cards",
+        "name": "Regrowth"
+      },
+      {
+        "rank": 25,
+        "tier": "Above Average Cards",
+        "name": "Counterspell"
+      },
+      {
+        "rank": 26,
+        "tier": "Above Average Cards",
+        "name": "Divide by Zero"
+      },
+      {
+        "rank": 27,
+        "tier": "Above Average Cards",
+        "name": "Honor Troll"
+      },
+      {
+        "rank": 28,
+        "tier": "Above Average Cards",
+        "name": "Oriq Loremage"
+      },
+      {
+        "rank": 29,
+        "tier": "Above Average Cards",
+        "name": "Bayou Groff"
+      },
+      {
+        "rank": 30,
+        "tier": "Above Average Cards",
+        "name": "Bookwurm"
+      },
+      {
+        "rank": 31,
+        "tier": "Above Average Cards",
+        "name": "Vanishing Verse"
+      },
+      {
+        "rank": 32,
+        "tier": "Above Average Cards",
+        "name": "Emergent Sequence"
+      },
+      {
+        "rank": 33,
+        "tier": "Above Average Cards",
+        "name": "Biomathematician"
+      },
+      {
+        "rank": 34,
+        "tier": "Above Average Cards",
+        "name": "Umbral Juke"
+      },
+      {
+        "rank": 35,
+        "tier": "Above Average Cards",
+        "name": "Kelpie Guide"
+      },
+      {
+        "rank": 36,
+        "tier": "Above Average Cards",
+        "name": "Thunderous Orator"
+      },
+      {
+        "rank": 37,
+        "tier": "Above Average Cards",
+        "name": "Elemental Summoning"
+      },
+      {
+        "rank": 38,
+        "tier": "Above Average Cards",
+        "name": "Spirit Summoning"
+      },
+      {
+        "rank": 39,
+        "tier": "Above Average Cards",
+        "name": "Inkling Summoning"
+      },
+      {
+        "rank": 40,
+        "tier": "Above Average Cards",
+        "name": "Pest Summoning"
+      },
+      {
+        "rank": 41,
+        "tier": "Above Average Cards",
+        "name": "Basic Conjuration"
+      },
+      {
+        "rank": 42,
+        "tier": "Above Average Cards",
+        "name": "Eliminate"
+      },
+      {
+        "rank": 43,
+        "tier": "Above Average Cards",
+        "name": "Urza's Rage"
+      },
+      {
+        "rank": 44,
+        "tier": "Above Average Cards",
+        "name": "Compulsive Research"
+      },
+      {
+        "rank": 45,
+        "tier": "Above Average Cards",
+        "name": "Brackish Trudge"
+      },
+      {
+        "rank": 46,
+        "tier": "Above Average Cards",
+        "name": "Professor of Zoomancy"
+      },
+      {
+        "rank": 47,
+        "tier": "Above Average Cards",
+        "name": "Hunt for Specimens"
+      },
+      {
+        "rank": 48,
+        "tier": "Above Average Cards",
+        "name": "Overgrown Arch"
+      },
+      {
+        "rank": 49,
+        "tier": "Above Average Cards",
+        "name": "Tenured Inkcaster"
+      },
+      {
+        "rank": 50,
+        "tier": "Above Average Cards",
+        "name": "Creative Outburst"
+      },
+      {
+        "rank": 51,
+        "tier": "Above Average Cards",
+        "name": "Practical Research"
+      },
+      {
+        "rank": 52,
+        "tier": "Above Average Cards",
+        "name": "Lorehold Excavation"
+      },
+      {
+        "rank": 53,
+        "tier": "Above Average Cards",
+        "name": "Efreet Flamepainter"
+      },
+      {
+        "rank": 54,
+        "tier": "Above Average Cards",
+        "name": "Prismari Apprentice"
+      }
+    ]
+  },
+  {
+    "tier": "Solid Playables",
+    "cards": [
+      {
+        "rank": 1,
+        "tier": "Solid Playables",
+        "name": "Fractal Summoning"
+      },
+      {
+        "rank": 2,
+        "tier": "Solid Playables",
+        "name": "Agonizing Remorse"
+      },
+      {
+        "rank": 3,
+        "tier": "Solid Playables",
+        "name": "Ephemerate"
+      },
+      {
+        "rank": 4,
+        "tier": "Solid Playables",
+        "name": "Ingenious Mastery"
+      },
+      {
+        "rank": 5,
+        "tier": "Solid Playables",
+        "name": "Lash of Malice"
+      },
+      {
+        "rank": 6,
+        "tier": "Solid Playables",
+        "name": "Culling Ritual"
+      },
+      {
+        "rank": 7,
+        "tier": "Solid Playables",
+        "name": "Mage Duel"
+      },
+      {
+        "rank": 8,
+        "tier": "Solid Playables",
+        "name": "Pigment Storm"
+      },
+      {
+        "rank": 9,
+        "tier": "Solid Playables",
+        "name": "Blood Researcher"
+      },
+      {
+        "rank": 10,
+        "tier": "Solid Playables",
+        "name": "Pilgrim of the Ages"
+      },
+      {
+        "rank": 11,
+        "tier": "Solid Playables",
+        "name": "Mentor's Guidance"
+      },
+      {
+        "rank": 12,
+        "tier": "Solid Playables",
+        "name": "Humiliate"
+      },
+      {
+        "rank": 13,
+        "tier": "Solid Playables",
+        "name": "Shadewing Laureate"
+      },
+      {
+        "rank": 14,
+        "tier": "Solid Playables",
+        "name": "Strixhaven Stadium"
+      },
+      {
+        "rank": 15,
+        "tier": "Solid Playables",
+        "name": "Quandrix Pledgemage"
+      },
+      {
+        "rank": 16,
+        "tier": "Solid Playables",
+        "name": "Eureka Moment"
+      },
+      {
+        "rank": 17,
+        "tier": "Solid Playables",
+        "name": "Accomplished Alchemist"
+      },
+      {
+        "rank": 18,
+        "tier": "Solid Playables",
+        "name": "Silverquill Silencer"
+      },
+      {
+        "rank": 19,
+        "tier": "Solid Playables",
+        "name": "Explosive Welcome"
+      },
+      {
+        "rank": 20,
+        "tier": "Solid Playables",
+        "name": "Mage Hunter"
+      },
+      {
+        "rank": 21,
+        "tier": "Solid Playables",
+        "name": "Hall of Oracles"
+      },
+      {
+        "rank": 22,
+        "tier": "Solid Playables",
+        "name": "Academic Dispute"
+      },
+      {
+        "rank": 23,
+        "tier": "Solid Playables",
+        "name": "Rise of Extus"
+      },
+      {
+        "rank": 24,
+        "tier": "Solid Playables",
+        "name": "Reconstruct History"
+      },
+      {
+        "rank": 25,
+        "tier": "Solid Playables",
+        "name": "Expressive Iteration"
+      },
+      {
+        "rank": 26,
+        "tier": "Solid Playables",
+        "name": "Silverquill Apprentice"
+      },
+      {
+        "rank": 27,
+        "tier": "Solid Playables",
+        "name": "Lorehold Apprentice"
+      },
+      {
+        "rank": 28,
+        "tier": "Solid Playables",
+        "name": "Storm-Kiln Artist"
+      },
+      {
+        "rank": 29,
+        "tier": "Solid Playables",
+        "name": "Cultivate"
+      },
+      {
+        "rank": 30,
+        "tier": "Solid Playables",
+        "name": "Growth Spiral"
+      },
+      {
+        "rank": 31,
+        "tier": "Solid Playables",
+        "name": "Tezzeret's Gambit"
+      },
+      {
+        "rank": 32,
+        "tier": "Solid Playables",
+        "name": "Natural Order"
+      },
+      {
+        "rank": 33,
+        "tier": "Solid Playables",
+        "name": "Increasing Vengeance"
+      },
+      {
+        "rank": 34,
+        "tier": "Solid Playables",
+        "name": "Wormhole Serpent"
+      },
+      {
+        "rank": 35,
+        "tier": "Solid Playables",
+        "name": "Tend the Pests"
+      },
+      {
+        "rank": 36,
+        "tier": "Solid Playables",
+        "name": "Harness Infinity"
+      },
+      {
+        "rank": 37,
+        "tier": "Solid Playables",
+        "name": "Containment Breach"
+      },
+      {
+        "rank": 38,
+        "tier": "Solid Playables",
+        "name": "Symmetry Sage"
+      },
+      {
+        "rank": 39,
+        "tier": "Solid Playables",
+        "name": "Needlethorn Drake"
+      },
+      {
+        "rank": 40,
+        "tier": "Solid Playables",
+        "name": "Team Pennant"
+      },
+      {
+        "rank": 41,
+        "tier": "Solid Playables",
+        "name": "Expel"
+      },
+      {
+        "rank": 42,
+        "tier": "Solid Playables",
+        "name": "Owlin Shieldmage"
+      },
+      {
+        "rank": 43,
+        "tier": "Solid Playables",
+        "name": "Necrotic Fumes"
+      },
+      {
+        "rank": 44,
+        "tier": "Solid Playables",
+        "name": "Wandering Archaic"
+      },
+      {
+        "rank": 45,
+        "tier": "Solid Playables",
+        "name": "Spectacle Mage"
+      },
+      {
+        "rank": 46,
+        "tier": "Solid Playables",
+        "name": "Culmination of Studies"
+      },
+      {
+        "rank": 47,
+        "tier": "Solid Playables",
+        "name": "Ardent Dustspeaker"
+      },
+      {
+        "rank": 48,
+        "tier": "Solid Playables",
+        "name": "Karok Wrangler"
+      },
+      {
+        "rank": 49,
+        "tier": "Solid Playables",
+        "name": "Reduce to Memory"
+      },
+      {
+        "rank": 50,
+        "tier": "Solid Playables",
+        "name": "Dueling Coach"
+      },
+      {
+        "rank": 51,
+        "tier": "Solid Playables",
+        "name": "Expanded Anatomy"
+      },
+      {
+        "rank": 52,
+        "tier": "Solid Playables",
+        "name": "Introduction to Prophecy"
+      },
+      {
+        "rank": 53,
+        "tier": "Solid Playables",
+        "name": "Environmental Sciences"
+      },
+      {
+        "rank": 54,
+        "tier": "Solid Playables",
+        "name": "Divine Gambit"
+      },
+      {
+        "rank": 55,
+        "tier": "Solid Playables",
+        "name": "Grapeshot"
+      },
+      {
+        "rank": 56,
+        "tier": "Solid Playables",
+        "name": "Faithless Looting"
+      },
+      {
+        "rank": 57,
+        "tier": "Solid Playables",
+        "name": "Sign in Blood"
+      },
+      {
+        "rank": 58,
+        "tier": "Solid Playables",
+        "name": "Memory Lapse"
+      },
+      {
+        "rank": 59,
+        "tier": "Solid Playables",
+        "name": "Gift of Estates"
+      },
+      {
+        "rank": 60,
+        "tier": "Solid Playables",
+        "name": "Mind's Desire"
+      },
+      {
+        "rank": 61,
+        "tier": "Solid Playables",
+        "name": "Semester's End"
+      },
+      {
+        "rank": 62,
+        "tier": "Solid Playables",
+        "name": "Snow Day"
+      },
+      {
+        "rank": 63,
+        "tier": "Solid Playables",
+        "name": "Reckless Amplimancer"
+      },
+      {
+        "rank": 64,
+        "tier": "Solid Playables",
+        "name": "Reject"
+      },
+      {
+        "rank": 65,
+        "tier": "Solid Playables",
+        "name": "Witherbloom Campus"
+      },
+      {
+        "rank": 66,
+        "tier": "Solid Playables",
+        "name": "Plumb the Forbidden"
+      },
+      {
+        "rank": 67,
+        "tier": "Solid Playables",
+        "name": "Show of Confidence"
+      },
+      {
+        "rank": 68,
+        "tier": "Solid Playables",
+        "name": "Exponential Growth"
+      },
+      {
+        "rank": 69,
+        "tier": "Solid Playables",
+        "name": "Silverquill Campus"
+      },
+      {
+        "rank": 70,
+        "tier": "Solid Playables",
+        "name": "Moldering Karok"
+      },
+      {
+        "rank": 71,
+        "tier": "Solid Playables",
+        "name": "Teach by Example"
+      },
+      {
+        "rank": 72,
+        "tier": "Solid Playables",
+        "name": "Hall Monitor"
+      },
+      {
+        "rank": 73,
+        "tier": "Solid Playables",
+        "name": "Aether Helix"
+      },
+      {
+        "rank": 74,
+        "tier": "Solid Playables",
+        "name": "Reflective Golem"
+      },
+      {
+        "rank": 75,
+        "tier": "Solid Playables",
+        "name": "Spiteful Squad"
+      }
+    ]
+  },
+  {
+    "tier": "Sometimes Playable",
+    "cards": [
+      {
+        "rank": 1,
+        "tier": "Sometimes Playable",
+        "name": "Introduction to Annihilation"
+      },
+      {
+        "rank": 2,
+        "tier": "Sometimes Playable",
+        "name": "Snakeskin Veil"
+      },
+      {
+        "rank": 3,
+        "tier": "Sometimes Playable",
+        "name": "Thrill of Possibility"
+      },
+      {
+        "rank": 4,
+        "tier": "Sometimes Playable",
+        "name": "Whirlwind Denial"
+      },
+      {
+        "rank": 5,
+        "tier": "Sometimes Playable",
+        "name": "Inquisition of Kozilek"
+      },
+      {
+        "rank": 6,
+        "tier": "Sometimes Playable",
+        "name": "Mana Tithe"
+      },
+      {
+        "rank": 7,
+        "tier": "Sometimes Playable",
+        "name": "Stonerise Spirit"
+      },
+      {
+        "rank": 8,
+        "tier": "Sometimes Playable",
+        "name": "Springmane Cervin"
+      },
+      {
+        "rank": 9,
+        "tier": "Sometimes Playable",
+        "name": "Pillardrop Rescuer"
+      },
+      {
+        "rank": 10,
+        "tier": "Sometimes Playable",
+        "name": "Zephyr Boots"
+      },
+      {
+        "rank": 11,
+        "tier": "Sometimes Playable",
+        "name": "Infuse with Vitality"
+      },
+      {
+        "rank": 12,
+        "tier": "Sometimes Playable",
+        "name": "Unwilling Ingredient"
+      },
+      {
+        "rank": 13,
+        "tier": "Sometimes Playable",
+        "name": "Witherbloom Pledgemage"
+      },
+      {
+        "rank": 14,
+        "tier": "Sometimes Playable",
+        "name": "Deadly Brew"
+      },
+      {
+        "rank": 15,
+        "tier": "Sometimes Playable",
+        "name": "Pillardrop Warden"
+      },
+      {
+        "rank": 16,
+        "tier": "Sometimes Playable",
+        "name": "Big Play"
+      },
+      {
+        "rank": 17,
+        "tier": "Sometimes Playable",
+        "name": "Fuming Effigy"
+      },
+      {
+        "rank": 18,
+        "tier": "Sometimes Playable",
+        "name": "Double Major"
+      },
+      {
+        "rank": 19,
+        "tier": "Sometimes Playable",
+        "name": "Tome Shredder"
+      },
+      {
+        "rank": 20,
+        "tier": "Sometimes Playable",
+        "name": "Novice Dissector"
+      },
+      {
+        "rank": 21,
+        "tier": "Sometimes Playable",
+        "name": "Silverquill Pledgemage"
+      },
+      {
+        "rank": 22,
+        "tier": "Sometimes Playable",
+        "name": "Exhilarating Elocution"
+      },
+      {
+        "rank": 23,
+        "tier": "Sometimes Playable",
+        "name": "Ecological Appreciation"
+      },
+      {
+        "rank": 24,
+        "tier": "Sometimes Playable",
+        "name": "Elemental Masterpiece"
+      },
+      {
+        "rank": 25,
+        "tier": "Sometimes Playable",
+        "name": "Letter of Acceptance"
+      },
+      {
+        "rank": 26,
+        "tier": "Sometimes Playable",
+        "name": "Burrog Befuddler"
+      },
+      {
+        "rank": 27,
+        "tier": "Sometimes Playable",
+        "name": "Stonebinder's Familiar"
+      },
+      {
+        "rank": 28,
+        "tier": "Sometimes Playable",
+        "name": "Clever Lumimancer"
+      },
+      {
+        "rank": 29,
+        "tier": "Sometimes Playable",
+        "name": "Eyetwitch"
+      },
+      {
+        "rank": 30,
+        "tier": "Sometimes Playable",
+        "name": "Crushing Disappointment"
+      },
+      {
+        "rank": 31,
+        "tier": "Sometimes Playable",
+        "name": "Defend the Campus"
+      },
+      {
+        "rank": 32,
+        "tier": "Sometimes Playable",
+        "name": "Verdant Mastery"
+      },
+      {
+        "rank": 33,
+        "tier": "Sometimes Playable",
+        "name": "Start from Scratch"
+      },
+      {
+        "rank": 34,
+        "tier": "Sometimes Playable",
+        "name": "Vineglimmer Snarl"
+      },
+      {
+        "rank": 35,
+        "tier": "Sometimes Playable",
+        "name": "Shineshadow Snarl"
+      },
+      {
+        "rank": 36,
+        "tier": "Sometimes Playable",
+        "name": "Necroblossom Snarl"
+      },
+      {
+        "rank": 37,
+        "tier": "Sometimes Playable",
+        "name": "Furycalm Snarl"
+      },
+      {
+        "rank": 38,
+        "tier": "Sometimes Playable",
+        "name": "Frostboil Snarl"
+      },
+      {
+        "rank": 39,
+        "tier": "Sometimes Playable",
+        "name": "Waterfall Aerialist"
+      },
+      {
+        "rank": 40,
+        "tier": "Sometimes Playable",
+        "name": "Field Trip"
+      },
+      {
+        "rank": 41,
+        "tier": "Sometimes Playable",
+        "name": "Thrilling Discovery"
+      },
+      {
+        "rank": 42,
+        "tier": "Sometimes Playable",
+        "name": "Strict Proctor"
+      },
+      {
+        "rank": 43,
+        "tier": "Sometimes Playable",
+        "name": "Relic Sloth"
+      },
+      {
+        "rank": 44,
+        "tier": "Sometimes Playable",
+        "name": "Bury in Books"
+      },
+      {
+        "rank": 45,
+        "tier": "Sometimes Playable",
+        "name": "Eager First-Year"
+      },
+      {
+        "rank": 46,
+        "tier": "Sometimes Playable",
+        "name": "Pop Quiz"
+      },
+      {
+        "rank": 47,
+        "tier": "Sometimes Playable",
+        "name": "Academic Probation"
+      },
+      {
+        "rank": 48,
+        "tier": "Sometimes Playable",
+        "name": "Infuriate"
+      },
+      {
+        "rank": 49,
+        "tier": "Sometimes Playable",
+        "name": "Village Rites"
+      },
+      {
+        "rank": 50,
+        "tier": "Sometimes Playable",
+        "name": "Abundant Harvest"
+      },
+      {
+        "rank": 51,
+        "tier": "Sometimes Playable",
+        "name": "Stone Rain"
+      },
+      {
+        "rank": 52,
+        "tier": "Sometimes Playable",
+        "name": "Dark Ritual"
+      },
+      {
+        "rank": 53,
+        "tier": "Sometimes Playable",
+        "name": "Brainstorm"
+      },
+      {
+        "rank": 54,
+        "tier": "Sometimes Playable",
+        "name": "Gods Willing"
+      },
+      {
+        "rank": 55,
+        "tier": "Sometimes Playable",
+        "name": "Channel"
+      },
+      {
+        "rank": 56,
+        "tier": "Sometimes Playable",
+        "name": "Tainted Pact"
+      },
+      {
+        "rank": 57,
+        "tier": "Sometimes Playable",
+        "name": "Teferi's Protection"
+      },
+      {
+        "rank": 58,
+        "tier": "Sometimes Playable",
+        "name": "Guiding Voice"
+      },
+      {
+        "rank": 59,
+        "tier": "Sometimes Playable",
+        "name": "Specter of the Fens"
+      },
+      {
+        "rank": 60,
+        "tier": "Sometimes Playable",
+        "name": "Vortex Runner"
+      },
+      {
+        "rank": 61,
+        "tier": "Sometimes Playable",
+        "name": "Spell Satchel"
+      },
+      {
+        "rank": 62,
+        "tier": "Sometimes Playable",
+        "name": "Twinscroll Shaman"
+      },
+      {
+        "rank": 63,
+        "tier": "Sometimes Playable",
+        "name": "Leech Fanatic"
+      },
+      {
+        "rank": 64,
+        "tier": "Sometimes Playable",
+        "name": "Scurrid Colony"
+      },
+      {
+        "rank": 65,
+        "tier": "Sometimes Playable",
+        "name": "Professor's Warning"
+      },
+      {
+        "rank": 66,
+        "tier": "Sometimes Playable",
+        "name": "Essence Infusion"
+      },
+      {
+        "rank": 67,
+        "tier": "Sometimes Playable",
+        "name": "Charge Through"
+      },
+      {
+        "rank": 68,
+        "tier": "Sometimes Playable",
+        "name": "Soothsayer Adept"
+      },
+      {
+        "rank": 69,
+        "tier": "Sometimes Playable",
+        "name": "Promising Duskmage"
+      },
+      {
+        "rank": 70,
+        "tier": "Sometimes Playable",
+        "name": "Leyline Invocation"
+      },
+      {
+        "rank": 71,
+        "tier": "Sometimes Playable",
+        "name": "Access Tunnel"
+      },
+      {
+        "rank": 72,
+        "tier": "Sometimes Playable",
+        "name": "Make Your Mark"
+      },
+      {
+        "rank": 73,
+        "tier": "Sometimes Playable",
+        "name": "Sudden Breakthrough"
+      },
+      {
+        "rank": 74,
+        "tier": "Sometimes Playable",
+        "name": "Arrogant Poet"
+      },
+      {
+        "rank": 75,
+        "tier": "Sometimes Playable",
+        "name": "First Day of Class"
+      }
+    ]
+  },
+  {
+    "tier": "Rarely Playable",
+    "cards": [
+      {
+        "rank": 1,
+        "tier": "Rarely Playable",
+        "name": "Duress"
+      },
+      {
+        "rank": 2,
+        "tier": "Rarely Playable",
+        "name": "Strategic Planning"
+      },
+      {
+        "rank": 3,
+        "tier": "Rarely Playable",
+        "name": "Opt"
+      },
+      {
+        "rank": 4,
+        "tier": "Rarely Playable",
+        "name": "Defiant Strike"
+      },
+      {
+        "rank": 5,
+        "tier": "Rarely Playable",
+        "name": "Tendrils of Agony"
+      },
+      {
+        "rank": 6,
+        "tier": "Rarely Playable",
+        "name": "Fracture"
+      },
+      {
+        "rank": 7,
+        "tier": "Rarely Playable",
+        "name": "Excavated Wall"
+      },
+      {
+        "rank": 8,
+        "tier": "Rarely Playable",
+        "name": "Cogwork Archivist"
+      },
+      {
+        "rank": 9,
+        "tier": "Rarely Playable",
+        "name": "Fervent Mastery"
+      },
+      {
+        "rank": 10,
+        "tier": "Rarely Playable",
+        "name": "Square Up"
+      },
+      {
+        "rank": 11,
+        "tier": "Rarely Playable",
+        "name": "Solve the Equation"
+      },
+      {
+        "rank": 12,
+        "tier": "Rarely Playable",
+        "name": "Negate"
+      },
+      {
+        "rank": 13,
+        "tier": "Rarely Playable",
+        "name": "Revitalize"
+      },
+      {
+        "rank": 14,
+        "tier": "Rarely Playable",
+        "name": "Weather the Storm"
+      },
+      {
+        "rank": 15,
+        "tier": "Rarely Playable",
+        "name": "Tangletrap"
+      },
+      {
+        "rank": 16,
+        "tier": "Rarely Playable",
+        "name": "Detention Vortex"
+      },
+      {
+        "rank": 17,
+        "tier": "Rarely Playable",
+        "name": "Mercurial Transformation"
+      },
+      {
+        "rank": 18,
+        "tier": "Rarely Playable",
+        "name": "Confront the Past"
+      },
+      {
+        "rank": 19,
+        "tier": "Rarely Playable",
+        "name": "Krosan Grip"
+      }
+    ]
+  },
+  {
+    "tier": "Basically Unplayable",
+    "cards": [
+      {
+        "rank": 1,
+        "tier": "Basically Unplayable",
+        "name": "Test of Talents"
+      },
+      {
+        "rank": 2,
+        "tier": "Basically Unplayable",
+        "name": "Dragon's Approach"
+      },
+      {
+        "rank": 3,
+        "tier": "Basically Unplayable",
+        "name": "Secret Rendezvous"
+      }
+    ]
+  }
+]

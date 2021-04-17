@@ -12,6 +12,7 @@ import ELD_MECHANICS from '../set-data/eld/eld-mechanics.json';
 import IKO_MECHANICS from '../set-data/iko/iko-mechanics.json';
 import M21_MECHANICS from '../set-data/m21/m21-mechanics.json';
 import KHM_MECHANICS from '../set-data/khm/khm-mechanics.json';
+import STX_MECHANICS from '../set-data/stx/stx-mechanics.json';
 
 const MECHANICS = {
   znr: ZNR_MECHANICS,
@@ -19,6 +20,7 @@ const MECHANICS = {
   iko: IKO_MECHANICS,
   m21: M21_MECHANICS,
   khm: KHM_MECHANICS,
+  stx: STX_MECHANICS,
 };
 
 class Mechanics extends React.Component {

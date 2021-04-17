@@ -11,9 +11,10 @@ import IKO from './set-data/iko/iko.json';
 import ZNR from './set-data/znr/znr.json';
 import M21 from './set-data/m21/m21.json';
 import KHM from './set-data/khm/khm.json';
+import STX from './set-data/stx/stx.json';
 
 const ALL_SETS = {
-  znr: ZNR, m21: M21, iko: IKO, eld: ELD, khm: KHM,
+  znr: ZNR, m21: M21, iko: IKO, eld: ELD, khm: KHM, stx: STX
 };
 
 class App extends React.Component {
@@ -25,9 +26,9 @@ class App extends React.Component {
     super();
     this.state = {
       selectedSet: {
-        name: 'Kaldheim',
+        name: 'Strixhaven',
         uri: '',
-        code: 'khm',
+        code: 'stx',
       },
       sets: [],
       setPicks: [],
