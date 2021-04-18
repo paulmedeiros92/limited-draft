@@ -28,7 +28,7 @@ function App() {
       <TopPicksHeader />
       <Switch>
         <Route exact path="/" component={() => <TopPicks setPicks={setPicks} />} />
-        {/* <Route path="/mechanics" component={() => <Mechanics selectedSet={currentSet} />} /> */}
+        <Route path="/mechanics" component={() => <Mechanics />} />
       </Switch>
       <Donate />
     </main>

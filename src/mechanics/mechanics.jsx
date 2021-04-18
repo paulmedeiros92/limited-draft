@@ -1,138 +1,165 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './mechanics.scss';
 import {
   Col, Row, Spinner, Card,
 } from 'react-bootstrap';
-import CardService from '../services/cards-service';
+import { useDispatch, useSelector } from "react-redux"
 import DisplayCard from '../cards/display-card/display-card';
 import MtgCard from '../cards/mtg-card/mtg-card';
-import ZNR_MECHANICS from '../set-data/znr/znr-mechanics.json';
-import ELD_MECHANICS from '../set-data/eld/eld-mechanics.json';
-import IKO_MECHANICS from '../set-data/iko/iko-mechanics.json';
-import M21_MECHANICS from '../set-data/m21/m21-mechanics.json';
-import KHM_MECHANICS from '../set-data/khm/khm-mechanics.json';
-import STX_MECHANICS from '../set-data/stx/stx-mechanics.json';
+import { MECHANICS } from '../set-data/constants';
+import { matchTitlesToCards } from '../utilitiy/cardMatcher'
+import { displayCard } from '../redux/actions';
 
-const MECHANICS = {
-  znr: ZNR_MECHANICS,
-  eld: ELD_MECHANICS,
-  iko: IKO_MECHANICS,
-  m21: M21_MECHANICS,
-  khm: KHM_MECHANICS,
-  stx: STX_MECHANICS,
-};
 
-class Mechanics extends React.Component {
-  static toggleCard(cardUri, cardTier, cardRank, visibility) {
-    this.setState({
-      displayCard: {
-        cardUri, cardTier, cardRank, visibility: !visibility, target: { x: 0, y: 0 },
-      },
-    });
-  }
 
-  static cardFinder(exampleCardNames, cardName) {
-    let isFound = false;
-    if (cardName.includes('//')) {
-      isFound = exampleCardNames.find(example => cardName.includes(example.name)) !== undefined;
-    } else {
-      isFound = exampleCardNames.find(example => example.name === cardName) !== undefined;
-    }
-    return isFound;
-  }
+// class Mechanics extends React.Component {
+//   static toggleCard(cardUri, cardTier, cardRank, visibility) {
+//     this.setState({
+//       displayCard: {
+//         cardUri, cardTier, cardRank, visibility: !visibility, target: { x: 0, y: 0 },
+//       },
+//     });
+//   }
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      displayCard: {
-        cardUri: '',
-        cardTier: '',
-        cardRank: -1,
-        visibility: false,
-        target: { x: 0, y: 0 },
-      },
-      exampleCards: [],
-      loading: true,
-    };
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       displayCard: {
+//         cardUri: '',
+//         cardTier: '',
+//         cardRank: -1,
+//         visibility: false,
+//         target: { x: 0, y: 0 },
+//       },
+//     };
 
-    this.toggleCard = Mechanics.toggleCard.bind(this);
-    this.cardFinder = Mechanics.cardFinder.bind(this);
+//     this.toggleCard = Mechanics.toggleCard.bind(this);
+//   }
 
-    CardService.fetchCards(
-      { tier: 'Mechanics Examples', cards: MECHANICS[props.selectedSet.code].map(mechanic => mechanic.exampleCards).flat() },
-    ).then((result) => {
-      const cardMap = {};
-      MECHANICS[props.selectedSet.code].forEach((mechanic) => {
-        cardMap[mechanic.title] = result.cards.filter(card => this.cardFinder(mechanic.exampleCards, card.name));
-      });
-      this.setState({ exampleCards: cardMap, loading: false });
-    });
-  }
+//   buildMechanics(mechanics) {
+//     const { exampleCards } = this.state;
+//     return mechanics.map((mechanic) => {
+//       const cards = this.rowOfCards(exampleCards[mechanic.title]);
+//       return (
+//         <Card className="mechanic">
+//           <Card.Header className="title-row">
+//             {mechanic.title}
+//           </Card.Header>
+//           <Card.Text className="examples">
+//             <Row>
+//               <Col md={3}>
+//                 {mechanic.description}
+//                 <a className="learn-more" target="_blank" rel="noopener noreferrer" href={mechanic.citation}>Learn More</a>
+//               </Col>
+//               <Col md={9}>
+//                 <Row className="cards">
+//                   {cards}
+//                 </Row>
+//               </Col>
+//             </Row>
+//           </Card.Text>
+//         </Card>
+//       );
+//     });
+//   }
 
-  buildMechanics(mechanics) {
-    const { exampleCards } = this.state;
-    return mechanics.map((mechanic) => {
-      const cards = this.rowOfCards(exampleCards[mechanic.title]);
-      return (
-        <Card className="mechanic">
-          <Card.Header className="title-row">
-            {mechanic.title}
-          </Card.Header>
-          <Card.Text className="examples">
-            <Row>
-              <Col md={3}>
-                {mechanic.description}
-                <a className="learn-more" target="_blank" rel="noopener noreferrer" href={mechanic.citation}>Learn More</a>
-              </Col>
-              <Col md={9}>
-                <Row className="cards">
-                  {cards}
-                </Row>
-              </Col>
-            </Row>
-          </Card.Text>
-        </Card>
-      );
-    });
-  }
+//   rowOfCards(cards) {
+//     const { displayCard } = this.state;
+//     return cards.map(card => (
+//       <Col key={card.image}>
+//         <MtgCard
+//           cardUri={card.image}
+//           cardTier={card.tier}
+//           cardRank={card.rank}
+//           toggleCard={this.toggleCard}
+//           displayVisibility={displayCard.visibility}
+//           loadTick={this.loadTick}
+//         />
+//       </Col>
+//     ));
+//   }
 
-  rowOfCards(cards) {
-    const { displayCard } = this.state;
-    return cards.map(card => (
-      <Col key={card.image}>
-        <MtgCard
-          cardUri={card.image}
-          cardTier={card.tier}
-          cardRank={card.rank}
-          toggleCard={this.toggleCard}
-          displayVisibility={displayCard.visibility}
-          loadTick={this.loadTick}
-        />
-      </Col>
-    ));
-  }
-
-  render() {
-    const { displayCard, loading } = this.state;
-    const { selectedSet } = this.props;
-    const mechanics = loading ? '' : this.buildMechanics(MECHANICS[selectedSet.code]);
-    return (
-      <div className="mechanics">
-        {mechanics}
-        {loading && <Spinner animation="border" variant="success" />}
-        <DisplayCard
-          displayCard={displayCard}
-          toggle={this.toggleCard}
-        />
-      </div>
-    );
-  }
+//   render() {
+//     const { displayCard, loading } = this.state;
+//     const { selectedSet } = this.props;
+//     const mechanics = loading ? '' : this.buildMechanics(MECHANICS[selectedSet.code]);
+//     return (
+//       <div className="mechanics">
+//         {mechanics}
+//         {loading && <Spinner animation="border" variant="success" />}
+//         <DisplayCard
+//           displayCard={displayCard}
+//           toggle={this.toggleCard}
+//         />
+//       </div>
+//     );
+//   }
+// }
+function rowOfCards(cards, mechanic, displayCard) {
+  return cards.map(card => (
+    <Col key={card.uri}>
+      <MtgCard
+        cardUri={card.uri}
+        cardTier={mechanic.title}
+        cardRank={card.rank}
+        toggleCard={this.toggleCard}
+        displayVisibility={displayCard.visibility}
+        loadTick={this.loadTick}
+      />
+    </Col>
+  ));
 }
 
-Mechanics.propTypes = {
-  selectedSet: PropTypes.shape({
-    code: PropTypes.string.isRequired,
-  }).isRequired,
-};
+function buildMechanics(mechanics, exampleCards, displayCard) {
+  return mechanics.map((mechanic) => {
+    const cards = rowOfCards(
+      matchTitlesToCards(mechanic.exampleCards.map((card) => card.name), exampleCards),
+      mechanic,
+      displayCard);
+    return (
+      <Card className="mechanic">
+        <Card.Header className="title-row">
+          {mechanic.title}
+        </Card.Header>
+        <Card.Text className="examples">
+          <Row>
+            <Col md={3}>
+              {mechanic.description}
+              <a className="learn-more" target="_blank" rel="noopener noreferrer" href={mechanic.citation}>Learn More</a>
+            </Col>
+            <Col md={9}>
+              <Row className="cards">
+                {cards}
+              </Row>
+            </Col>
+          </Row>
+        </Card.Text>
+      </Card>
+    );
+  });
+}
+
+function Mechanics() {
+  const {
+    currentSet, exampleCards, displayCard,
+    isLoading
+  } = useSelector((state) => ({
+    currentSet: state.currentSet,
+    exampleCards: state.exampleCards,
+    displayCard: state.displayCard,
+    isLoading: state.isLoading,
+  }));
+  const mechanics = (isLoading || exampleCards.length === 0) ? '' : buildMechanics(MECHANICS[currentSet.code], exampleCards, displayCard);
+  return (
+    <div className="mechanics">
+      {mechanics}
+      {/* {loading && <Spinner animation="border" variant="success" />}
+      <DisplayCard
+        displayCard={displayCard}
+        toggle={this.toggleCard}
+      /> */}
+    </div>
+  );
+}
+
 export default Mechanics;

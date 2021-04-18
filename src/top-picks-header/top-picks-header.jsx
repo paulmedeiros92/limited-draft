@@ -5,8 +5,9 @@ import { useHistory } from 'react-router-dom';
 import {
   Navbar, Nav, Dropdown,
 } from 'react-bootstrap';
-import { useDispatch, useSelector } from "react-redux"
-import { changeSet } from "../redux/actions"
+import { MECHANICS } from "../set-data/constants";
+import { useDispatch, useSelector } from "react-redux";
+import { changeSet, loadExampleCards } from "../redux/actions";
 
 function createItems(sets, dispatch) {
   return sets.map(set => (
@@ -15,6 +16,18 @@ function createItems(sets, dispatch) {
       {set.name}
     </Dropdown.Item>
   ));
+}
+
+function findSetExampleCards(mechanicObjectsArray) {
+  return mechanicObjectsArray.reduce((array, mechanic) => {
+    array = array.concat(mechanic.exampleCards.map((card) => card.name));
+    return array
+  }, []);
+}
+
+function mechanicsClick(history, dispatch, currentSet) {
+  dispatch(loadExampleCards(findSetExampleCards(MECHANICS[currentSet.code])))
+  history.push('/mechanics');
 }
 
 function TopPicksHeader() {
@@ -31,7 +44,7 @@ function TopPicksHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link onClick={() => history.push('/mechanics')}>Mechanics</Nav.Link>
+            <Nav.Link onClick={() => mechanicsClick(history, dispatch, currentSet)}>Mechanics</Nav.Link>
           </Nav>
           <Nav>
             <Dropdown>

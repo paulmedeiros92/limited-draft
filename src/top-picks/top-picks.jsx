@@ -15,10 +15,26 @@ class TopPicks extends React.Component {
     window.scrollTo(0, 0);
   }
 
+
+  static handleResult(result, tier) {
+    const cardInfo = result.data.map((cardResult) => {
+      const found = tier.cards.find(card => cardResult.name.toLowerCase().replace(/\W/gi, '').includes(card.name.toLowerCase().replace(/\W/gi, '')));
+      return {
+        name: cardResult.name,
+        image: cardResult.card_faces !== undefined
+          && cardResult.card_faces[0].image_uris !== undefined
+          ? cardResult.card_faces[0].image_uris.normal : cardResult.image_uris.normal,
+        tier: found.tier,
+        rank: found.rank,
+      };
+    });
+    return { tier: tier.tier, cards: cardInfo };
+  }
+
   static showTier(tier) {
     if (tier.cards.length > 0) {
-      CardService.fetchCards(tier).then((result) => {
-        this.setState({ cardsOfTier: result.cards, selectedTier: tier.tier });
+      CardService.fetchCards(tier.cards.map((card) => card.name)).then((result) => {
+        this.setState({ cardsOfTier: this.handleResult(result, tier), selectedTier: tier.tier });
       });
     } else {
       this.setState({ cardsOfTier: [], selectedTier: tier.tier });
@@ -74,6 +90,7 @@ class TopPicks extends React.Component {
     };
 
     this.scrollTop = TopPicks.scrollTop.bind(this);
+    this.handleResult = TopPicks.handleResult.bind(this);
     this.showTier = TopPicks.showTier.bind(this);
     this.search = TopPicks.search.bind(this);
     this.toggleSearchFilter = TopPicks.toggleSearchFilter.bind(this);

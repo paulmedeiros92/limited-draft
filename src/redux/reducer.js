@@ -1,5 +1,8 @@
-import { CHANGE_SET, REQUEST_LOADING, FETCH_CARDS_SUCCESS,
-  REQUEST_FAIL, FETCH_CARD_SETS_SUCCESS} from "./types";
+import {
+  CHANGE_SET, REQUEST_LOADING, FETCH_CARDS_SUCCESS,
+  REQUEST_FAIL, FETCH_CARD_SETS_SUCCESS, DISPLAY_CARD,
+  FETCH_EXAMPLE_CARDS_SUCCESS
+} from "./types";
   import ELD from '../set-data/eld/eld.json';
   import IKO from '../set-data/iko/iko.json';
   import ZNR from '../set-data/znr/znr.json';
@@ -17,9 +20,17 @@ const initialState = {
     uri: null,
     code: 'stx',
   },
+  displayCard: {
+    cardUri: '',
+    cardTier: '',
+    cardRank: -1,
+    visibility: false,
+    target: { x: 0, y: 0 },
+  },
   cardSets: {},
   setPicks: [],
-  isRequesting: false,
+  exampleCards: [],
+  isLoading: false,
   error: null
 };
 
@@ -36,14 +47,18 @@ export const counterReducer = (state = initialState, action) => {
         currentSet: cardSets.stx,
         setPicks: ALL_SETS.stx, 
       }
+    case FETCH_EXAMPLE_CARDS_SUCCESS:
+      return { ...state, exampleCards: action.payload }
     case CHANGE_SET:
-      return { ...state, currentSet: action.payload};
+      return { ...state, currentSet: action.payload };
     case REQUEST_LOADING:
-      return { ...state, isRequesting: true};
+      return { ...state, isLoading: action.payload };
     case FETCH_CARDS_SUCCESS:
-      return { ...state, quote: action.payload};
+      return { ...state, quote: action.payload };
     case REQUEST_FAIL:
-      return { ...state, error: action.payload};
+      return { ...state, error: action.payload };
+    case DISPLAY_CARD:
+      return { ...state, displayCard: action.payload };
     default:
       return state;
   }
