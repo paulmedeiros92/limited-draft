@@ -1,27 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
 import './mtg-card.scss';
+import CardService from '../../services/cards-service';
+import { displayCard } from '../../redux/actions';
 
-function MtgCard({
-  cardUri, cardTier, cardRank, toggleCard, displayVisibility, loadTick,
-}) {
-  const toggleFunc = (e) => {
-    e.preventDefault();
-    toggleCard(cardUri, cardTier, cardRank, displayVisibility);
-  };
+function MtgCard({ card }) {
+  const dispatch = useDispatch();
   return (
     <div className="pick-card">
-      <img src={cardUri} onClick={toggleFunc} alt="beetle" onLoad={loadTick} />
+      <img src={CardService.getCardImageUris(card).small} onClick={() => dispatch(displayCard(card))} alt="beetle" />
     </div>
   );
 }
 
 MtgCard.propTypes = {
-  cardUri: PropTypes.string.isRequired,
-  cardTier: PropTypes.string.isRequired,
-  cardRank: PropTypes.number.isRequired,
-  displayVisibility: PropTypes.bool.isRequired,
-  toggleCard: PropTypes.func.isRequired,
-  loadTick: PropTypes.func.isRequired,
+  card: PropTypes.object.isRequired,
 };
 export default MtgCard;

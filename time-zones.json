@@ -1,0 +1,1668 @@
+[
+  {
+    "code": "ACDT",
+    "name": "Australian Central Daylight Time",
+    "countries": [
+      "Australia"
+    ],
+    "utc-offset-seconds": 630.0
+  },
+  {
+    "code": "ACST",
+    "name": "Australian Central Time",
+    "countries": [
+      "Australia"
+    ],
+    "utc-offset-seconds": 570.0
+  },
+  {
+    "code": "ACT",
+    "name": "Acre Time",
+    "countries": [
+      "Brazil"
+    ],
+    "utc-offset-seconds": -300.0
+  },
+  {
+    "code": "ACWST",
+    "name": "Australian Central Western Standard Time",
+    "countries": [
+      "Australia"
+    ],
+    "utc-offset-seconds": 525.0
+  },
+  {
+    "code": "ADT",
+    "name": "Atlantic Daylight Time",
+    "countries": [
+      "Canada",
+      "Antigua and Barbuda",
+      "Greenland",
+      "Bermuda"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "AEDT",
+    "name": "Australian Eastern Daylight Time",
+    "countries": [
+      "Australia",
+      "Antarctica"
+    ],
+    "utc-offset-seconds": 660.0
+  },
+  {
+    "code": "AEST",
+    "name": "Australian Eastern Time",
+    "countries": [
+      "Australia"
+    ],
+    "utc-offset-seconds": 600.0
+  },
+  {
+    "code": "AFT",
+    "name": "Afghanistan Time",
+    "countries": [
+      "Afghanistan"
+    ],
+    "utc-offset-seconds": 270.0
+  },
+  {
+    "code": "AKDT",
+    "name": "Alaska Daylight Time",
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "utc-offset-seconds": -480.0
+  },
+  {
+    "code": "AKST",
+    "name": "Alaska Standard Time",
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "utc-offset-seconds": -540.0
+  },
+  {
+    "code": "ALMT",
+    "name": "Alma-Ata Time",
+    "countries": [
+      "Kazakhstan"
+    ],
+    "utc-offset-seconds": 360.0
+  },
+  {
+    "code": "AMST",
+    "name": "Amazon Summer Time",
+    "countries": [
+      "Brazil"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "AMT",
+    "name": "Amazon Time",
+    "countries": [
+      "Brazil"
+    ],
+    "utc-offset-seconds": -240.0
+  },
+  {
+    "code": "AMT",
+    "name": "Armenia Time",
+    "countries": [
+      "Armenia"
+    ],
+    "utc-offset-seconds": 240.0
+  },
+  {
+    "code": "ANAT",
+    "name": "Anadyr Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 720.0
+  },
+  {
+    "code": "AQTT",
+    "name": "Aqtobe Time",
+    "countries": [
+      "Kazakhstan"
+    ],
+    "utc-offset-seconds": 300.0
+  },
+  {
+    "code": "ART",
+    "name": "Argentina Time",
+    "countries": [
+      "Argentina",
+      "Antarctica"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "AST",
+    "name": "Atlantic Standard Time",
+    "countries": [
+      "Anguilla",
+      "Aruba",
+      "Barbados",
+      "Canada",
+      "Curacao",
+      "Dominica",
+      "Grenada",
+      "Guadeloupe",
+      "Antigua and Barbuda",
+      "Bonaire",
+      "Saint Eustatius and Saba",
+      "Sint Maarten",
+      "Saint Martin",
+      "Martinique",
+      "Montserrat",
+      "Trinidad and Tobago",
+      "Puerto Rico",
+      "Dominican Republic",
+      "Saint Barthelemy",
+      "Saint Kitts and Nevis",
+      "Saint Lucia",
+      "Virgin Islands",
+      "Saint Vincent and the Grenadines",
+      "Greenland",
+      "British Virgin Islands",
+      "Bermuda"
+    ],
+    "utc-offset-seconds": -240.0
+  },
+  {
+    "code": "AST",
+    "name": "Arabia Standard Time",
+    "countries": [
+      "Yemen",
+      "Iraq",
+      "Bahrain",
+      "Kuwait",
+      "Qatar",
+      "Saudi Arabia"
+    ],
+    "utc-offset-seconds": 180.0
+  },
+  {
+    "code": "AWST",
+    "name": "Australian Western Standard Time",
+    "countries": [
+      "Australia"
+    ],
+    "utc-offset-seconds": 480.0
+  },
+  {
+    "code": "AZOST",
+    "name": "Azores Summer Time",
+    "countries": [
+      "Portugal"
+    ],
+    "utc-offset-seconds": 0.0
+  },
+  {
+    "code": "AZOT",
+    "name": "Azores Time",
+    "countries": [
+      "Portugal"
+    ],
+    "utc-offset-seconds": -60.0
+  },
+  {
+    "code": "AZT",
+    "name": "Azerbaijan Time",
+    "countries": [
+      "Azerbaijan"
+    ],
+    "utc-offset-seconds": 240.0
+  },
+  {
+    "code": "BNT",
+    "name": "Brunei Darussalam Time",
+    "countries": [
+      "Brunei"
+    ],
+    "utc-offset-seconds": 480.0
+  },
+  {
+    "code": "BOT",
+    "name": "Bolivia Time",
+    "countries": [
+      "Bolivia"
+    ],
+    "utc-offset-seconds": -240.0
+  },
+  {
+    "code": "BRST",
+    "name": "Bras\u00edlia Summer Time",
+    "countries": [
+      "Brazil"
+    ],
+    "utc-offset-seconds": -120.0
+  },
+  {
+    "code": "BRT",
+    "name": "Brasilia Time",
+    "countries": [
+      "Brazil"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "BST",
+    "name": "British Summertime",
+    "countries": [
+      "Guernsey",
+      "Isle of Man",
+      "Jersey",
+      "United Kingdom"
+    ],
+    "utc-offset-seconds": 60.0
+  },
+  {
+    "code": "BST",
+    "name": "Bangladesh Standard Time",
+    "countries": [
+      "Bangladesh"
+    ],
+    "utc-offset-seconds": 360.0
+  },
+  {
+    "code": "BTT",
+    "name": "Bhutan Time",
+    "countries": [
+      "Bhutan"
+    ],
+    "utc-offset-seconds": 360.0
+  },
+  {
+    "code": "CAST",
+    "name": "Casey Time",
+    "countries": [
+      "Antarctica"
+    ],
+    "utc-offset-seconds": 660.0
+  },
+  {
+    "code": "CAT",
+    "name": "Central Africa Time",
+    "countries": [
+      "Malawi",
+      "Burundi",
+      "Botswana",
+      "Zimbabwe",
+      "Sudan",
+      "Rwanda",
+      "Democratic Republic of the Congo",
+      "Zambia",
+      "Mozambique",
+      "Namibia"
+    ],
+    "utc-offset-seconds": 120.0
+  },
+  {
+    "code": "CCT",
+    "name": "Cocos Islands Time",
+    "countries": [
+      "Cocos (Keeling) Islands"
+    ],
+    "utc-offset-seconds": 390.0
+  },
+  {
+    "code": "CDT",
+    "name": "Cuba Daylight Time",
+    "countries": [
+      "Cuba"
+    ],
+    "utc-offset-seconds": -240.0
+  },
+  {
+    "code": "CDT",
+    "name": "Central Daylight Time",
+    "countries": [
+      "United States",
+      "Mexico",
+      "Canada"
+    ],
+    "utc-offset-seconds": -300.0
+  },
+  {
+    "code": "CEST",
+    "name": "Central European Summertime",
+    "countries": [
+      "Antarctica"
+    ],
+    "utc-offset-seconds": 120.0
+  },
+  {
+    "code": "CEST",
+    "name": "Central European Summertime",
+    "countries": [
+      "Spain",
+      "Svalbard",
+      "Netherlands",
+      "Andorra",
+      "Serbia",
+      "Germany",
+      "Slovakia",
+      "Belgium",
+      "Hungary",
+      "Denmark",
+      "Gibraltar",
+      "Slovenia",
+      "Luxembourg",
+      "Malta",
+      "Monaco",
+      "Bouvet Island",
+      "France",
+      "Montenegro",
+      "Czechia",
+      "Italy",
+      "San Marino",
+      "Bosnia and Herzegovina",
+      "North Macedonia",
+      "Sweden",
+      "Albania",
+      "Liechtenstein",
+      "Vatican City",
+      "Austria",
+      "Poland",
+      "Croatia",
+      "Switzerland",
+      "Kosovo",
+      "Norway"
+    ],
+    "utc-offset-seconds": 120.0
+  },
+  {
+    "code": "CET",
+    "name": "Central European Time",
+    "countries": [
+      "Algeria",
+      "Spain",
+      "Tunisia",
+      "Svalbard",
+      "Netherlands",
+      "Andorra",
+      "Serbia",
+      "Germany",
+      "Slovakia",
+      "Belgium",
+      "Hungary",
+      "Denmark",
+      "Gibraltar",
+      "Slovenia",
+      "Luxembourg",
+      "Malta",
+      "Monaco",
+      "Bouvet Island",
+      "France",
+      "Montenegro",
+      "Czechia",
+      "Italy",
+      "San Marino",
+      "Bosnia and Herzegovina",
+      "North Macedonia",
+      "Sweden",
+      "Albania",
+      "Liechtenstein",
+      "Vatican City",
+      "Austria",
+      "Poland",
+      "Croatia",
+      "Switzerland",
+      "Kosovo",
+      "Norway"
+    ],
+    "utc-offset-seconds": 60.0
+  },
+  {
+    "code": "CHADT",
+    "name": "Chatham Island Daylight Time",
+    "countries": [
+      "New Zealand"
+    ],
+    "utc-offset-seconds": 825.0
+  },
+  {
+    "code": "CHAST",
+    "name": "Chatham Island Standard Time",
+    "countries": [
+      "New Zealand"
+    ],
+    "utc-offset-seconds": 765.0
+  },
+  {
+    "code": "CHOT",
+    "name": "Choibalsan Time",
+    "countries": [
+      "Mongolia"
+    ],
+    "utc-offset-seconds": 480.0
+  },
+  {
+    "code": "CHST",
+    "name": "Chamorro Standard Time",
+    "countries": [
+      "Guam",
+      "Northern Mariana Islands"
+    ],
+    "utc-offset-seconds": 600.0
+  },
+  {
+    "code": "CHUT",
+    "name": "Chuuk Time",
+    "countries": [
+      "Federated States of Micronesia"
+    ],
+    "utc-offset-seconds": 600.0
+  },
+  {
+    "code": "CIT",
+    "name": "Central Indonesia Time",
+    "countries": [
+      "Indonesia"
+    ],
+    "utc-offset-seconds": 480.0
+  },
+  {
+    "code": "CKT",
+    "name": "Cook Island Time",
+    "countries": [
+      "Cook Islands"
+    ],
+    "utc-offset-seconds": -600.0
+  },
+  {
+    "code": "CLST",
+    "name": "Chile Summer Time",
+    "countries": [
+      "Chile"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "CLT",
+    "name": "Chile Time",
+    "countries": [
+      "Chile"
+    ],
+    "utc-offset-seconds": -240.0
+  },
+  {
+    "code": "COT",
+    "name": "Colombia Time",
+    "countries": [
+      "Colombia"
+    ],
+    "utc-offset-seconds": -300.0
+  },
+  {
+    "code": "CST",
+    "name": "Cuba Standard Time",
+    "countries": [
+      "Cuba"
+    ],
+    "utc-offset-seconds": -300.0
+  },
+  {
+    "code": "CST",
+    "name": "Central Standard Time",
+    "countries": [
+      "Belize",
+      "United States",
+      "Costa Rica",
+      "El Salvador",
+      "Guatemala",
+      "Nicaragua",
+      "Mexico",
+      "Canada",
+      "Honduras"
+    ],
+    "utc-offset-seconds": -360.0
+  },
+  {
+    "code": "CST",
+    "name": "China Standard Time",
+    "countries": [
+      "Macao",
+      "China",
+      "Taiwan"
+    ],
+    "utc-offset-seconds": 480.0
+  },
+  {
+    "code": "CVT",
+    "name": "Cape Verde Time",
+    "countries": [
+      "Cape Verde"
+    ],
+    "utc-offset-seconds": -60.0
+  },
+  {
+    "code": "CXT",
+    "name": "Christmas Island Time",
+    "countries": [
+      "Christmas Island"
+    ],
+    "utc-offset-seconds": 420.0
+  },
+  {
+    "code": "DAVT",
+    "name": "Davis Time",
+    "countries": [
+      "Antarctica"
+    ],
+    "utc-offset-seconds": 420.0
+  },
+  {
+    "code": "DDUT",
+    "name": "Dumont-d'Urville Time",
+    "countries": [
+      "Antarctica"
+    ],
+    "utc-offset-seconds": 600.0
+  },
+  {
+    "code": "EASST",
+    "name": "Easter Island Summer Time",
+    "countries": [
+      "Chile"
+    ],
+    "utc-offset-seconds": -300.0
+  },
+  {
+    "code": "EAST",
+    "name": "Easter Island Standard Time",
+    "countries": [
+      "Chile"
+    ],
+    "utc-offset-seconds": -360.0
+  },
+  {
+    "code": "EAT",
+    "name": "East Africa Time",
+    "countries": [
+      "Ethiopia",
+      "Eritrea",
+      "Tanzania",
+      "Djibouti",
+      "South Sudan",
+      "Uganda",
+      "Somalia",
+      "Kenya",
+      "Madagascar",
+      "Comoros",
+      "Mayotte"
+    ],
+    "utc-offset-seconds": 180.0
+  },
+  {
+    "code": "ECT",
+    "name": "Ecuador Time",
+    "countries": [
+      "Ecuador"
+    ],
+    "utc-offset-seconds": -300.0
+  },
+  {
+    "code": "EDT",
+    "name": "Eastern Daylight Time",
+    "countries": [
+      "United States",
+      "Turks and Caicos Islands",
+      "Bahamas",
+      "Haiti",
+      "Canada"
+    ],
+    "utc-offset-seconds": -240.0
+  },
+  {
+    "code": "EEST",
+    "name": "Eastern European Summertime",
+    "countries": [
+      "Jordan",
+      "Lebanon",
+      "Syria",
+      "Cyprus",
+      "Palestine",
+      "Greece",
+      "Romania",
+      "Moldova",
+      "Finland",
+      "Ukraine",
+      "\u00c5land Islands",
+      "Latvia",
+      "Bulgaria",
+      "Estonia",
+      "Lithuania"
+    ],
+    "utc-offset-seconds": 180.0
+  },
+  {
+    "code": "EET",
+    "name": "Eastern European Time",
+    "countries": [
+      "Egypt",
+      "Libya",
+      "Jordan",
+      "Lebanon",
+      "Syria",
+      "Cyprus",
+      "Palestine",
+      "Greece",
+      "Romania",
+      "Moldova",
+      "Finland",
+      "Russia",
+      "Ukraine",
+      "\u00c5land Islands",
+      "Latvia",
+      "Bulgaria",
+      "Estonia",
+      "Lithuania"
+    ],
+    "utc-offset-seconds": 120.0
+  },
+  {
+    "code": "EGST",
+    "name": "Eastern Greenland Summer Time",
+    "countries": [
+      "Greenland"
+    ],
+    "utc-offset-seconds": 0.0
+  },
+  {
+    "code": "EGT",
+    "name": "East Greenland Time",
+    "countries": [
+      "Greenland"
+    ],
+    "utc-offset-seconds": -60.0
+  },
+  {
+    "code": "EIT",
+    "name": "Eastern Indonesia Time",
+    "countries": [
+      "Indonesia"
+    ],
+    "utc-offset-seconds": 540.0
+  },
+  {
+    "code": "EST",
+    "name": "Eastern Standard Time",
+    "countries": [
+      "Mexico",
+      "Cayman Islands",
+      "United States",
+      "Turks and Caicos Islands",
+      "Jamaica",
+      "Bahamas",
+      "Panama",
+      "Haiti",
+      "Canada"
+    ],
+    "utc-offset-seconds": -300.0
+  },
+  {
+    "code": "FJDT",
+    "name": "Fiji Daylight Time",
+    "countries": [
+      "Fiji"
+    ],
+    "utc-offset-seconds": 780.0
+  },
+  {
+    "code": "FJT",
+    "name": "Fiji Time",
+    "countries": [
+      "Fiji"
+    ],
+    "utc-offset-seconds": 720.0
+  },
+  {
+    "code": "FKT",
+    "name": "Falkland Islands Time",
+    "countries": [
+      "Falkland Islands"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "GALT",
+    "name": "Galapagos Time",
+    "countries": [
+      "Ecuador"
+    ],
+    "utc-offset-seconds": -360.0
+  },
+  {
+    "code": "GAMT",
+    "name": "Gambier Time",
+    "countries": [
+      "French Polynesia"
+    ],
+    "utc-offset-seconds": -540.0
+  },
+  {
+    "code": "GET",
+    "name": "Georgia Time",
+    "countries": [
+      "Georgia"
+    ],
+    "utc-offset-seconds": 240.0
+  },
+  {
+    "code": "GFT",
+    "name": "French Guiana Time",
+    "countries": [
+      "French Guiana"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "GILT",
+    "name": "Gilbert Island Time",
+    "countries": [
+      "Kiribati"
+    ],
+    "utc-offset-seconds": 720.0
+  },
+  {
+    "code": "GMT",
+    "name": "Greenwich Mean Time",
+    "countries": [
+      "Ivory Coast",
+      "Ghana",
+      "Mali",
+      "Gambia",
+      "Guinea-Bissau",
+      "Guinea",
+      "Senegal",
+      "Sierra Leone",
+      "Togo",
+      "Liberia",
+      "Mauritania",
+      "Burkina Faso",
+      "Greenland",
+      "Antarctica",
+      "Iceland",
+      "Saint Helena",
+      "Ascension and Tristan da Cunha",
+      "Guernsey",
+      "Isle of Man",
+      "Jersey",
+      "United Kingdom"
+    ],
+    "utc-offset-seconds": 0.0
+  },
+  {
+    "code": "GST",
+    "name": "South Georgia Time",
+    "countries": [
+      "South Georgia and South Sandwich Islands"
+    ],
+    "utc-offset-seconds": -120.0
+  },
+  {
+    "code": "GST",
+    "name": "Gulf Standard Time",
+    "countries": [
+      "United Arab Emirates",
+      "Oman"
+    ],
+    "utc-offset-seconds": 240.0
+  },
+  {
+    "code": "GYT",
+    "name": "Guyana Time",
+    "countries": [
+      "Guyana"
+    ],
+    "utc-offset-seconds": -240.0
+  },
+  {
+    "code": "HDT",
+    "name": "Hawaii Daylight Time",
+    "countries": [
+      "United States"
+    ],
+    "utc-offset-seconds": -540.0
+  },
+  {
+    "code": "HKT",
+    "name": "Hong Kong Time",
+    "countries": [
+      "Hong Kong"
+    ],
+    "utc-offset-seconds": 480.0
+  },
+  {
+    "code": "HOVT",
+    "name": "Hovd Time",
+    "countries": [
+      "Mongolia"
+    ],
+    "utc-offset-seconds": 420.0
+  },
+  {
+    "code": "HST",
+    "name": "Hawaii Standard Time",
+    "countries": [
+      "United States"
+    ],
+    "utc-offset-seconds": -600.0
+  },
+  {
+    "code": "ICT",
+    "name": "Indian Chagos Time",
+    "countries": [
+      "British Indian Ocean Territory"
+    ],
+    "utc-offset-seconds": 360.0
+  },
+  {
+    "code": "ICT",
+    "name": "Indochina Time",
+    "countries": [
+      "Thailand",
+      "Vietnam",
+      "Cambodia",
+      "Laos"
+    ],
+    "utc-offset-seconds": 420.0
+  },
+  {
+    "code": "IDT",
+    "name": "Israel Daylight Time",
+    "countries": [
+      "Israel"
+    ],
+    "utc-offset-seconds": 180.0
+  },
+  {
+    "code": "IRDT",
+    "name": "Iran Daylight Time",
+    "countries": [
+      "Iran"
+    ],
+    "utc-offset-seconds": 270.0
+  },
+  {
+    "code": "IRKT",
+    "name": "Irkutsk Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 480.0
+  },
+  {
+    "code": "IRST",
+    "name": "Iran Standard Time",
+    "countries": [
+      "Iran"
+    ],
+    "utc-offset-seconds": 210.0
+  },
+  {
+    "code": "IST",
+    "name": "Irish Summer Time",
+    "countries": [
+      "Ireland"
+    ],
+    "utc-offset-seconds": 120.0
+  },
+  {
+    "code": "IST",
+    "name": "Israel Standard Time",
+    "countries": [
+      "Israel"
+    ],
+    "utc-offset-seconds": 120.0
+  },
+  {
+    "code": "IST",
+    "name": "India Standard Time",
+    "countries": [
+      "India"
+    ],
+    "utc-offset-seconds": 330.0
+  },
+  {
+    "code": "JST",
+    "name": "Japan Standard Time",
+    "countries": [
+      "Japan"
+    ],
+    "utc-offset-seconds": 540.0
+  },
+  {
+    "code": "KGT",
+    "name": "Kyrgyzstan Time",
+    "countries": [
+      "Kyrgyzstan"
+    ],
+    "utc-offset-seconds": 360.0
+  },
+  {
+    "code": "KOST",
+    "name": "Kosrae Time",
+    "countries": [
+      "Federated States of Micronesia"
+    ],
+    "utc-offset-seconds": 660.0
+  },
+  {
+    "code": "KRAT",
+    "name": "Krasnoyarsk Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 420.0
+  },
+  {
+    "code": "KST",
+    "name": "Korea Standard Time",
+    "countries": [
+      "North Korea",
+      "South Korea"
+    ],
+    "utc-offset-seconds": 540.0
+  },
+  {
+    "code": "LHDT",
+    "name": "Lord Howe Daylight Time",
+    "countries": [
+      "Australia"
+    ],
+    "utc-offset-seconds": 690.0
+  },
+  {
+    "code": "LHST",
+    "name": "Lord Howe Standard Time",
+    "countries": [
+      "Australia"
+    ],
+    "utc-offset-seconds": 630.0
+  },
+  {
+    "code": "LINT",
+    "name": "Line Islands Time",
+    "countries": [
+      "Kiribati"
+    ],
+    "utc-offset-seconds": 840.0
+  },
+  {
+    "code": "MART",
+    "name": "Marquesas Time",
+    "countries": [
+      "French Polynesia"
+    ],
+    "utc-offset-seconds": -570.0
+  },
+  {
+    "code": "MAWT",
+    "name": "Mawson Time",
+    "countries": [
+      "Antarctica"
+    ],
+    "utc-offset-seconds": 300.0
+  },
+  {
+    "code": "MDT",
+    "name": "Mountain Daylight Time",
+    "countries": [
+      "Canada",
+      "Mexico",
+      "United States"
+    ],
+    "utc-offset-seconds": -360.0
+  },
+  {
+    "code": "MHT",
+    "name": "Marshall Islands Time",
+    "countries": [
+      "Marshall Islands"
+    ],
+    "utc-offset-seconds": 720.0
+  },
+  {
+    "code": "MMT",
+    "name": "Myanmar Time",
+    "countries": [
+      "Sri Lanka"
+    ],
+    "utc-offset-seconds": 330.0
+  },
+  {
+    "code": "MMT",
+    "name": "Myanmar Time",
+    "countries": [
+      "Burma"
+    ],
+    "utc-offset-seconds": 390.0
+  },
+  {
+    "code": "MSK",
+    "name": "Moscow Standard Time",
+    "countries": [
+      "Russia",
+      "Belarus",
+      "Ukraine"
+    ],
+    "utc-offset-seconds": 180.0
+  },
+  {
+    "code": "MST",
+    "name": "Mountain Standard Time",
+    "countries": [
+      "Canada",
+      "Mexico",
+      "United States"
+    ],
+    "utc-offset-seconds": -420.0
+  },
+  {
+    "code": "MUT",
+    "name": "Mauritius Time",
+    "countries": [
+      "Mauritius"
+    ],
+    "utc-offset-seconds": 240.0
+  },
+  {
+    "code": "MVT",
+    "name": "Maldives Time",
+    "countries": [
+      "Maldives"
+    ],
+    "utc-offset-seconds": 300.0
+  },
+  {
+    "code": "MYT",
+    "name": "Malaysia Time",
+    "countries": [
+      "Malaysia"
+    ],
+    "utc-offset-seconds": 480.0
+  },
+  {
+    "code": "NCT",
+    "name": "New Caledonia Time",
+    "countries": [
+      "New Caledonia"
+    ],
+    "utc-offset-seconds": 660.0
+  },
+  {
+    "code": "NDT",
+    "name": "Newfoundland Daylight Time",
+    "countries": [
+      "Canada"
+    ],
+    "utc-offset-seconds": -150.0
+  },
+  {
+    "code": "NFDT",
+    "name": "Norfolk Daylight Time",
+    "countries": [
+      "Norfolk Island"
+    ],
+    "utc-offset-seconds": 720.0
+  },
+  {
+    "code": "NFT",
+    "name": "Norfolk Time",
+    "countries": [
+      "Norfolk Island"
+    ],
+    "utc-offset-seconds": 660.0
+  },
+  {
+    "code": "NOVT",
+    "name": "Novosibirsk Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 420.0
+  },
+  {
+    "code": "NPT",
+    "name": "Nepal Time",
+    "countries": [
+      "Nepal"
+    ],
+    "utc-offset-seconds": 345.0
+  },
+  {
+    "code": "NRT",
+    "name": "Nauru Time",
+    "countries": [
+      "Nauru"
+    ],
+    "utc-offset-seconds": 720.0
+  },
+  {
+    "code": "NST",
+    "name": "Newfoundland Standard Time",
+    "countries": [
+      "Canada"
+    ],
+    "utc-offset-seconds": -210.0
+  },
+  {
+    "code": "NUT",
+    "name": "Niue Time",
+    "countries": [
+      "Niue"
+    ],
+    "utc-offset-seconds": -660.0
+  },
+  {
+    "code": "NZDT",
+    "name": "New Zealand Daylight Time",
+    "countries": [
+      "Antarctica",
+      "New Zealand"
+    ],
+    "utc-offset-seconds": 780.0
+  },
+  {
+    "code": "NZDT",
+    "name": "New Zealand Daylight Time",
+    "countries": [
+      "Antarctica"
+    ],
+    "utc-offset-seconds": 180.0
+  },
+  {
+    "code": "NZST",
+    "name": "New Zealand Standard Time",
+    "countries": [
+      "Antarctica",
+      "New Zealand"
+    ],
+    "utc-offset-seconds": 720.0
+  },
+  {
+    "code": "OMST",
+    "name": "Omsk Standard Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 360.0
+  },
+  {
+    "code": "ORAT",
+    "name": "Oral Time",
+    "countries": [
+      "Kazakhstan"
+    ],
+    "utc-offset-seconds": 300.0
+  },
+  {
+    "code": "PDT",
+    "name": "Pacific Daylight Time",
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "utc-offset-seconds": -420.0
+  },
+  {
+    "code": "PET",
+    "name": "Peru Time",
+    "countries": [
+      "Peru"
+    ],
+    "utc-offset-seconds": -300.0
+  },
+  {
+    "code": "PETT",
+    "name": "Kamchatka Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 720.0
+  },
+  {
+    "code": "PGT",
+    "name": "Papua New Guinea Time",
+    "countries": [
+      "Papua New Guinea"
+    ],
+    "utc-offset-seconds": 600.0
+  },
+  {
+    "code": "PHOT",
+    "name": "Phoenix Island Time",
+    "countries": [
+      "Kiribati"
+    ],
+    "utc-offset-seconds": 780.0
+  },
+  {
+    "code": "PHT",
+    "name": "Philippine Time",
+    "countries": [
+      "Philippines"
+    ],
+    "utc-offset-seconds": 480.0
+  },
+  {
+    "code": "PKT",
+    "name": "Pakistan Standard Time",
+    "countries": [
+      "Pakistan"
+    ],
+    "utc-offset-seconds": 300.0
+  },
+  {
+    "code": "PMDT",
+    "name": "Pierre & Miquelon Daylight Time",
+    "countries": [
+      "Saint Pierre and Miquelon"
+    ],
+    "utc-offset-seconds": -120.0
+  },
+  {
+    "code": "PMST",
+    "name": "Pierre & Miquelon Standard Time",
+    "countries": [
+      "Saint Pierre and Miquelon"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "PONT",
+    "name": "Pohnpei Standard Time",
+    "countries": [
+      "Federated States of Micronesia"
+    ],
+    "utc-offset-seconds": 660.0
+  },
+  {
+    "code": "PST",
+    "name": "Pitcairn Standard Time",
+    "countries": [
+      "United States",
+      "Canada",
+      "Pitcairn Islands"
+    ],
+    "utc-offset-seconds": -480.0
+  },
+  {
+    "code": "PWT",
+    "name": "Palau Time",
+    "countries": [
+      "Palau"
+    ],
+    "utc-offset-seconds": 540.0
+  },
+  {
+    "code": "PYST",
+    "name": "Paraguay Summer Time",
+    "countries": [
+      "Paraguay"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "PYT",
+    "name": "Paraguay Time",
+    "countries": [
+      "Paraguay"
+    ],
+    "utc-offset-seconds": -240.0
+  },
+  {
+    "code": "QYZT",
+    "name": "Qyzylorda Time",
+    "countries": [
+      "Kazakhstan"
+    ],
+    "utc-offset-seconds": 300.0
+  },
+  {
+    "code": "RET",
+    "name": "Reunion Time",
+    "countries": [
+      "Reunion"
+    ],
+    "utc-offset-seconds": 240.0
+  },
+  {
+    "code": "SAKT",
+    "name": "Sakhalin Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 660.0
+  },
+  {
+    "code": "SAMT",
+    "name": "Samara Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 240.0
+  },
+  {
+    "code": "SAST",
+    "name": "South Africa Standard Time",
+    "countries": [
+      "South Africa",
+      "Lesotho",
+      "Eswatini"
+    ],
+    "utc-offset-seconds": 120.0
+  },
+  {
+    "code": "SBT",
+    "name": "Solomon Islands Time",
+    "countries": [
+      "Solomon Islands"
+    ],
+    "utc-offset-seconds": 660.0
+  },
+  {
+    "code": "SCT",
+    "name": "Seychelles Time",
+    "countries": [
+      "Seychelles"
+    ],
+    "utc-offset-seconds": 240.0
+  },
+  {
+    "code": "SGT",
+    "name": "Singapore Time",
+    "countries": [
+      "Singapore"
+    ],
+    "utc-offset-seconds": 480.0
+  },
+  {
+    "code": "SRET",
+    "name": "Srednekolymsk Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 660.0
+  },
+  {
+    "code": "SRT",
+    "name": "Suriname Time",
+    "countries": [
+      "Suriname"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "SST",
+    "name": "Samoa Standard Time",
+    "countries": [
+      "American Samoa"
+    ],
+    "utc-offset-seconds": -660.0
+  },
+  {
+    "code": "TAHT",
+    "name": "Tahiti Time",
+    "countries": [
+      "French Polynesia"
+    ],
+    "utc-offset-seconds": -600.0
+  },
+  {
+    "code": "TFT",
+    "name": "French Southern and Antarctic Time",
+    "countries": [
+      "Heard Island and McDonald Islands"
+    ],
+    "utc-offset-seconds": 300.0
+  },
+  {
+    "code": "TJT",
+    "name": "Tajikistan Time",
+    "countries": [
+      "Tajikistan"
+    ],
+    "utc-offset-seconds": 300.0
+  },
+  {
+    "code": "TKT",
+    "name": "Tokelau Time",
+    "countries": [
+      "Tokelau"
+    ],
+    "utc-offset-seconds": 780.0
+  },
+  {
+    "code": "TLT",
+    "name": "East Timor Time",
+    "countries": [
+      "East Timor"
+    ],
+    "utc-offset-seconds": 540.0
+  },
+  {
+    "code": "TMT",
+    "name": "Turkmenistan Time",
+    "countries": [
+      "Turkmenistan"
+    ],
+    "utc-offset-seconds": 300.0
+  },
+  {
+    "code": "TOT",
+    "name": "Tonga Time",
+    "countries": [
+      "Tonga"
+    ],
+    "utc-offset-seconds": 780.0
+  },
+  {
+    "code": "TRT",
+    "name": "Turkey Time",
+    "countries": [
+      "Turkey"
+    ],
+    "utc-offset-seconds": 180.0
+  },
+  {
+    "code": "TVT",
+    "name": "Tuvalu Time",
+    "countries": [
+      "Tuvalu"
+    ],
+    "utc-offset-seconds": 720.0
+  },
+  {
+    "code": "ULAT",
+    "name": "Ulaanbaatar Time",
+    "countries": [
+      "Mongolia"
+    ],
+    "utc-offset-seconds": 480.0
+  },
+  {
+    "code": "UYT",
+    "name": "Uruguay Time",
+    "countries": [
+      "Uruguay"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "UZT",
+    "name": "Uzbekistan Time",
+    "countries": [
+      "Uzbekistan"
+    ],
+    "utc-offset-seconds": 300.0
+  },
+  {
+    "code": "VET",
+    "name": "Venezuelan Standard Time",
+    "countries": [
+      "Venezuela"
+    ],
+    "utc-offset-seconds": -240.0
+  },
+  {
+    "code": "VLAT",
+    "name": "Vladivostok Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 600.0
+  },
+  {
+    "code": "VOST",
+    "name": "Vostok Time",
+    "countries": [
+      "Antarctica"
+    ],
+    "utc-offset-seconds": 360.0
+  },
+  {
+    "code": "VUT",
+    "name": "Vanuatu Time",
+    "countries": [
+      "Vanuatu"
+    ],
+    "utc-offset-seconds": 660.0
+  },
+  {
+    "code": "WAT",
+    "name": "West Africa Time",
+    "countries": [
+      "Sao Tome and Principe"
+    ],
+    "utc-offset-seconds": 0.0
+  },
+  {
+    "code": "WAT",
+    "name": "West Africa Time",
+    "countries": [
+      "Central African Republic",
+      "Republic of the Congo",
+      "Cameroon",
+      "Democratic Republic of the Congo",
+      "Nigeria",
+      "Gabon",
+      "Angola",
+      "Equatorial Guinea",
+      "Chad",
+      "Niger",
+      "Benin"
+    ],
+    "utc-offset-seconds": 60.0
+  },
+  {
+    "code": "WEST",
+    "name": "Western European Summertime",
+    "countries": [
+      "Spain",
+      "Faroe Islands",
+      "Portugal"
+    ],
+    "utc-offset-seconds": 60.0
+  },
+  {
+    "code": "WET",
+    "name": "Western European Time",
+    "countries": [
+      "Spain",
+      "Faroe Islands",
+      "Portugal"
+    ],
+    "utc-offset-seconds": 0.0
+  },
+  {
+    "code": "WET",
+    "name": "Western European Time",
+    "countries": [
+      "Morocco",
+      "Western Sahara"
+    ],
+    "utc-offset-seconds": 60.0
+  },
+  {
+    "code": "WFT",
+    "name": "Wallis and Futuna Time",
+    "countries": [
+      "Wallis and Futuna"
+    ],
+    "utc-offset-seconds": 720.0
+  },
+  {
+    "code": "WGST",
+    "name": "Western Greenland Summer Time",
+    "countries": [
+      "Greenland"
+    ],
+    "utc-offset-seconds": -120.0
+  },
+  {
+    "code": "WGT",
+    "name": "West Greenland Time",
+    "countries": [
+      "Greenland"
+    ],
+    "utc-offset-seconds": -180.0
+  },
+  {
+    "code": "WIT",
+    "name": "Western Indonesia Time",
+    "countries": [
+      "Indonesia"
+    ],
+    "utc-offset-seconds": 420.0
+  },
+  {
+    "code": "WSDT",
+    "name": "West Samoa Daylight Time",
+    "countries": [
+      "Samoa"
+    ],
+    "utc-offset-seconds": 840.0
+  },
+  {
+    "code": "WST",
+    "name": "West Samoa Time",
+    "countries": [
+      "Samoa"
+    ],
+    "utc-offset-seconds": 780.0
+  },
+  {
+    "code": "XJT",
+    "name": "Xinjiang Time",
+    "countries": [
+      "China"
+    ],
+    "utc-offset-seconds": 360.0
+  },
+  {
+    "code": "YAKT",
+    "name": "Yakutsk Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 540.0
+  },
+  {
+    "code": "YEKT",
+    "name": "Yekaterinburg Time",
+    "countries": [
+      "Russia"
+    ],
+    "utc-offset-seconds": 300.0
+  }
+]

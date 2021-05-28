@@ -17,6 +17,12 @@ const SetService = {
   fetchAvailableSets(arrayOfSets) {
     return Promise.all(arrayOfSets.map(fileName => this.fetchSet(fileName))); // TODO: consolidate this set list
   },
+  mapSetToResponse(arrayOfSets) {
+    arrayOfSets.reduce((map, set) => {
+      map[set.code] = set;
+      return map;
+    }, {});
+  },
 };
 
 export default SetService;

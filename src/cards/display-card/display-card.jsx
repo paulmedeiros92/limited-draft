@@ -1,26 +1,28 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './display-card.scss';
 import { Alert, Modal } from 'react-bootstrap';
+import { useDispatch, useSelector } from 'react-redux';
+import CardService from '../../services/cards-service';
+import { displayCard } from '../../redux/actions';
 
-function DisplayCard({ toggle, displayCard }) {
-  const cardToggle = () => toggle(
-    displayCard.cardUri, displayCard.cardTier, displayCard.cardRank, displayCard.visibility,
-  );
+function DisplayCard() {
+  const dispatch = useDispatch();
+  const { card } = useSelector(state => ({ card: state.displayCard }));
+  const cardToggle = () => dispatch(displayCard(null));
 
   return (
-    <Modal show={displayCard.visibility} onHide={cardToggle}>
+    <Modal show={!!card} onHide={cardToggle}>
       <div className="card-wrapper" onClick={cardToggle}>
-        <img className="display-card" src={displayCard.cardUri} alt="OOPSIE!!!" />
+        <img className="display-card" src={CardService.getCardImageUris(card).normal} alt="OOPSIE!!!" />
         <div className="info">
           <Alert variant="dark" className="info-text">
             <h3>
-              {`Tier: ${displayCard.cardTier}`}
+              {`Tier: ${card.cardTier}`}
             </h3>
           </Alert>
           <Alert variant="dark" className="info-text">
             <h3>
-              {`Rank: #${displayCard.cardRank}`}
+              {`Rank: #${card.cardRank}`}
             </h3>
           </Alert>
         </div>
@@ -28,15 +30,5 @@ function DisplayCard({ toggle, displayCard }) {
     </Modal>
   );
 }
-
-DisplayCard.propTypes = {
-  displayCard: PropTypes.shape({
-    cardUri: PropTypes.string.isRequired,
-    cardTier: PropTypes.string.isRequired,
-    cardRank: PropTypes.number.isRequired,
-    visibility: PropTypes.bool.isRequired,
-  }).isRequired,
-  toggle: PropTypes.func.isRequired,
-};
 
 export default DisplayCard;

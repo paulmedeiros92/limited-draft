@@ -1,13 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './top-picks-header.scss';
 import { useHistory } from 'react-router-dom';
 import {
   Navbar, Nav, Dropdown,
 } from 'react-bootstrap';
-import { MECHANICS } from "../set-data/constants";
-import { useDispatch, useSelector } from "react-redux";
-import { changeSet, loadExampleCards } from "../redux/actions";
+import { useDispatch, useSelector } from 'react-redux';
+import { MECHANICS } from '../set-data/constants';
+import { changeSet, loadExampleCards } from '../redux/actions';
 
 function createItems(sets, dispatch) {
   return sets.map(set => (
@@ -19,21 +18,21 @@ function createItems(sets, dispatch) {
 }
 
 function findSetExampleCards(mechanicObjectsArray) {
-  return mechanicObjectsArray.reduce((array, mechanic) => {
-    array = array.concat(mechanic.exampleCards.map((card) => card.name));
-    return array
-  }, []);
+  return mechanicObjectsArray.reduce(
+    (array, mechanic) => array.concat(mechanic.exampleCards.map(card => card.name)),
+    [],
+  );
 }
 
 function mechanicsClick(history, dispatch, currentSet) {
-  dispatch(loadExampleCards(findSetExampleCards(MECHANICS[currentSet.code])))
+  dispatch(loadExampleCards(findSetExampleCards(MECHANICS[currentSet.code])));
   history.push('/mechanics');
 }
 
 function TopPicksHeader() {
   const dispatch = useDispatch();
-  const currentSet = useSelector((state) => state.currentSet);
-  const cardSets = useSelector((state) => state.cardSets);
+  const currentSet = useSelector(state => state.currentSet);
+  const cardSets = useSelector(state => state.cardSets);
   const items = createItems(Object.values(cardSets), dispatch);
   const history = useHistory();
 
@@ -44,7 +43,9 @@ function TopPicksHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link onClick={() => mechanicsClick(history, dispatch, currentSet)}>Mechanics</Nav.Link>
+            <Nav.Link onClick={() => mechanicsClick(history, dispatch, currentSet)}>
+              Mechanics
+            </Nav.Link>
           </Nav>
           <Nav>
             <Dropdown>
@@ -62,14 +63,5 @@ function TopPicksHeader() {
     </div>
   );
 }
-
-TopPicksHeader.propTypes = {
-  sets: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      icon_svg_uri: PropTypes.string.isRequired,
-    }),
-  ).isRequired,
-};
 
 export default TopPicksHeader;
